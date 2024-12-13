@@ -9,7 +9,7 @@ I'm a postdoc at [University of British Columbia](https://www.ubc.ca/), working 
 
 I worked as a software engineer in the industry for nearly a decade at [Snap Inc.](https://snap.com/en-US) (Seattle office), [Microsoft](https://www.microsoft.com/en-us/) (Redmond HQ), and startup ([ArcSite](https://www.arcsite.com/), Shanghai office). I've worked in various areas such as ML-enabled recommender systems, data analysis and evaluations, privacy and security, scalable backend service and infrastructure, etc. The projects I launched at Snap increased *millions of daily friend adds* and were one of the yearly highlighted projects in the growth team. I also worked on protecting user safety and privacy (Media reports: [Engadget](https://www.engadget.com/snapchat-limit-quick-add-teens-203057086.html), [TheVerge](https://www.theverge.com/2022/1/19/22891104/snapchat-friend-suggestion-limit-teenagers-safety-parental-controls), etc.).
 
-<span style="color:red;"> I'm on the job market: [CV](https://jie-jw-wu.github.io/assets/cv_jw.pdf), [Research Statement](https://jie-jw-wu.github.io/assets/cv_jw.pdf). Please do not hesitate to reach out for any potential opportunities! </span>
+<span style="color:red;"> I'm on the job market: [CV](https://jie-jw-wu.github.io/assets/cv_jw.pdf), [Research Statement](https://jie-jw-wu.github.io/assets/rs_jw.pdf). Please do not hesitate to reach out for any potential opportunities! </span>
 
 
 ## Research
