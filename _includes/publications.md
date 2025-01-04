@@ -75,7 +75,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>(long paper, under review) </em></div>
+    <div class="periodical"><em> ACM Transactions on Software Engineering and Methodology (TOSEM), 2024 </em></div>
   </div>
 </div>
 </li>
