@@ -81,7 +81,7 @@ I'm an instructor teaching [COSC 320 "Analysis of Algorithm"](https://okanagan.c
 
 ## Misc
 Outside research and software engineering, I'm interested in the following topics, and I'm happy to talk about it if you find any of them interesting:
-- [红楼梦 (Dream of the Red Chamber)](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber): Arguably the best 18th-century Chinese novel that describes the rise and fall of 贾's family. I'm speechless about how great the realism is in the stories. Furthermore, on top of these highly realistic stories, a higher layer exists that implies Confucianism, Buddhism, and Taoism from Chinese philosophy!
-- [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) and history of Relativity, Quantum Physics: If Einstein's deeds were written into a novel, I would not believe that it would happen in the real world!
-- Basketball: I (used to) play every week
+- [红楼梦 (Dream of the Red Chamber)](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber): Arguably the best 18th-century Chinese novel that describes the rise and fall of 贾's family. I'm speechless about how great the realism is in the stories. Furthermore, on top of these highly realistic stories, a higher layer exists that implies Confucianism, Buddhism, and Taoism from Chinese philosophy.
+- [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) and history of Relativity, Quantum Physics: If Einstein's deeds were written into a novel, I would not believe that it would happen in the real world.
+- Basketball: I (used to) play basketball regularly
 - Reading: with a general focus on History, Non-fiction, and Philosophy 
