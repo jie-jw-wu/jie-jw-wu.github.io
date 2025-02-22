@@ -224,7 +224,7 @@
     <div class="author"><strong>Wu, Jie JW</strong>, Thomas A. Mazzuchi, and Shahram Sarkani</div>
     <div class="periodical"><em>Journal of Systems and Software, 2023.</em></div>
     <div class="links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4252209" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Pre-print</a>
+      <a href="https://github.com/jie-jw-wu/movsw/blob/main/1-s2.0-S0164121223000985-main.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Pre-print</a>
       <a href="https://github.com/jw-wu-git/movsw" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <!-- Add BibTeX button and hidden BibTeX text -->
       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2023multi')" style="font-size: 12px;">Copy BibTeX</button>
@@ -254,7 +254,7 @@
     <div class="author"><strong>Wu, Jie JW</strong>, Thomas A. Mazzuchi, and Shahram Sarkani</div>
     <div class="periodical"><em>Information and Software Technology 155 (2023): 107115.</em></div>
     <div class="links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4072566" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Pre-print</a>
+      <a href="https://github.com/jie-jw-wu/ldm-framework/blob/main/1-s2.0-S0950584922002245-main.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Pre-print</a>
       <a href="https://github.com/jw-wu-git/ldm-framework" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://jie-jw-wu.github.io/assets/jw_ldm_slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2023comparison')" style="font-size: 12px;">Copy BibTeX</button>
