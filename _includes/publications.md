@@ -60,22 +60,24 @@
     <abbr class="badge">LLM Communication Benchmark</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2406.00215"> Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent </a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2406.00215"> HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent </a></div>
     <div class="author"><strong>Wu, Jie JW</strong>, Fatemeh Hendijani Fard</div>
     <div class="links">
        <a href="https://github.com/jie-jw-wu/human-eval-comm" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <a href="https://jie-jw-wu.github.io/assets/PosterHumanEvalComm.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
-       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2024benchmarking')" style="font-size: 12px;">Copy BibTeX</button>
-          <textarea id="bibtex_wu2024benchmarking" style="display: none;">
-            @article{wu2024benchmarking,
-              title={Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent},
-              author={Wu, Jie JW and Fard, Fatemeh H},
-              journal={arXiv preprint arXiv:2406.00215},
-              year={2024}
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025benchmarking')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wu2025benchmarking" style="display: none;">   
+            @article{wu2025benchmarking,
+              author = {Wu, Jie JW and Fard, Fatemeh H.},
+              title = {HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent},
+              journal = {ACM Trans. Softw. Eng. Methodol.},
+              year = {2025},
+              doi = {10.1145/3715109},
+              url = {https://doi.org/10.1145/3715109}
             }
           </textarea>
      </div>
-    <div class="periodical"><em> ACM Transactions on Software Engineering and Methodology (TOSEM), 2024 </em></div>
+    <div class="periodical"><em> ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 </em></div>
   </div>
 </div>
 </li>
