@@ -71,6 +71,7 @@ I'm an instructor teaching [COSC 320 "Analysis of Algorithm"](https://okanagan.c
 ## Services
 - Reviewer, IEEE Transactions on Software Engineering
 - Reviewer, ACM Transactions on Software Engineering and Methodology
+- Reviewer, Transactions on Dependable and Secure Computing
 - Reviewer, Journal of Systems and Software
 - Program Committee Member, [RAIE 2025](https://conf.researchr.org/home/icse-2025/raie-2025)
 - Program Committee Member, [CAIN 2025](https://conf.researchr.org/track/cain-2025/cain-2025-call-for-papers)
