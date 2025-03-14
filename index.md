@@ -29,6 +29,9 @@ I'm interested in developing a **systems thinking approach that emphasizes conne
 **Keywords**: AI for Software Engineering (AI4SE), Software Engineering for AI (SE4AI), Large Language Models (LLMs), Data Science, Systems Science and Engineering
 
 ## News
+
+**⚡ Feb 2025:** I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.
+
 **⚡ Jan 2024:** My paper on [benchmarking communication skills of Code LLM and LLM Agents](https://github.com/jie-jw-wu/human-eval-comm/) was accepted in TOSEM, a top journal in Software Engineering research!
 
 **⚡ Dec 2024:** Final exam is completed for my course "Analysis of Algorithm" (COSC 320) at UBC!
