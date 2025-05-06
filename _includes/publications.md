@@ -6,6 +6,32 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/HumanEvalComm_BG.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ClarifyCoder</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2504.16331"> ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving </a></div>
+    <div class="author"><strong>Wu, Jie JW</strong>, Manav Chaudhary, Davit Abrahamyan, Arhaan Khaku, Anjiang Wei, Fatemeh H. Fard</div>
+    <div class="links">
+       <a href="https://github.com/jie-jw-wu/clarify-coder" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025clarifycoder')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wu2025clarifycoder" style="display: none;">
+            @article{wu2025clarifycoder,
+              title={ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving},
+              author={Wu, Jie JW and Chaudhary, Manav and Abrahamyan, Davit and Khaku, Arhaan and Wei, Anjiang and Fard, Fatemeh H.},
+              journal={arXiv preprint arXiv:2504.16331},
+              year={2025}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em> (under review) </em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/llm_low_resource_pl.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">LLM Survey on Low Resource PL</abbr>
   </div>
