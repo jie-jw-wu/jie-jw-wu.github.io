@@ -144,7 +144,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3643916.3645030">Investigating the Efficacy of Large Language Models for Code Clone Detection</a> </div>
-    <div class="author">Khajezade, Mohamad, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Gema Rodríguez-Pérez,Mohamed Sami Shehata</div>
+    <div class="author">Mohamad Khajezade, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Gema Rodríguez-Pérez,Mohamed Sami Shehata</div>
     <div class="periodical"><em> International Conference on Program Comprehension (ICPC 2024), Early Research Achievements (ERA) (short paper) </em></div>
     <div class="links">
        <a href="https://arxiv.org/pdf/2401.13802.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
