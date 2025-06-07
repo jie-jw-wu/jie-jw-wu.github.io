@@ -9,10 +9,10 @@ I'm a postdoc at [University of British Columbia](https://www.ubc.ca/), working 
 
 I worked as a software engineer in the industry for nearly a decade at [Snap Inc.](https://snap.com/en-US) (Seattle office), [Microsoft](https://www.microsoft.com/en-us/) (Redmond HQ), and startup ([ArcSite](https://www.arcsite.com/), Shanghai office). I've worked in various areas such as ML-enabled recommender systems, evaluation, scalable backend service, and infrastructure, etc. The projects I launched at Snap increased *millions of daily friend adds* and were one of the yearly highlighted projects in the growth team. I also worked on protecting user safety and privacy (Media reports of my projects: [Engadget](https://www.engadget.com/snapchat-limit-quick-add-teens-203057086.html), [TheVerge](https://www.theverge.com/2022/1/19/22891104/snapchat-friend-suggestion-limit-teenagers-safety-parental-controls), etc.).
 
-<span style="color:#c2185b;"> **🎓 Fully Funded PhD Opportunity Available:** I will be joining an R1 university this fall as a tenure-track assistant professor in the CS department. I'm actively recruiting highly motivated and hard-working students interested in the intersection of Software Engineering and AI (particularly Large Language Models). Exciting projects are available to help you pursue your research dreams. If you're interested, please don't hesitate to reach out via email! </span>
-
 ## Research
 My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** from art into a rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
+
+<span style="color:#c2185b;"> **🎓 Fully Funded PhD Opportunity Available:** I will be joining an R1 university this fall as a tenure-track assistant professor in the CS department. I'm actively recruiting highly motivated and hard-working students interested in the intersection of Software Engineering and AI (particularly Large Language Models). Exciting projects are available to help you pursue your research dreams. If you're interested, please don't hesitate to reach out via email! </span>
 
 
 <div style="text-align: center;">
