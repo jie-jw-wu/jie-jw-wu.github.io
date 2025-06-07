@@ -9,8 +9,7 @@ I'm a postdoc at [University of British Columbia](https://www.ubc.ca/), working 
 
 I worked as a software engineer in the industry for nearly a decade at [Snap Inc.](https://snap.com/en-US) (Seattle office), [Microsoft](https://www.microsoft.com/en-us/) (Redmond HQ), and startup ([ArcSite](https://www.arcsite.com/), Shanghai office). I've worked in various areas such as ML-enabled recommender systems, data analysis and evaluations, privacy and security, scalable backend service and infrastructure, etc. The projects I launched at Snap increased *millions of daily friend adds* and were one of the yearly highlighted projects in the growth team. I also worked on protecting user safety and privacy (Media reports of my projects: [Engadget](https://www.engadget.com/snapchat-limit-quick-add-teens-203057086.html), [TheVerge](https://www.theverge.com/2022/1/19/22891104/snapchat-friend-suggestion-limit-teenagers-safety-parental-controls), etc.).
 
-<span style="color:red;"> I'm on the job market, looking for a research-oriented career: [CV](https://jie-jw-wu.github.io/assets/cv_jw.pdf). Please do not hesitate to reach out for any potential opportunities! </span>
-
+<span style="color:#1a4faa;"> **🎓 Fully Funded PhD Opportunity Available:** I will be joining an R1 university this fall as a tenure-track assistant professor in the CS department. I'm actively recruiting highly motivated and hard-working students interested in the intersection of Software Engineering and AI (particularly Large Language Models). Exciting, well-scoped research projects are available to help you pursue your research dreams. If you're interested, please don't hesitate to reach out via email! </span>
 
 ## Research
 
