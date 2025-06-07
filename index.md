@@ -9,15 +9,10 @@ I'm a postdoc at [University of British Columbia](https://www.ubc.ca/), working 
 
 I worked as a software engineer in the industry for nearly a decade at [Snap Inc.](https://snap.com/en-US) (Seattle office), [Microsoft](https://www.microsoft.com/en-us/) (Redmond HQ), and startup ([ArcSite](https://www.arcsite.com/), Shanghai office). I've worked in various areas such as ML-enabled recommender systems, data analysis and evaluations, privacy and security, scalable backend service and infrastructure, etc. The projects I launched at Snap increased *millions of daily friend adds* and were one of the yearly highlighted projects in the growth team. I also worked on protecting user safety and privacy (Media reports of my projects: [Engadget](https://www.engadget.com/snapchat-limit-quick-add-teens-203057086.html), [TheVerge](https://www.theverge.com/2022/1/19/22891104/snapchat-friend-suggestion-limit-teenagers-safety-parental-controls), etc.).
 
-<span style="color:#1a4faa;"> **🎓 Fully Funded PhD Opportunity Available:** I will be joining an R1 university this fall as a tenure-track assistant professor in the CS department. I'm actively recruiting highly motivated and hard-working students interested in the intersection of Software Engineering and AI (particularly Large Language Models). Exciting, well-scoped research projects are available to help you pursue your research dreams. If you're interested, please don't hesitate to reach out via email! </span>
+<span style="color:#c2185b;"> **🎓 Fully Funded PhD Opportunity Available:** I will be joining an R1 university this fall as a tenure-track assistant professor in the CS department. I'm actively recruiting highly motivated and hard-working students interested in the intersection of Software Engineering and AI (particularly Large Language Models). Exciting projects are available to help you pursue your research dreams. If you're interested, please don't hesitate to reach out via email! </span>
 
 ## Research
-
-The goal of my research is to build **Trustworthy AIware**. Industries are transitioning from software to AIware, i.e., AI-powered software, which will greatly democratize
-software creation and ease the jobs of 27 million professional software engineers in the world. Therefore, How to build reliable and
-safe software is critical for society, especially in the current era of Large Language Models (LLMs). 
-
-I'm interested in developing a **systems thinking approach that emphasizes connections, feedback loops, layers, and new processes** to address the trustworthiness issues in AIware. In the future, I plan to use this approach to enhance more dimensions of trustworthiness such as controllability, safety, and robustness for AIware components. I believe systems thinking will provide a new perspective that complements the statistical and reductionist view, a new language for communicating AIware components and relationships, and new tools that form fundamental, practical building blocks in the evolution of trustworthy AIware.
+I am passionate about transforming the current state of "AI4Code"—or more broadly, AI for Software Engineering—from art into a science and engineering discipline. I approach this challenge through the lens of human-centered AI, AI alignment, agent architecture design, and data analysis. My research emphasizes people, feedback loops, and process—grounded in a systems-thinking mindset.
 
 
 <div style="text-align: center;">
