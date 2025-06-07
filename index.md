@@ -12,7 +12,7 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 <span style="color:#c2185b;"> **🎓 Fully Funded PhD Opportunity Available:** I will be joining an R1 university this fall as a tenure-track assistant professor in the CS department. I'm actively recruiting highly motivated and hard-working students interested in the intersection of Software Engineering and AI (particularly Large Language Models). Exciting projects are available to help you pursue your research dreams. If you're interested, please don't hesitate to reach out via email! </span>
 
 ## Research
-I am passionate about transforming the current state of "AI4Code"—or more broadly, AI for Software Engineering—from art into a rigorous science and engineering discipline. I approach this challenge through the lens of human-centered AI, AI alignment, agent architecture design, and data analysis. My research emphasizes people, feedback loops, and process—grounded in a systems-thinking mindset.
+My research topic is Trustworthy AIware: I am passionate about turning the current state of "AI for Software Engineering" and "AI system development" from art into a rigorous science and engineering discipline. My work is closely related to the fields of human-centered AI, AI alignment, and practical software engineering. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
 
 
 <div style="text-align: center;">
