@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About JW
-My original first name is _**杰 (Jie)**_. I also go by _**JW**_. How to pronounce Jie? Please see this [link](https://en.wiktionary.org/wiki/ji%C3%A9) with audio to learn how to pronounce Jie ("JEE-yeh" is pretty close). I'm happy to accept any approximation, so please feel free to use your favorite variants! I publish under "Jie JW Wu". 
+I'm happy to be called **JW**—it's easy and casual. But if you're interested in saying my original name, _**杰 (Jie)**_, you're very welcome to try! You can listen to the pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) (something like “JEE-yeh” is pretty close). I gladly accept any approximation, so feel free to use whichever version you’re most comfortable with. I publish under the name “Jie JW Wu”.
 
 I'm a postdoc at [University of British Columbia](https://www.ubc.ca/), working with [Dr. Fatemeh Fard](https://cmps.ok.ubc.ca/about/contact/fatemeh-hendijani-fard/) at the intersection of Software Engineering and AI. My undergraduate and master studies were done both in Computer Science at [Shanghai Jiao Tong University](https://www.cs.sjtu.edu.cn/en/)  (at [ACM Class](https://acm.sjtu.edu.cn/home), an elite CS program at SJTU). I received my PhD in Systems Engineering at [George Washington University](https://www.seas.gwu.edu/). I was a research intern at [Google Research](https://research.google/) and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
 
