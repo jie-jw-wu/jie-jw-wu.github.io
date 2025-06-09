@@ -25,7 +25,7 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 ## News
 
-**⚡ May 2025:** I gave a talk at [PNW PLSE 2025](https://pnwplse.org/) at Uber Engineering Office in Seattle, WA.  
+**⚡ May 2025:** I gave a talk at [PNW PLSE 2025](https://pnwplse.org/) at Uber Engineering Office in Seattle, WA. You can watch the [recording here](https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view). 
 
 **⚡ Feb 2025:** I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.
 
