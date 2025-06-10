@@ -14,6 +14,7 @@
     <div class="author"><strong>Jie JW Wu</strong>, Manav Chaudhary, Davit Abrahamyan, Arhaan Khaku, Anjiang Wei, Fatemeh H. Fard</div>
     <div class="links">
        <a href="https://github.com/jie-jw-wu/clarify-coder" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025clarifycoder')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wu2025clarifycoder" style="display: none;">
             @article{wu2025clarifycoder,
