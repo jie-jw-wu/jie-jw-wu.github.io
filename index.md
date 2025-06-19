@@ -22,9 +22,11 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 
 **Keywords**: AI for Software Engineering (AI4SE), Software Engineering for AI (SE4AI), Large Language Models (LLMs), Data Science, Systems Science and Engineering
-
 ## News
 
+<div id="news-section">
+  <div id="news-items" style="max-height: none; overflow: hidden;">
+  
 **⚡ May 2025:** I gave a talk at [PNW PLSE 2025](https://pnwplse.org/) at Uber Engineering Office in Seattle, WA. You can watch the [recording here](https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view). 
 
 **⚡ Feb 2025:** I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.
@@ -64,6 +66,41 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 **⚡ Nov 2023:** I will attend [MAPS 2023](https://mapsworkshop.github.io/papers) on Dec 3, 2023, in San Francisco, US to present my work on the [communication skills of LLM](https://mapsworkshop.github.io/papers). Looking forward to the event! I gratefully thank NSF for the travel support award.
 
 **⚡ Nov 2023:** I will be a Postdoctoral Research Fellow at [University of British Columbia, Canada](https://www.ubc.ca/), working with [Dr. Fard](https://cmps.ok.ubc.ca/about/contact/fatemeh-hendijani-fard/) at the intersection of Software Engineering and AI!
+
+  </div>
+  <button id="view-more-news" style="margin-top:10px;">View More</button>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const newsDiv = document.getElementById("news-items");
+  const btn = document.getElementById("view-more-news");
+  const linesToShow = 6; // Show first 6 news items by default
+
+  // Split news items by double line breaks (each news is a paragraph)
+  const newsHTML = newsDiv.innerHTML.trim();
+  const newsItems = newsHTML.split(/\n\s*\n/);
+
+  if (newsItems.length > linesToShow) {
+    // Show only the first N items initially
+    newsDiv.innerHTML = newsItems.slice(0, linesToShow).join('\n\n');
+    btn.style.display = "inline-block";
+
+    btn.onclick = function() {
+      if (btn.innerText === "View More") {
+        newsDiv.innerHTML = newsItems.join('\n\n');
+        btn.innerText = "View Less";
+      } else {
+        newsDiv.innerHTML = newsItems.slice(0, linesToShow).join('\n\n');
+        btn.innerText = "View More";
+        window.scrollTo({ top: newsDiv.parentElement.offsetTop, behavior: 'smooth' });
+      }
+    };
+  } else {
+    btn.style.display = "none";
+  }
+});
+</script>
 
 ## Teaching
 I'm an instructor teaching [COSC 320 "Analysis of Algorithm"](https://okanagan.calendar.ubc.ca/course-descriptions/courses/cosco-320-analysis-algorithms) for undergrads at UBC Okanagan for this term. We adopted a new learner-centered approach in this course. It's been fun and I enjoyed talking to students!
