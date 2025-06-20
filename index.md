@@ -27,45 +27,45 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
   
-**⚡ May 2025:** I gave a talk at [PNW PLSE 2025](https://pnwplse.org/) at Uber Engineering Office in Seattle, WA. You can watch the [recording here](https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view). 
+<p>⚡ <strong>May 2025:</strong> I gave a talk at <a href="https://pnwplse.org/">PNW PLSE 2025</a> at Uber Engineering Office in Seattle, WA. You can watch the <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view">recording here</a>.</p>
 
-**⚡ Feb 2025:** I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.
+<p>⚡ <strong>Feb 2025:</strong> I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.</p>
 
-**⚡ Jan 2024:** My paper on [benchmarking communication skills of Code LLM and LLM Agents](https://github.com/jie-jw-wu/human-eval-comm/) was accepted in TOSEM, a top journal in Software Engineering research!
+<p>⚡ <strong>Jan 2024:</strong> My paper on <a href="https://github.com/jie-jw-wu/human-eval-comm/">benchmarking communication skills of Code LLM and LLM Agents</a> was accepted in TOSEM, a top journal in Software Engineering research!</p>
 
-**⚡ Dec 2024:** Final exam is completed for my course "Analysis of Algorithm" (COSC 320) at UBC!
+<p>⚡ <strong>Dec 2024:</strong> Final exam is completed for my course "Analysis of Algorithm" (COSC 320) at UBC!</p>
 
-**⚡ Nov 2024:** During the mid-term break, I completed the 24-hour Instructional Skills Workshop (ISW) at UBC in Kelowna!
+<p>⚡ <strong>Nov 2024:</strong> During the mid-term break, I completed the 24-hour Instructional Skills Workshop (ISW) at UBC in Kelowna!</p>
 
-**⚡ Oct 2024:** I'm honored to be a Program Committee Member of [RAIE 2025](https://conf.researchr.org/home/icse-2025/raie-2025). Looking forward to the submissions and reviews!
+<p>⚡ <strong>Oct 2024:</strong> I'm honored to be a Program Committee Member of <a href="https://conf.researchr.org/home/icse-2025/raie-2025">RAIE 2025</a>. Looking forward to the submissions and reviews!</p>
 
-**⚡ Oct 2024:** I'm a reviewer for Journal of Software and Systems.
+<p>⚡ <strong>Oct 2024:</strong> I'm a reviewer for Journal of Software and Systems.</p>
 
-**⚡ Sep 2024:** I'm an instructor teaching COSC 320 "Analysis of Algorithm" for undergrads at UBC Okanagan for this term. We adopted a new learner-centered approach in this course. It's been fun and I enjoyed talking to students!
+<p>⚡ <strong>Sep 2024:</strong> I'm an instructor teaching COSC 320 "Analysis of Algorithm" for undergrads at UBC Okanagan for this term. We adopted a new learner-centered approach in this course. It's been fun and I enjoyed talking to students!</p>
 
-**⚡ Sep 2024:** I'm honored to be a Program Committee Member of [SANER 2025 Tool and Demo Track](https://conf.researchr.org/track/saner-2025/saner-2025-tool-demo-track). Looking forward to the submissions and reviews!
+<p>⚡ <strong>Sep 2024:</strong> I'm honored to be a Program Committee Member of <a href="https://conf.researchr.org/track/saner-2025/saner-2025-tool-demo-track">SANER 2025 Tool and Demo Track</a>. Looking forward to the submissions and reviews!</p>
 
-**⚡ Aug 2024:** I'm honored to be a Program Committee Member of [CAIN 2025](https://conf.researchr.org/track/cain-2025/cain-2025-call-for-papers). Looking forward to the submissions and reviews!
+<p>⚡ <strong>Aug 2024:</strong> I'm honored to be a Program Committee Member of <a href="https://conf.researchr.org/track/cain-2025/cain-2025-call-for-papers">CAIN 2025</a>. Looking forward to the submissions and reviews!</p>
 
-**⚡ Jun 2024:** I'm glad to attend SEMLA 2024 to present my poster for our work in benchmarking the communication skills of Code LLM and LLM Agent! I'm grateful for the travel support and travel grant award from SEMLA. 
+<p>⚡ <strong>Jun 2024:</strong> I'm glad to attend SEMLA 2024 to present my poster for our work in benchmarking the communication skills of Code LLM and LLM Agent! I'm grateful for the travel support and travel grant award from SEMLA. </p>
 
-**⚡ May 2024:** [My paper](https://jie-jw-wu.github.io/assets/AutoOffAB-fse-camare-ready.pdf) on automating offline A/B testing (AutoOffAB) is accepted at FSE 2024, "Ideas, Visions and Reflections" Track!
+<p>⚡ <strong>May 2024:</strong> <a href="https://jie-jw-wu.github.io/assets/AutoOffAB-fse-camare-ready.pdf">My paper</a> on automating offline A/B testing (AutoOffAB) is accepted at FSE 2024, "Ideas, Visions and Reflections" Track!</p>
 
-**⚡ May 2024:** I'm excited to share that [my paper](https://arxiv.org/pdf/2308.05381.pdf) on the use of V-Model in ML-enabled system will appear in the [IEEE Software](https://www.computer.org/csdl/magazine/so) Practitioner's digest column!
+<p>⚡ <strong>May 2024:</strong> I'm excited to share that <a href="https://arxiv.org/pdf/2308.05381.pdf">my paper</a> on the use of V-Model in ML-enabled system will appear in the <a href="https://www.computer.org/csdl/magazine/so">IEEE Software</a> Practitioner's digest column!</p>
 
-**⚡ Mar 2024:** I'm honored to be invited as a Program Committee Member of [ASE 2024 Artifact Evaluation Track](https://conf.researchr.org/track/ase-2024/ase-2024-artifact-evaluation-track). Looking forward to the submissions and reviews!
+<p>⚡ <strong>Mar 2024:</strong> I'm honored to be invited as a Program Committee Member of <a href="https://conf.researchr.org/track/ase-2024/ase-2024-artifact-evaluation-track">ASE 2024 Artifact Evaluation Track</a>. Looking forward to the submissions and reviews!</p>
 
-**⚡ Feb 2024:** I'm honored to share that [my paper](https://arxiv.org/pdf/2308.05381.pdf) on the use of V-Model in ML-enabled system has been selected as a _**candidate for the CAIN 2024 Best Paper Award**_!
+<p>⚡ <strong>Feb 2024:</strong> I'm honored to share that <a href="https://arxiv.org/pdf/2308.05381.pdf">my paper</a> on the use of V-Model in ML-enabled system has been selected as a <em><strong>candidate for the CAIN 2024 Best Paper Award</strong></em>!</p>
 
-**⚡ Feb 2024:** I'm honored to be invited as a Program Committee Member of [FSE 2024 Posters Track](https://2024.esec-fse.org/committee/fse-2024-posters-program-committee). Looking forward to the submissions and reviews!
+<p>⚡ <strong>Feb 2024:</strong> I'm honored to be invited as a Program Committee Member of <a href="https://2024.esec-fse.org/committee/fse-2024-posters-program-committee">FSE 2024 Posters Track</a>. Looking forward to the submissions and reviews!</p>
 
-**⚡ Feb 2024:** [My paper](https://arxiv.org/pdf/2308.05381.pdf) on investigating the use of V-Model in ML-enabled system is accepted at [CAIN 2024](https://conf.researchr.org/home/cain-2024) (3rd International Conference on AI Engineering – Software Engineering for AI)! Looking forward to the event in Lisbon, Portugal. I gratefully thank SIGSOFT CAPS for the travel support award.
+<p>⚡ <strong>Feb 2024:</strong> <a href="https://arxiv.org/pdf/2308.05381.pdf">My paper</a> on investigating the use of V-Model in ML-enabled system is accepted at <a href="https://conf.researchr.org/home/cain-2024">CAIN 2024</a> (3rd International Conference on AI Engineering – Software Engineering for AI)! Looking forward to the event in Lisbon, Portugal. I gratefully thank SIGSOFT CAPS for the travel support award.</p>
 
-**⚡ Jan 2024:** [Our paper](https://arxiv.org/pdf/2401.13802.pdf) on investigating LLM in Code Clone Detection is accepted at [ICPC 2024](https://conf.researchr.org/home/icpc-2024) (International Conference on Program Comprehension 2024). Congrats to Mohamad!
+<p>⚡ <strong>Jan 2024:</strong> <a href="https://arxiv.org/pdf/2401.13802.pdf">Our paper</a> on investigating LLM in Code Clone Detection is accepted at <a href="https://conf.researchr.org/home/icpc-2024">ICPC 2024</a> (International Conference on Program Comprehension 2024). Congrats to Mohamad!</p>
 
-**⚡ Nov 2023:** I will attend [MAPS 2023](https://mapsworkshop.github.io/papers) on Dec 3, 2023, in San Francisco, US to present my work on the [communication skills of LLM](https://mapsworkshop.github.io/papers). Looking forward to the event! I gratefully thank NSF for the travel support award.
+<p>⚡ <strong>Nov 2023:</strong> I will attend <a href="https://mapsworkshop.github.io/papers">MAPS 2023</a> on Dec 3, 2023, in San Francisco, US to present my work on the <a href="https://mapsworkshop.github.io/papers">communication skills of LLM</a>. Looking forward to the event! I gratefully thank NSF for the travel support award.</p>
 
-**⚡ Nov 2023:** I will be a Postdoctoral Research Fellow at [University of British Columbia, Canada](https://www.ubc.ca/), working with [Dr. Fard](https://cmps.ok.ubc.ca/about/contact/fatemeh-hendijani-fard/) at the intersection of Software Engineering and AI!
+<p>⚡ <strong>Nov 2023:</strong> I will be a Postdoctoral Research Fellow at <a href="https://www.ubc.ca/">University of British Columbia, Canada</a>, working with <a href="https://cmps.ok.ubc.ca/about/contact/fatemeh-hendijani-fard/">Dr. Fard</a> at the intersection of Software Engineering and AI!</p>
 
   </div>
   <button id="view-more-news" style="margin-top:10px;">View More</button>
