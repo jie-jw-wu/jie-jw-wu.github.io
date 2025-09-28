@@ -51,7 +51,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>(long paper, under review) </em></div>
+    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 (Accepted) </em></div>
   </div>
 </div>
 </li>
@@ -76,7 +76,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>(Accepted RR. To submit to EMSE) </em></div>
+    <div class="periodical"><em>(Accepted RR. Under Review) </em></div>
   </div>
 </div>
 </li>
