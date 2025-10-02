@@ -104,21 +104,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-## Teaching
-I'm an instructor teaching [COSC 320 "Analysis of Algorithm"](https://okanagan.calendar.ubc.ca/course-descriptions/courses/cosco-320-analysis-algorithms) for undergrads at UBC Okanagan for this term. We adopted a new learner-centered approach in this course. It's been fun and I enjoyed talking to students!
+{% include_relative _includes/publications.md %}
 
 ## Services
 - Reviewer, IEEE Transactions on Software Engineering
 - Reviewer, ACM Transactions on Software Engineering and Methodology
 - Reviewer, Transactions on Dependable and Secure Computing
 - Reviewer, Journal of Systems and Software
+- Program Committee Member, AIware 2025, Benchmark and Dataset Track.
 - Program Committee Member, [RAIE 2025](https://conf.researchr.org/home/icse-2025/raie-2025)
 - Program Committee Member, [CAIN 2025](https://conf.researchr.org/track/cain-2025/cain-2025-call-for-papers)
 - Program Committee Member, [SANER 2025, Tool and Demo Track](https://conf.researchr.org/track/saner-2025/saner-2025-tool-demo-track)
 - Program Committee Member, [ASE 2024, Artifact Evaluation Track](https://conf.researchr.org/track/ase-2024/ase-2024-artifact-evaluation-track)
 - Program Committee Member, [FSE 2024, Posters Track](https://2024.esec-fse.org/track/fse-2024-posters)
-
-{% include_relative _includes/publications.md %}
 
 ## Misc
 Outside research and software engineering, I'm interested in the following topics, and I'm happy to talk about it if you find any of them interesting:
