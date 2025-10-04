@@ -10,7 +10,7 @@
     <abbr class="badge">ClarifyCoder</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2504.16331"> ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving </a></div>
+    <div class="title"><a href="https://arxiv.org/abs/2504.16331"> Can Code Language Models Learn Clarification-Seeking Behaviors? </a></div>
     <div class="author"><strong>Jie JW Wu</strong>, Manav Chaudhary, Davit Abrahamyan, Arhaan Khaku, Anjiang Wei, Fatemeh H. Fard</div>
     <div class="links">
        <a href="https://github.com/jie-jw-wu/clarify-coder" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -18,7 +18,7 @@
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025clarifycoder')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wu2025clarifycoder" style="display: none;">
             @article{wu2025clarifycoder,
-              title={ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving},
+              title={Can Code Language Models Learn Clarification-Seeking Behaviors?},
               author={Wu, Jie JW and Chaudhary, Manav and Abrahamyan, Davit and Khaku, Arhaan and Wei, Anjiang and Fard, Fatemeh H.},
               journal={arXiv preprint arXiv:2504.16331},
               year={2025}
