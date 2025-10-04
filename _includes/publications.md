@@ -37,7 +37,7 @@
     <abbr class="badge">LLM Survey on Low Resource PL</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2410.03981"> A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages </a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2410.03981v3"> A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages </a></div>
     <div class="author"> Sathvik Joel*, <strong>Jie JW Wu*</strong>, Fatemeh Hendijani Fard   <br>
       (*Equal contribution)</div>
     <div class="links">
@@ -46,7 +46,7 @@
             @article{joel2024survey,
               title={A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages},
               author={Joel, Sathvik and Wu, Jie JW and Fard, Fatemeh H},
-              journal={arXiv preprint arXiv:2410.03981},
+              journal={arXiv preprint arXiv:2410.03981v3},
               year={2024}
             }
           </textarea>
