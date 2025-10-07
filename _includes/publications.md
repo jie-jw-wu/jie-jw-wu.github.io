@@ -40,7 +40,8 @@
     <div class="title"><a href="https://arxiv.org/pdf/2410.03981v3"> A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages </a></div>
     <div class="author"> Sathvik Joel*, <strong>Jie JW Wu*</strong>, Fatemeh Hendijani Fard   <br>
       (*Equal contribution)</div>
-    <div class="links">
+    <div class="links">    
+       <a href="https://github.com/jie-jw-wu/Survey-CodeLLM4LowResource-DSL" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">GitHub</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('joel2024survey')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_joel2024survey" style="display: none;">
             @article{joel2024survey,
