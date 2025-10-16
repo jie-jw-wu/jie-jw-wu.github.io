@@ -24,7 +24,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>NeurIPS 2025 Workshop "GenAI in Finance" (submitted)</em></div>
+    <div class="periodical"><em>NeurIPS 2025 Workshop "GenAI in Finance" (to appear)</em></div>
   </div>
 </div>
 </li>
