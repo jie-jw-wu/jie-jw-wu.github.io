@@ -6,6 +6,33 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/FISCAL.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">FISCAL</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">FISCAL: Financial Synthetic Claim–document Augmented Learning for Efficient Fact-Checking</a></div>
+    <div class="author">Rishab Sharma, Iman Saberi, Elham Alipour, <strong>Jie JW Wu</strong>, Fatemeh H. Fard</div>
+    <div class="links">
+       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('sharma2025fiscal')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_sharma2025fiscal" style="display: none;">
+            @inproceedings{sharma2025fiscal,
+              title={FISCAL: Financial Synthetic Claim–document Augmented Learning for Efficient Fact-Checking},
+              author={Sharma, Rishab and Saberi, Iman and Alipour, Elham and Wu, Jie JW and Fard, Fatemeh H.},
+              booktitle={NeurIPS 2025 Workshop on GenAI in Finance},
+              year={2025}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>NeurIPS 2025 Workshop (submitted)</em></div>
+  </div>
+</div>
+</li>
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/ClarifyCoder-.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ClarifyCoder</abbr>
   </div>
