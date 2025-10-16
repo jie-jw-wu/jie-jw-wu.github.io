@@ -3,11 +3,13 @@ layout: homepage
 ---
 
 ## About JW
-I'm happy to be called **JW**—it's easy and casual. But if you're interested in saying my original name, _**杰 (Jie)**_, you're very welcome to try! You can listen to the pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) (something like “JEE-yeh” is pretty close). I gladly accept any approximation, so feel free to use whichever version you’re most comfortable with. I publish under the name “Jie JW Wu”.
 
-I'm an Assistant Professor in the CS department at Michigan Technological University. I was a postdoc at [University of British Columbia](https://www.ubc.ca/), working with [Dr. Fatemeh Fard](https://cmps.ok.ubc.ca/about/contact/fatemeh-hendijani-fard/) at the intersection of Software Engineering and AI. My undergraduate and master studies were done both in Computer Science at [Shanghai Jiao Tong University](https://www.cs.sjtu.edu.cn/en/)  (at [ACM Class](https://acm.sjtu.edu.cn/home), an elite CS program at SJTU). I received my PhD in Systems Engineering at [George Washington University](https://www.seas.gwu.edu/). I was a research intern at [Google Research](https://research.google/) and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
+I'm an Assistant Professor in the CS department at Michigan Technological University, working at the intersection of Software Engineering and AI. I was a postdoc at [University of British Columbia](https://www.ubc.ca/). My undergraduate and master studies were both in Computer Science at [Shanghai Jiao Tong University](https://www.cs.sjtu.edu.cn/en/)  (at [ACM Class](https://acm.sjtu.edu.cn/home), an elite CS program at SJTU). I received my PhD in Systems Engineering at [George Washington University](https://www.seas.gwu.edu/). I was a research intern at [Google Research](https://research.google/) and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
+
 
 I worked as a software engineer in the industry for nearly a decade at [Snap Inc.](https://snap.com/en-US) (Seattle office), [Microsoft](https://www.microsoft.com/en-us/) (Redmond HQ), and startup ([ArcSite](https://www.arcsite.com/), Shanghai office). I've worked in various areas such as ML-enabled recommender systems, evaluation, scalable backend service, and infrastructure, etc. The projects I launched at Snap increased *millions of daily friend adds* and were one of the yearly highlighted projects in the growth team. I also worked on protecting user safety and privacy (Media reports of my projects: [Engadget](https://www.engadget.com/snapchat-limit-quick-add-teens-203057086.html), [TheVerge](https://www.theverge.com/2022/1/19/22891104/snapchat-friend-suggestion-limit-teenagers-safety-parental-controls), etc.).
+
+**Note on My Name:** I often go by JW, a simple abbreviation of my name. If you wish to use my original name, _**杰 (Jie)**_, you can listen to its pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) — roughly “JEE-yeh” in English. Please feel free to use whichever form you find most comfortable. I publish under the name “Jie JW Wu”.
 
 <span style="color:#c2185b;"> **🎓 Hiring PhD Position:** I am actively recruiting highly motivated, hard-working students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. Exciting projects are available to help you pursue your research dreams. See more details in this [link](https://docs.google.com/document/d/1qbFu1VyMjT2EDe1msm9WWy2FQZsGEQljOCOXnbFVoJk/edit?tab=t.0). If you're interested, please don't hesitate to reach out via email! </span>
 
@@ -28,7 +30,13 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
-  
+
+<p>⚡ <strong>Sep 2025:</strong> Our paper has been accepted at NeurIPS 2025 Workshop "GenAI in Finance"! </p>
+
+<p>⚡ <strong>Sep 2025:</strong> Our Survey paper on LLM-based Code Generation in LRPLs and DSLs has been accepted at ACM TOSEM journal! </p>
+
+<p>⚡ <strong>Aug 2025:</strong> I formally joined Michigan Tech this Fall as a tenure-track assistant professor! </p>
+
 <p>⚡ <strong>May 2025:</strong> I gave a talk at <a href="https://pnwplse.org/">PNW PLSE 2025</a> at Uber Engineering Office in Seattle, WA. You can watch the <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view">recording here</a>.</p>
 
 <p>⚡ <strong>Feb 2025:</strong> I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.</p>
@@ -77,7 +85,7 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 document.addEventListener("DOMContentLoaded", function() {
   const newsDiv = document.getElementById("news-items");
   const btn = document.getElementById("view-more-news");
-  const linesToShow = 6; // Show first 6 news items by default
+  const linesToShow = 3; // Show first 6 news items by default
 
   // Split news items by double line breaks (each news is a paragraph)
   const newsHTML = newsDiv.innerHTML.trim();
