@@ -206,6 +206,7 @@
     <div class="periodical"><em> 3rd International Conference on AI Engineering – Software Engineering for AI (CAIN 2024) (long paper) <span style="color:red;">Distinguished Paper Award Candidate. </span> </em></div>
    <div class="links">
        <a href="https://jie-jw-wu.github.io/assets/V_Model_JW_CAIN_2024.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
+       <a href="https://www.growkudos.com/publications/10.1145%25252F3644815.3644951/reader" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Blog</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2024exploratory')" style="font-size: 12px;">Copy BibTeX</button>
          <textarea id="bibtex_wu2024exploratory" style="display: none;">
           @inproceedings{wu2024exploratory,
