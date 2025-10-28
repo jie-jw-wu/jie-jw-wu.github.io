@@ -11,12 +11,12 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 **Note on My Name:** I often go by JW, a simple abbreviation of my name. If you wish to use my original name, _**杰 (Jie)**_, you can listen to its pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) — roughly “JEE-yeh” in English. Please feel free to use whichever form you find most comfortable. I publish under the name “Jie JW Wu”.
 
-<span style="color:#c2185b;"> **🎓 Hiring PhD Position:** I am actively recruiting motivated, strong students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. Exciting projects are available to help you pursue your research dreams. See more details in this [link](https://docs.google.com/document/d/1qbFu1VyMjT2EDe1msm9WWy2FQZsGEQljOCOXnbFVoJk/edit?tab=t.0). If you're interested, please don't hesitate to reach out via email! </span>
+<span style="color:#c2185b;"> **🎓 Hiring PhD Position:** I am recruiting **motivated, strong** students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. Exciting projects are available to help you pursue your research dreams. See more details in this [link](https://docs.google.com/document/d/1qbFu1VyMjT2EDe1msm9WWy2FQZsGEQljOCOXnbFVoJk/edit?tab=t.0). If you're interested, please don't hesitate to reach out via email! </span>
 
 <span style="color:#1976d2;"> **🤝 Seeking Industry Collaborations:** I am passionate about bridging academic research and industry practice to accelerate innovation and create meaningful societal impact. I welcome conversations on applying cutting-edge AI and Software Engineering research to address real-world challenges. For inquiries about our research projects or potential collaborations, please feel free to reach out via email anytime! </span>
 
 ## Research
-My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** from art into a rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
+My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
 
 
 
@@ -31,7 +31,7 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
 
-<p>⚡ <strong>Sep 2025:</strong> Our paper has been accepted at NeurIPS 2025 Workshop "GenAI in Finance"! </p>
+<p>⚡ <strong>Sep 2025:</strong> Our paper has been accepted at NeurIPS 2025 Workshop "GenAI in Finance"! The technique was deployed in the financial production system at [Charli AI](https://charliai.com/). Congrats team! </p>
 
 <p>⚡ <strong>Sep 2025:</strong> Our Survey paper on LLM-based Code Generation in LRPLs and DSLs has been accepted at ACM TOSEM journal! </p>
 
