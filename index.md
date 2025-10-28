@@ -31,7 +31,7 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
 
-<p>⚡ <strong>Sep 2025:</strong> Our paper has been accepted at NeurIPS 2025 Workshop "GenAI in Finance"! The technique was deployed in the financial production system at [Charli AI](https://charliai.com/). Congrats team! </p>
+<p>⚡ <strong>Sep 2025:</strong> Our paper has been accepted at NeurIPS 2025 Workshop "GenAI in Finance"! The technique was deployed in the financial production system at <a href="https://charliai.com/">Charli AI</a>. Congrats team! </p>
 
 <p>⚡ <strong>Sep 2025:</strong> Our Survey paper on LLM-based Code Generation in LRPLs and DSLs has been accepted at ACM TOSEM journal! </p>
 
