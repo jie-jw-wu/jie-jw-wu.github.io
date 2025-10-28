@@ -24,7 +24,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>NeurIPS 2025 Workshop "GenAI in Finance" (to appear)</em></div>
+    <div class="periodical"><em>NeurIPS 2025 Workshop "GenAI in Finance" (to appear). <strong>Technique deployed in <a href="https://charliai.com/">Charli AI</a>’s financial production system.</strong> </em></div>
   </div>
 </div>
 </li>
