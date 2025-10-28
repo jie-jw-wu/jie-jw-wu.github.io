@@ -79,7 +79,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 (Accepted) </em></div>
+    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 </em></div>
   </div>
 </div>
 </li>
