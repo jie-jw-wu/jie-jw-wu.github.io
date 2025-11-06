@@ -6,12 +6,12 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/growth_hacker.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents</a></div>
-    <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza†, Ali Afoud†, Fatemeh Fard (*Equal Contribution)</div>
+    <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*Equal Contribution)</div>
     <div class="links">
        <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
@@ -24,7 +24,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>Under Review. <strong>Preprint available on arXiv.</strong></em></div>
+    <div class="periodical"><em>Under Review.</em></div>
   </div>
 </div>
 </li>
@@ -32,7 +32,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/fiscal.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">FISCAL</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
