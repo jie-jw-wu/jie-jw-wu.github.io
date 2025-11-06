@@ -2,6 +2,32 @@
 
 <div class="publications">
 <ol class="bibliography">
+  
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents</a></div>
+    <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza†, Ali Afoud†, Fatemeh Fard (*Equal Contribution)</div>
+    <div class="links">
+       <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wuherlihy2025growthhacker" style="display: none;">
+            @article{wuherlihy2025growthhacker,
+              title={GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents},
+              author={Wu, Jie JW and Herlihy, Ayanda Patrick and Mirza, Ahmad Saleem and Afoud, Ali and Fard, Fatemeh},
+              journal={arXiv preprint arXiv:2511.00802},
+              year={2025}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>Under Review. <strong>Preprint available on arXiv.</strong></em></div>
+  </div>
+</div>
+</li>
 
 <li>
 <div class="pub-row">
