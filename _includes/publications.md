@@ -36,10 +36,10 @@
     <abbr class="badge">FISCAL</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">FISCAL: Financial Synthetic Claim–document Augmented Learning for Efficient Fact-Checking</a></div>
+    <div class="title"><a href="https://arxiv.org/abs/2511.19671">FISCAL: Financial Synthetic Claim–document Augmented Learning for Efficient Fact-Checking</a></div>
     <div class="author">Rishab Sharma, Iman Saberi, Elham Alipour, <strong>Jie JW Wu</strong>, Fatemeh H. Fard</div>
     <div class="links">
-       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+       <a href="https://arxiv.org/abs/2511.19671" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('sharma2025fiscal')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_sharma2025fiscal" style="display: none;">
             @inproceedings{sharma2025fiscal,
