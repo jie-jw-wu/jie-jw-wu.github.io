@@ -2,7 +2,34 @@
 
 <div class="publications">
 <ol class="bibliography">
-  
+
+ 
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/MANTRA.PNG" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">MANTRA</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2512.04319">MANTRA: a Framework for Multi-stage Adaptive Noise TReAtment During Training</a></div>
+    <div class="author">Shawn Zhao, Fatemeh H. Fard, <strong>Jie JW Wu</strong></div>
+    <div class="links">
+       <a href="https://arxiv.org/abs/2512.04319" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">ArXiv</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('zhao2025mantra')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_zhao2025mantra" style="display: none;">
+            @article{zhao2025mantra,
+              title={MANTRA: a Framework for Multi-stage Adaptive Noise TReAtment During Training},
+              author={Zhao, Shawn and Fard, Fatemeh H. and Wu, Jie JW},
+              journal={arXiv preprint arXiv:2512.04319},
+              year={2025}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>(Under Review)</em></div>
+  </div>
+</div>
+</li>
+
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
