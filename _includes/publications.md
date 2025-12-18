@@ -1,6 +1,6 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="preprint" style="margin: 2px 0px -15px;">Preprint</h2>
 
-<div class="publications">
+<div class="preprint">
 <ol class="bibliography">
 
  
@@ -56,6 +56,89 @@
 </div>
 </li>
 
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/ClarifyCoder-.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ClarifyCoder</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2504.16331"> Can Code Language Models Learn Clarification-Seeking Behaviors? </a></div>
+    <div class="author"><strong>Jie JW Wu</strong>, Manav Chaudhary, Davit Abrahamyan, Arhaan Khaku, Anjiang Wei, Fatemeh H. Fard</div>
+    <div class="links">
+       <a href="https://github.com/jie-jw-wu/clarify-coder" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025clarifycoder')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wu2025clarifycoder" style="display: none;">
+            @article{wu2025clarifycoder,
+              title={Can Code Language Models Learn Clarification-Seeking Behaviors?},
+              author={Wu, Jie JW and Chaudhary, Manav and Abrahamyan, Davit and Khaku, Arhaan and Wei, Anjiang and Fard, Fatemeh H.},
+              journal={arXiv preprint arXiv:2504.16331},
+              year={2025}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em> (under review) </em></div>
+  </div>
+</div>
+</li>
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/merge_repair.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">MergeRepair</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
+    <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
+    <div class="links">
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
+            @article{dehghan2024mergerepair,
+              title={MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair},
+              author={Dehghan, Meghdad and Wu, Jie JW and Fard, Fatemeh H and Ouni, Ali},
+              journal={arXiv preprint arXiv:2408.09568},
+              year={2024}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>(Accepted RR. Under Review) </em></div>
+  </div>
+</div>
+</li>
+
+<script>
+  // BibTeX copy function
+  function copyBibtex(entryID) {
+    var bibtexTextArea = document.getElementById("bibtex_" + entryID);
+    var bibtexText = bibtexTextArea.value;
+
+    navigator.clipboard.writeText(bibtexText)
+      .then(() => {
+        alert("BibTeX copied to clipboard!");
+      })
+      .catch((err) => {
+        console.error('Unable to copy BibTeX to clipboard', err);
+      });
+  }
+</script>
+
+<br>
+
+</ol>
+</div>
+
+
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+
+<div class="publications">
+<ol class="bibliography">
+
+ 
+
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -86,33 +169,6 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/ClarifyCoder-.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ClarifyCoder</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2504.16331"> Can Code Language Models Learn Clarification-Seeking Behaviors? </a></div>
-    <div class="author"><strong>Jie JW Wu</strong>, Manav Chaudhary, Davit Abrahamyan, Arhaan Khaku, Anjiang Wei, Fatemeh H. Fard</div>
-    <div class="links">
-       <a href="https://github.com/jie-jw-wu/clarify-coder" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-       <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
-       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025clarifycoder')" style="font-size: 12px;">Copy BibTeX</button>
-          <textarea id="bibtex_wu2025clarifycoder" style="display: none;">
-            @article{wu2025clarifycoder,
-              title={Can Code Language Models Learn Clarification-Seeking Behaviors?},
-              author={Wu, Jie JW and Chaudhary, Manav and Abrahamyan, Davit and Khaku, Arhaan and Wei, Anjiang and Fard, Fatemeh H.},
-              journal={arXiv preprint arXiv:2504.16331},
-              year={2025}
-            }
-          </textarea>
-     </div>
-    <div class="periodical"><em> (under review) </em></div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/llm_low_resource_pl.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">LLM Survey on Low Resource PL</abbr>
   </div>
@@ -133,31 +189,6 @@
           </textarea>
      </div>
     <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 </em></div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/merge_repair.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">MergeRepair</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
-    <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
-    <div class="links">
-       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
-          <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
-            @article{dehghan2024mergerepair,
-              title={MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair},
-              author={Dehghan, Meghdad and Wu, Jie JW and Fard, Fatemeh H and Ouni, Ali},
-              journal={arXiv preprint arXiv:2408.09568},
-              year={2024}
-            }
-          </textarea>
-     </div>
-    <div class="periodical"><em>(Accepted RR. Under Review) </em></div>
   </div>
 </div>
 </li>
