@@ -40,7 +40,7 @@
     <div class="title"><a href="https://arxiv.org/pdf/2511.00802">GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents</a></div>
     <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*Equal Contribution)</div>
     <div class="links">
-       <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+       <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <a href="https://zenodo.org/records/17496870" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wuherlihy2025growthhacker" style="display: none;">
@@ -68,6 +68,7 @@
     <div class="title"><a href="https://arxiv.org/abs/2504.16331"> Can Code Language Models Learn Clarification-Seeking Behaviors? </a></div>
     <div class="author"><strong>Jie JW Wu</strong>, Manav Chaudhary, Davit Abrahamyan, Arhaan Khaku, Anjiang Wei, Fatemeh H. Fard</div>
     <div class="links">
+       <a href="https://arxiv.org/abs/2504.16331" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <a href="https://github.com/jie-jw-wu/clarify-coder" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025clarifycoder')" style="font-size: 12px;">Copy BibTeX</button>
@@ -96,6 +97,7 @@
     <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
     <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
     <div class="links">
+       <a href="https://arxiv.org/pdf/2408.09568" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <a href="https://github.com/mqddd/mergerepair" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
