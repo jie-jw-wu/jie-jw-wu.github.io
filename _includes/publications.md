@@ -41,6 +41,7 @@
     <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*Equal Contribution)</div>
     <div class="links">
        <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+       <a href="https://zenodo.org/records/17496870" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wuherlihy2025growthhacker" style="display: none;">
             @article{wuherlihy2025growthhacker,
@@ -95,6 +96,7 @@
     <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
     <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
     <div class="links">
+       <a href="https://github.com/mqddd/mergerepair" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
             @article{dehghan2024mergerepair,
@@ -150,6 +152,7 @@
     <div class="author">Rishab Sharma, Iman Saberi, Elham Alipour, <strong>Jie JW Wu</strong>, Fatemeh H. Fard</div>
     <div class="links">
        <a href="https://arxiv.org/abs/2511.19671" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <a href="https://gitlab.com/charli-ai-public/data-science/fiscal" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('sharma2025fiscal')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_sharma2025fiscal" style="display: none;">
             @inproceedings{sharma2025fiscal,
