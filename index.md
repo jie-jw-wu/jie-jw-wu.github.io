@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About JW
+<h2 id="about">About JW</h2>
 
 I'm an Assistant Professor in the CS department at Michigan Technological University, working at the intersection of Software Engineering and AI. I was a postdoc at [University of British Columbia](https://www.ubc.ca/). My undergraduate and master studies were both in Computer Science at [Shanghai Jiao Tong University](https://www.cs.sjtu.edu.cn/en/)  (at [ACM Class](https://acm.sjtu.edu.cn/home), an elite CS program at SJTU). I received my PhD in Systems Engineering at [George Washington University](https://www.seas.gwu.edu/). I was a research intern at [Google Research](https://research.google/) and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
 
@@ -15,7 +15,7 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 <span style="color:#1976d2;"> **🤝 Seeking Industry Collaborations:** I am passionate about bridging academic research and industry practice to accelerate innovation and create meaningful societal impact. I welcome conversations on applying cutting-edge AI and Software Engineering research to address real-world challenges. For inquiries about our research projects or potential collaborations, please feel free to reach out via email anytime! </span>
 
-## Research
+<h2 id="research">Research</h2>
 My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
 
 
@@ -26,7 +26,7 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 
 **Keywords**: AI for Software Engineering (AI4SE), Software Engineering for AI (SE4AI), Large Language Models (LLMs), Data Science, Systems Science and Engineering
-## News
+<h2 id="news">News</h2>
 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
@@ -115,7 +115,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 {% include_relative _includes/publications.md %}
 
-## Services
+<h2 id="teaching">Teaching</h2>
+- **CS 4321: Introduction to Algorithms**, undergrad course for a class of 80 students, Michigan Tech, Fall 2025
+- **CS 3712: Software Quality Assurance**, undergrad course for a class of ~60 students, Michigan Tech, Spring 2025
+- **COSC 320: Analysis of Algorithm**, undergrad course for a class of 80 students, University of British Columbia, Fall 2024
+
+<h2 id="services">Services</h2>
 - Reviewer, IEEE Transactions on Software Engineering
 - Reviewer, ACM Transactions on Software Engineering and Methodology
 - Reviewer, Transactions on Dependable and Secure Computing

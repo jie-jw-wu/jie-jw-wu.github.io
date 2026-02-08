@@ -2,3 +2,123 @@
 ---
 
 @import "minimal-light";
+
+/* Navigation tabs styling - Academic design */
+.navigation-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 0;
+  border-bottom: 3px solid #2c5282;
+  position: sticky;
+  top: -1px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s ease;
+}
+
+.navigation-tabs.scrolled {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Add scroll padding to account for sticky header */
+html {
+  scroll-padding-top: 35px;
+  scroll-behavior: smooth;
+}
+
+.navigation-tabs a {
+  text-decoration: none;
+  color: #2d3748;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 16px 24px;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -3px;
+  transition: all 0.25s ease;
+  position: relative;
+  letter-spacing: 0.3px;
+}
+
+.navigation-tabs a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #2c5282 0%, #2b6cb0 100%);
+  transition: width 0.3s ease;
+}
+
+.navigation-tabs a:hover {
+  color: #2c5282;
+  background: rgba(44, 82, 130, 0.04);
+}
+
+.navigation-tabs a:hover::after {
+  width: 100%;
+}
+
+.navigation-tabs a:active {
+  background: rgba(44, 82, 130, 0.08);
+}
+
+.navigation-tabs a strong {
+  font-weight: 500;
+  position: relative;
+}
+
+/* Improve content layout with navigation */
+section {
+  position: relative;
+}
+
+/* Enhance section headers for academic look */
+h2[id] {
+  scroll-margin-top: 35px;
+  padding-top: 10px;
+  color: #2c5282;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .navigation-tabs {
+    background: rgba(26, 26, 26, 0.98);
+    border-bottom-color: #4a5568;
+  }
+
+  .navigation-tabs a {
+    color: #e2e8f0;
+  }
+
+  .navigation-tabs a::after {
+    background: linear-gradient(90deg, #63b3ed 0%, #4299e1 100%);
+  }
+
+  .navigation-tabs a:hover {
+    color: #90cdf4;
+    background: rgba(99, 179, 237, 0.1);
+  }
+
+  .navigation-tabs a:active {
+    background: rgba(99, 179, 237, 0.15);
+  }
+
+  h2[id] {
+    color: #90cdf4;
+    border-bottom-color: #4a5568;
+  }
+
+  html {
+    scroll-padding-top: 35px;
+  }
+}

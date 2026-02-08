@@ -85,6 +85,15 @@
       </header>
       <section>
 
+      <nav class="navigation-tabs">
+        <a href="#about"><strong>About</strong></a>
+        <a href="#research"><strong>Research</strong></a>
+        <a href="#news"><strong>News</strong></a>
+        <a href="#publications"><strong>Publications</strong></a>
+        <a href="#teaching"><strong>Teaching</strong></a>
+        <a href="#services"><strong>Services</strong></a>
+      </nav>
+
       {{ content }}
 
       <br>
@@ -99,6 +108,26 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script>
+      // Add shadow to navigation on scroll
+      document.addEventListener('DOMContentLoaded', function() {
+        const nav = document.querySelector('.navigation-tabs');
+        if (nav) {
+          let lastScroll = 0;
+          window.addEventListener('scroll', function() {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 50) {
+              nav.classList.add('scrolled');
+            } else {
+              nav.classList.remove('scrolled');
+            }
+            lastScroll = currentScroll;
+          });
+        }
+      });
+    </script>
+
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
