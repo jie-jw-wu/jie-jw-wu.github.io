@@ -460,7 +460,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/6738038?casa_token=n1QUS7-HQccAAAAA:3f9qqCCkVQt0ru4nZE86HH05d6FqpuRMQ3fy4olgeygcssFj6ETRFKhqW9uXJzxiXt-qgOUc">Gestalt saliency: Salient region detection based on gestalt principles</a></div>
-    <div class="author"><strong>Wu, Jie</strong>, Liqing Zhang</div>
+    <div class="author"><strong>Jie Wu</strong>, Liqing Zhang</div>
     <div class="periodical"><em>2013 IEEE International Conference on Image Processing. IEEE, 2013. <span style="color:red;">Top 1% Excellent Undergraduate Thesis Award at SJTU </span></em></div>
   </div>
 </div>
