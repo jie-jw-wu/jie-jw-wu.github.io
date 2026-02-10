@@ -116,8 +116,8 @@ document.addEventListener("DOMContentLoaded", function() {
 {% include_relative _includes/publications.md %}
 
 <h2 id="teaching">Teaching</h2>
+- **CS 3712: Software Quality Assurance**, undergrad course for a class of ~60 students, Michigan Tech, Spring 2026
 - **CS 4321: Introduction to Algorithms**, undergrad course for a class of 80 students, Michigan Tech, Fall 2025
-- **CS 3712: Software Quality Assurance**, undergrad course for a class of ~60 students, Michigan Tech, Spring 2025
 - **COSC 320: Analysis of Algorithm**, undergrad course for a class of 80 students, University of British Columbia, Fall 2024
 
 <h2 id="services">Services</h2>
