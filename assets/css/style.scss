@@ -6,7 +6,7 @@
 /* Navigation tabs styling - Academic design */
 .navigation-tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0;
   justify-content: center;
   margin-bottom: 40px;
@@ -34,14 +34,15 @@ html {
 .navigation-tabs a {
   text-decoration: none;
   color: #2d3748;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  padding: 16px 24px;
+  padding: 14px 18px;
   border-bottom: 3px solid transparent;
   margin-bottom: -3px;
   transition: all 0.25s ease;
   position: relative;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
 }
 
 .navigation-tabs a::after {

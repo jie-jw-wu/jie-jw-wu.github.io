@@ -11,7 +11,9 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 **Note on My Name:** I often go by JW, a simple abbreviation of my name. If you wish to use my original name, _**杰 (Jie)**_, you can listen to its pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) — roughly "JEE-yeh" in English. Please feel free to use whichever form you find most comfortable. I publish under the name "Jie JW Wu".
 
-<span style="color:#c2185b;"> **🎓 Hiring PhD Position:** I am recruiting _strong, self-motivated_ students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. Exciting projects are available to help you pursue your research dreams. See more details in this [link](https://docs.google.com/document/d/1qbFu1VyMjT2EDe1msm9WWy2FQZsGEQljOCOXnbFVoJk/edit?tab=t.0). Due to the high volume of applications, I apologize that I’m unable to reply to each email individually. You will receive a response if your background is a good match for the position. </span>
+<span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](https://docs.google.com/document/d/1qbFu1VyMjT2EDe1msm9WWy2FQZsGEQljOCOXnbFVoJk/edit?tab=t.0). I apologize that I'm unable to reply to each email individually, please email me again if you don't hear back from me and you are still interested. </span>
+
+<span style="color:#e65100;"> **📧 MTU Students:** If you are interested in PhD positions for Fall 2026 and hourly RA opportunities, please email me directly. </span>
 
 <span style="color:#1976d2;"> **🤝 Seeking Industry Collaborations:** I am passionate about bridging academic research and industry practice to accelerate innovation and create meaningful societal impact. I welcome conversations on applying cutting-edge AI and Software Engineering research to address real-world challenges. For inquiries about our research projects or potential collaborations, please feel free to reach out via email anytime! </span>
 
@@ -131,10 +133,3 @@ document.addEventListener("DOMContentLoaded", function() {
 - Program Committee Member, [SANER 2025, Tool and Demo Track](https://conf.researchr.org/track/saner-2025/saner-2025-tool-demo-track)
 - Program Committee Member, [ASE 2024, Artifact Evaluation Track](https://conf.researchr.org/track/ase-2024/ase-2024-artifact-evaluation-track)
 - Program Committee Member, [FSE 2024, Posters Track](https://2024.esec-fse.org/track/fse-2024-posters)
-
-## Misc
-Outside research and software engineering, I'm interested in the following topics, and I'm happy to talk about it if you find any of them interesting:
-- [红楼梦 (Dream of the Red Chamber)](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber): Arguably the best 18th-century Chinese novel that describes the rise and fall of 贾's family. I'm speechless about how great the realism is in the stories. Furthermore, on top of these highly realistic stories, a higher layer exists that implies Confucianism, Buddhism, and Taoism from Chinese philosophy.
-- [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) and history of Relativity, Quantum Physics: If Einstein’s life and contributions were written as fiction, I’d have trouble believing they actually happened. His story continues to fascinate me—both scientifically and historically.
-- Basketball: I (used to) play basketball regularly.
-- Reading: with a general focus on Non-fiction, History, and Philosophy.
