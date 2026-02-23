@@ -26,7 +26,7 @@ But after several years, my thinking began to shift. Two things drove the change
 
 **First, I wanted to work on fundamental ideas.** After years of shipping code and projects, I came to realize that the impact of code, although real, is temporary: as time goes on, my code will be gradually refactored, replaced, and removed. I had experienced the cycle of shipping projects to create impact many times. What I hadn't done was pursue something more foundational: an (technical) idea that, through its dissemination, could have a longer-lasting and farther-reaching influence. That kind of work is hard, but it's what I was drawn to.
 
-**Second, I needed more intellectual freedom and space.** Years of constant production and business pressure in industry made it very difficult for me to focus wholeheartedly on the first point. As a result, most or all of your daily energy goes toward delivery and performance. I began to wonder what would be possible if I had more intellectual space to think deeply.
+**Second, I needed more intellectual freedom and space.** Years of constant production and business pressure in industry made it very difficult for me to focus wholeheartedly on the first point. As a result, much of my daily energy went toward meeting delivery and performance expectations. If the first point is truly important, one naturally wants to dedicate most of their time to it and align it with their career trajectory. I began to wonder what might be possible if I had more intellectual space to think deeply.
 
 ## Other alternatives?
 
