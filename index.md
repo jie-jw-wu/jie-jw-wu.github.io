@@ -15,8 +15,6 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 <span style="color:#e65100;"> **📧 MTU Students:** If you are interested in PhD positions for Fall 2026 and hourly RA opportunities, please email me directly. </span>
 
-<span style="color:#1976d2;"> **🤝 Seeking Industry Collaborations:** I am passionate about bridging academic research and industry practice to accelerate innovation and create meaningful societal impact. I welcome conversations on applying cutting-edge AI and Software Engineering research to address real-world challenges. For inquiries about our research projects or potential collaborations, please feel free to reach out via email anytime! </span>
-
 <h2 id="research">Research</h2>
 My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
 
