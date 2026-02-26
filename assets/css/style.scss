@@ -6,7 +6,7 @@
 /* Navigation tabs styling - Academic design */
 .navigation-tabs {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 0;
   justify-content: center;
   margin-bottom: 40px;
@@ -43,6 +43,7 @@ html {
   position: relative;
   letter-spacing: 0.2px;
   white-space: nowrap;
+  flex: 0 1 auto;
 }
 
 .navigation-tabs a::after {
@@ -88,6 +89,29 @@ h2[id] {
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 8px;
   margin-bottom: 20px;
+}
+
+/* Mobile responsive styling */
+@media (max-width: 768px) {
+  .navigation-tabs {
+    margin-bottom: 20px;
+  }
+
+  .navigation-tabs a {
+    font-size: 0.8rem;
+    padding: 12px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation-tabs {
+    margin-bottom: 15px;
+  }
+
+  .navigation-tabs a {
+    font-size: 0.75rem;
+    padding: 10px 8px;
+  }
 }
 
 /* Dark mode support */
