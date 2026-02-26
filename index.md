@@ -11,7 +11,7 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 **Note on My Name:** I often go by JW, a simple abbreviation of my name. If you wish to use my original name, _**杰 (Jie)**_, you can listen to its pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) — roughly "JEE-yeh" in English. Please feel free to use whichever form you find most comfortable. I publish under the name "Jie JW Wu".
 
-<span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](https://docs.google.com/document/d/1qbFu1VyMjT2EDe1msm9WWy2FQZsGEQljOCOXnbFVoJk/edit?tab=t.0). I apologize that I'm unable to reply to each email individually, please email me again if you don't hear back from me and you are still interested. </span>
+<span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](https://jie-jw-wu.github.io/join-us.html). I apologize that I'm unable to reply to each email individually, please email me again if you don't hear back from me and you are still interested. </span>
 
 <span style="color:#e65100;"> **📧 MTU Students:** If you are interested in PhD positions for Fall 2026 and hourly RA opportunities, please email me directly. </span>
 
