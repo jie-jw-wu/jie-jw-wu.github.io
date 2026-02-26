@@ -6,7 +6,7 @@
 /* Navigation tabs styling - Academic design */
 .navigation-tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0;
   justify-content: center;
   margin-bottom: 40px;
@@ -19,6 +19,9 @@
   z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s ease;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .navigation-tabs.scrolled {
@@ -89,29 +92,6 @@ h2[id] {
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 8px;
   margin-bottom: 20px;
-}
-
-/* Mobile responsive styling */
-@media (max-width: 768px) {
-  .navigation-tabs {
-    margin-bottom: 20px;
-  }
-
-  .navigation-tabs a {
-    font-size: 0.8rem;
-    padding: 12px 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .navigation-tabs {
-    margin-bottom: 15px;
-  }
-
-  .navigation-tabs a {
-    font-size: 0.75rem;
-    padding: 10px 8px;
-  }
 }
 
 /* Dark mode support */
