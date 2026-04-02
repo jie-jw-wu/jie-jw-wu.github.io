@@ -131,6 +131,8 @@ document.addEventListener("DOMContentLoaded", function() {
 - Reviewer, ACM Transactions on Software Engineering and Methodology
 - Reviewer, Transactions on Dependable and Secure Computing
 - Reviewer, Journal of Systems and Software
+- Reviewer, Communications of ACM
+- Program Committee Member, ICSE 2027, Research Track.
 - Program Committee Member, AIware 2025, Benchmark and Dataset Track.
 - Program Committee Member, [RAIE 2025](https://conf.researchr.org/home/icse-2025/raie-2025)
 - Program Committee Member, [CAIN 2025](https://conf.researchr.org/track/cain-2025/cain-2025-call-for-papers)
