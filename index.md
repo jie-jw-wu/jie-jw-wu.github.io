@@ -30,6 +30,12 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
+<p>⚡ <strong>Apr 2025:</strong> Our paper, GrowthHacker, has been accepted at ACM TOSEM journal! </p>
+    
+<p>⚡ <strong>Mar 2025:</strong> Two of our TOSEM journal papers (Survey paper and HumanEvalComm) have been accepted to present as Journal-First paper at FSE 2026, Montreal, Canada! </p>
+
+<p>⚡ <strong>Mar 2025:</strong> I attended the panel regarding pursuing a PhD in Computer Science at MTU! </p>
+
 <p>⚡ <strong>Nov 2025:</strong> I gave a talk at the Computer Science Colloquium, titled "Clarification-Aware Code Generation: Benchmarks, Techniques, and Open Problems"! </p>
     
 <p>⚡ <strong>Sep 2025:</strong> Our paper has been accepted at NeurIPS 2025 Workshop "GenAI in Finance"! The technique was deployed in the financial production system at <a href="https://charliai.com/">Charli AI</a>. Congrats team! </p>
