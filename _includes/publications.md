@@ -138,7 +138,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>ACM TOSEM (to appear)</em></div>
+    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2026 (to appear)</em></div>
   </div>
 </div>
 </li>
