@@ -13,7 +13,7 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 <span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](https://jie-jw-wu.github.io/join-us.html). I apologize that I'm unable to reply to each email individually, please email me again if you don't hear back from me and you are still interested. </span>
 
-<span style="color:#e65100;"> **📧 MTU Students:** If you are interested in PhD positions for Fall 2026 and hourly RA opportunities, please email me directly. </span>
+<span style="color:#e65100;"> **📧 MTU Students:** Paid Undergraduate Research Opportunity available in Agentic Software Engineering (Paid, 2026–2027). If you are interested, please email me directly (deadline: Apr 14th). </span>
 
 <h2 id="research">Research</h2>
 My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
