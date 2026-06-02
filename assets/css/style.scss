@@ -95,6 +95,36 @@ h2[id] {
 }
 
 /* ── Lab page styles ── */
+.lab-banner {
+  position: relative;
+  width: 100%;
+  margin: 0 0 24px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+.lab-banner-img {
+  width: 100%;
+  display: block;
+  max-height: 320px;
+  object-fit: cover;
+  object-position: center top;
+}
+.lab-banner-mtu {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+  background: rgba(255,255,255,0.88);
+  border-radius: 8px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s;
+}
+.lab-banner-mtu:hover { background: rgba(255,255,255,1); }
+.lab-banner-mtu img { height: 44px; width: auto; }
+
 .lab-header-logos {
   display: flex;
   align-items: center;
