@@ -5,6 +5,55 @@ title: Join Our Research Group
 
 # Join Our Research Group
 
+---
+
+## Research Opportunity for MTU Students (Undergrad & Graduate)
+
+> **For Michigan Technological University students only.**
+
+<div class="hiring-callout" markdown="1">
+
+### Agentic Software Engineering — Summer & Fall 2026
+
+We are recruiting **undergraduate and graduate (MS/PhD) students at Michigan Tech** to join [JWare Lab](lab.html) in the Department of Computer Science.
+
+**What is Agentic Software Engineering?**
+Agentic Software Engineering explores how AI agents, powered by large language models, can autonomously assist with software development — code generation, debugging, testing, and optimization. Tools like Claude Code, GitHub Copilot, Cursor, and Windsurf are already changing how developers write software. We investigate the science behind making these tools more reliable, effective, and accessible.
+
+**Research Topics**
+
+Students will have the opportunity to work on cutting-edge topics such as (but not limited to):
+
+- **Quality Assurance Methodologies for Agentic Coding** — How do we test, validate, and ensure the correctness of code produced by AI agents? What new QA strategies are needed when the "developer" is an LLM?
+- **Agentic Workflows for Scientists and Engineers** — How can AI agents support domain experts who need software but aren't professional developers?
+- **Agentic Coding for Novice or Experienced Programmers** — How do AI coding agents change the learning experience for beginners? What are the risks and research opportunities when developers rely on agentic tools?
+- **Any other potential topic in AI for software engineering, or software engineering for AI**
+
+**What You'll Gain**
+- Hands-on research experience on real scientific problems
+- Experience with open-source projects impacting developers and scientists
+- Mentorship on research and software development at the AI × SE intersection
+- Opportunity to contribute to publications at top software engineering venues
+- A strong foundation for graduate school applications
+
+**Who Should Apply**
+- Highly motivated to conduct research in AI-assisted software engineering
+- Comfortable with GitHub and Python (or another language), with strong execution ability
+- Interested in pursuing graduate study (PhD preferred, or Master's)
+- Prior experience with LLMs or agentic tools is a plus, but not required
+
+**How to Apply**
+
+Email **[jie.jw.wu@mtu.edu](mailto:jie.jw.wu@mtu.edu)** with subject: **"Research Opportunity at MTU"**
+
+Include: your resume · a brief statement of interest (1–2 paragraphs) · any relevant experience (courses, projects, research)
+
+*We welcome students from all backgrounds as long as they are highly motivated and have good execution ability.*
+
+</div>
+
+---
+
 ## PhD Positions in AI for Software Engineering
 
 - **Start Term:** Fall 2026
@@ -60,4 +109,4 @@ Michigan Tech is located in Houghton, in Michigan's scenic Upper Peninsula, near
 </div>
 
 
-[← Back to Homepage](index.md)
+[← Back to Homepage](index.html)
