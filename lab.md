@@ -7,9 +7,11 @@ title: JWare Lab
   <img src="assets/img/jware-lab-logo.png" alt="JWare Lab" style="width: 100%; max-width: 420px; border-radius: 12px;">
 </div>
 
-# JWare Lab
+# JWare Lab · 杰件实验室
 
 **Principled & Safe AI-Assisted Software Engineering**
+
+The name *Jie* (杰) means **greatness** — so **JWare** means **Great Software**. This reflects our core belief: we want to empower every student in the JWare Lab to build great software throughout their future career.
 
 JWare Lab investigates quality foundations and principles in AI-assisted software engineering — spanning the **full software development lifecycle** (design, coding, testing, review, deployment, and maintenance). We focus on quality and safety in the new era of AI-generated code, ensuring that AI tools enhance rather than erode engineering rigor at every stage of development.
 
@@ -21,10 +23,6 @@ JWare Lab investigates quality foundations and principles in AI-assisted softwar
 
 - **Indrajeet Roy** *(incoming Fall 2026)*
 - **Joshana Shakya** *(incoming Fall 2026)*
-
-### MS Students
-
-- **Prateek Singh**
 
 ### Undergraduate Students
 
