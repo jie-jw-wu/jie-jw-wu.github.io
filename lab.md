@@ -6,10 +6,8 @@ title: JWare Lab
 <div class="lab-hero">
   <div class="lab-hero-inner">
     <img src="assets/img/jware-lab-log.png" alt="JWare Lab" class="lab-hero-logo">
-    <p class="lab-hero-tagline">Principled &amp; Safe AI-Assisted Software Engineering</p>
     <a href="https://www.cs.mtu.edu" target="_blank" class="lab-affiliation">
       <img src="assets/img/mtu-logo.png" alt="Michigan Technological University" class="lab-mtu-logo">
-      <span>Department of Computer Science</span>
     </a>
   </div>
 </div>

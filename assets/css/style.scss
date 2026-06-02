@@ -114,35 +114,19 @@ h2[id] {
   margin-left: auto;
   margin-right: auto;
 }
-.lab-hero-tagline {
-  color: rgba(255,255,255,0.9);
-  font-size: 1.05rem;
-  font-style: italic;
-  margin: 0 0 20px;
-  letter-spacing: 0.3px;
-}
 .lab-affiliation {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.25);
-  border-radius: 40px;
-  padding: 8px 18px 8px 12px;
   text-decoration: none;
-  transition: background 0.2s;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+  margin-top: 4px;
 }
-.lab-affiliation:hover { background: rgba(255,255,255,0.2); }
+.lab-affiliation:hover { opacity: 1; }
 .lab-mtu-logo {
-  height: 32px;
+  height: 40px;
   width: auto;
   filter: brightness(0) invert(1);
-}
-.lab-affiliation span {
-  color: rgba(255,255,255,0.9);
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.2px;
 }
 
 /* Body container */
