@@ -5,9 +5,8 @@ title: JWare Lab
 
 <div class="lab-header-logos">
   <img src="assets/img/jware-lab-log.png" alt="JWare Lab" style="max-width: 360px; width: 100%; border-radius: 10px;">
-  <a href="https://www.mtu.edu" target="_blank" class="mtu-badge">
-    <span class="mtu-badge-m">M</span>
-    <span class="mtu-badge-text"><strong>Michigan Tech</strong><br>Department of Computer Science</span>
+  <a href="https://www.mtu.edu" target="_blank">
+    <img src="assets/img/mtu-logo.png" alt="Michigan Technological University" style="max-width: 160px; width: 100%;">
   </a>
 </div>
 
