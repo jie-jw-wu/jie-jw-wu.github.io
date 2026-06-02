@@ -8,7 +8,7 @@ title: JWare Lab
 </div>
 <div style="text-align: right; margin: 0 0 24px;">
   <a href="https://www.cs.mtu.edu" target="_blank">
-    <img src="assets/img/mtu-logo.png" alt="Michigan Technological University" style="height: 36px; width: auto; opacity: 0.85;">
+    <img src="assets/img/mtu-husky.png" alt="Michigan Technological University" style="height: 80px; width: auto;">
   </a>
 </div>
 
