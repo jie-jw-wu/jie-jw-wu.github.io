@@ -95,163 +95,71 @@ h2[id] {
 }
 
 /* ── Lab page styles ── */
-
-/* Hero banner */
-.lab-hero {
-  background: linear-gradient(160deg, #1a365d 0%, #2c5282 60%, #2b6cb0 100%);
-  margin: -20px -20px 0 -20px;
-  padding: 48px 24px 36px;
-  text-align: center;
-}
-.lab-hero-inner { max-width: 680px; margin: 0 auto; }
-.lab-hero-logo {
-  max-width: 420px;
-  width: 90%;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.lab-affiliation {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  opacity: 0.85;
-  transition: opacity 0.2s;
-  margin-top: 4px;
-}
-.lab-affiliation:hover { opacity: 1; }
-.lab-mtu-logo {
-  height: 40px;
-  width: auto;
-  filter: brightness(0) invert(1);
-}
-
-/* Body container */
-.lab-body { max-width: 720px; margin: 0 auto; padding: 8px 0 24px; }
-
-/* Sections */
-.lab-section { margin: 36px 0; }
-.lab-section-title {
-  font-size: 1.1rem !important;
-  font-weight: 700 !important;
-  color: #1a365d !important;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  border-bottom: 2px solid #e2e8f0 !important;
-  padding-bottom: 8px !important;
-  margin-bottom: 20px !important;
-}
-.lab-group-title {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #718096;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  margin: 20px 0 12px;
-}
-
-/* Member cards */
-.lab-members-grid {
+.lab-header-logos {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
-  gap: 14px;
+  margin: 30px 0 24px;
 }
-.lab-card {
+
+.mtu-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  border: 2px solid #2c5282;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: #2c5282;
+  transition: background 0.2s;
+}
+.mtu-badge:hover { background: rgba(44, 82, 130, 0.06); }
+.mtu-badge-m {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #2c5282;
+  line-height: 1;
+}
+.mtu-badge-text { font-size: 0.82rem; line-height: 1.4; color: #2c5282; }
+
+.research-themes { margin: 16px 0 8px; }
+.research-theme {
   display: flex;
   flex-direction: column;
+  gap: 2px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.research-theme:last-child { border-bottom: none; }
+.research-theme strong { color: #2c5282; font-size: 0.95rem; }
+.research-theme span { font-size: 0.88rem; color: #4a5568; }
+
+.lab-member {
+  display: flex;
   align-items: center;
-  text-align: center;
-  background: #f7f9ff;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  padding: 18px 20px 14px;
-  width: 150px;
-  transition: box-shadow 0.2s, transform 0.2s;
+  gap: 14px;
+  margin: 10px 0;
 }
-.lab-card:hover {
-  box-shadow: 0 4px 16px rgba(44,82,130,0.12);
-  transform: translateY(-2px);
-}
-.lab-card-avatar {
-  width: 52px;
-  height: 52px;
+.lab-avatar {
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #2c5282, #4299e1);
+  background: #2c5282;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-  margin-bottom: 10px;
-}
-.lab-card-name { font-size: 0.88rem; font-weight: 600; color: #1a365d; line-height: 1.3; }
-.lab-card-role { font-size: 0.75rem; color: #4a5568; margin-top: 3px; }
-.lab-card-note { font-size: 0.72rem; color: #a0aec0; margin-top: 2px; font-style: italic; }
-
-/* News list */
-.lab-news {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.lab-news li {
-  padding: 10px 0;
-  border-bottom: 1px solid #f0f4f8;
-  font-size: 0.92rem;
-  color: #2d3748;
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-}
-.lab-news li:last-child { border-bottom: none; }
-.lab-news-date {
-  background: #ebf4ff;
-  color: #2c5282;
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 2px 8px;
-  border-radius: 10px;
-  white-space: nowrap;
+  font-size: 0.85rem;
   flex-shrink: 0;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
 }
+.lab-member-info { display: flex; flex-direction: column; gap: 2px; }
+.lab-member-info strong { font-size: 0.95rem; color: #1a365d; }
+.lab-member-info span { font-size: 0.83rem; color: #718096; }
 
-/* Join us banner */
-.lab-join-banner {
-  background: linear-gradient(135deg, #ebf8ff 0%, #f0fff4 100%);
-  border: 1px solid #bee3f8;
-  border-radius: 10px;
-  padding: 20px 24px !important;
-  margin-top: 32px !important;
-}
-.lab-join-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.lab-join-text { font-size: 0.92rem; color: #2d3748; flex: 1; min-width: 200px; }
-.lab-join-btn {
-  display: inline-block;
-  background: #2c5282;
-  color: white !important;
-  text-decoration: none;
-  padding: 9px 20px;
-  border-radius: 6px;
-  font-size: 0.88rem;
-  font-weight: 600;
-  white-space: nowrap;
-  transition: background 0.2s;
-}
-.lab-join-btn:hover { background: #1a365d; }
-
-/* Hiring callout (used in join-us) */
 .hiring-callout {
   border-left: 4px solid #ffb81c;
   background: #f7f9ff;
@@ -294,16 +202,15 @@ h2[id] {
     scroll-padding-top: 35px;
   }
 
-  .lab-section-title { color: #90cdf4 !important; border-bottom-color: #4a5568 !important; }
-  .lab-group-title { color: #a0aec0; }
-  .lab-card { background: #1e2a3a; border-color: #4a5568; }
-  .lab-card-name { color: #e2e8f0; }
-  .lab-card-role { color: #a0aec0; }
-  .lab-card-note { color: #718096; }
-  .lab-news li { color: #e2e8f0; border-bottom-color: #2d3748; }
-  .lab-news-date { background: #1a365d; color: #90cdf4; }
-  .lab-join-banner { background: #1a2a3a; border-color: #2c5282; }
-  .lab-join-text { color: #e2e8f0; }
+  .mtu-badge { border-color: #90cdf4; color: #90cdf4; }
+  .mtu-badge:hover { background: rgba(99, 179, 237, 0.1); }
+  .mtu-badge-m { color: #90cdf4; }
+  .mtu-badge-text { color: #90cdf4; }
+  .research-theme { border-bottom-color: #4a5568; }
+  .research-theme strong { color: #90cdf4; }
+  .research-theme span { color: #a0aec0; }
+  .lab-member-info strong { color: #e2e8f0; }
+  .lab-member-info span { color: #a0aec0; }
   .hiring-callout { background: #1e2a3a; border-left-color: #ffb81c; }
   .hiring-callout h3 { color: #90cdf4; }
 }
