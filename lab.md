@@ -3,12 +3,10 @@ layout: standalone
 title: JWare Lab
 ---
 
-<div style="text-align: center; margin: 28px 0 6px;">
-  <img src="assets/img/jware-lab-log.png" alt="JWare Lab" style="max-width: 480px; width: 100%;">
-</div>
-<div style="text-align: right; margin: 0 0 24px;">
-  <a href="https://www.cs.mtu.edu" target="_blank">
-    <img src="assets/img/mtu-husky.png" alt="Michigan Technological University" style="height: 80px; width: auto;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 32px; flex-wrap: wrap; margin: 28px 0 20px;">
+  <img src="assets/img/jware-lab-log.png" alt="JWare Lab" style="max-width: 400px; width: 70%;">
+  <a href="https://www.cs.mtu.edu" target="_blank" style="display: flex; align-items: center; border-left: 1px solid #e2e8f0; padding-left: 32px; flex-shrink: 0;">
+    <img src="assets/img/mtu-husky.png" alt="Michigan Technological University" style="height: 90px; width: auto;">
   </a>
 </div>
 
