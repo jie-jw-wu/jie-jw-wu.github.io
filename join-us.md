@@ -7,13 +7,13 @@ title: Join Our Research Group
 
 ---
 
-## Positions for MTU Students (Undergrad & Graduate)
+## Research Opportunity for MTU Students (Undergrad & Graduate)
 
 > **For Michigan Technological University students only.**
 
 <div class="hiring-callout" markdown="1">
 
-### Research Opportunity: Agentic Software Engineering — Summer & Fall 2026
+### Agentic Software Engineering — Summer & Fall 2026
 
 We are recruiting **undergraduate and graduate (MS/PhD) students at Michigan Tech** to join [JWare Lab](lab.html) in the Department of Computer Science.
 
@@ -21,10 +21,13 @@ We are recruiting **undergraduate and graduate (MS/PhD) students at Michigan Tec
 Agentic Software Engineering explores how AI agents, powered by large language models, can autonomously assist with software development — code generation, debugging, testing, and optimization. Tools like Claude Code, GitHub Copilot, Cursor, and Windsurf are already changing how developers write software. We investigate the science behind making these tools more reliable, effective, and accessible.
 
 **Research Topics**
-- **Quality Assurance for Agentic Coding** — testing and validating code produced by AI agents
-- **Agentic Workflows for Scientists & Engineers** — AI agents supporting domain experts with software needs
-- **Agentic Coding for Novice & Experienced Programmers** — studying learning, risk, and opportunity
-- **AI for SE / SE for AI** — any topic at the intersection of AI and software engineering
+
+Students will have the opportunity to work on cutting-edge topics such as (but not limited to):
+
+- **Quality Assurance Methodologies for Agentic Coding** — How do we test, validate, and ensure the correctness of code produced by AI agents? What new QA strategies are needed when the "developer" is an LLM?
+- **Agentic Workflows for Scientists and Engineers** — How can AI agents support domain experts who need software but aren't professional developers?
+- **Agentic Coding for Novice or Experienced Programmers** — How do AI coding agents change the learning experience for beginners? What are the risks and research opportunities when developers rely on agentic tools?
+- **Any other potential topic in AI for software engineering, or software engineering for AI**
 
 **What You'll Gain**
 - Hands-on research experience on real scientific problems
