@@ -4,7 +4,7 @@ title: JWare Lab
 ---
 
 <div style="text-align: center; margin: 28px 0 6px;">
-  <img src="assets/img/jware-lab-cropped.png" alt="JWare Lab" style="max-width: 480px; width: 100%;">
+  <img src="assets/img/jware-lab-log.png" alt="JWare Lab" style="max-width: 480px; width: 100%;">
 </div>
 <div style="text-align: right; margin: 0 0 24px;">
   <a href="https://www.cs.mtu.edu" target="_blank">
@@ -13,8 +13,6 @@ title: JWare Lab
 </div>
 
 # JWare Lab · 杰件实验室
-
-**Principled & Safe AI-Assisted Software Engineering**
 
 The name *Jie* (杰) means **greatness** — so **JWare** means **Great Software**. We want to empower every student in the JWare Lab to build great software throughout their career.
 
