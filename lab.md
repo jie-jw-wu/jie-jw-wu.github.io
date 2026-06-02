@@ -4,7 +4,7 @@ title: JWare Lab
 ---
 
 <div style="text-align: center; margin: 30px 0 20px 0;">
-  <img src="assets/img/jware-lab-logo.png" alt="JWare Lab" style="width: 100%; max-width: 420px; border-radius: 12px;">
+  <img src="assets/img/jware-lab.png" alt="JWare Lab" style="width: 100%; max-width: 420px; border-radius: 12px;">
 </div>
 
 # JWare Lab · 杰件实验室
