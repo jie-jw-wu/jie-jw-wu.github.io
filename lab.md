@@ -3,10 +3,12 @@ layout: standalone
 title: JWare Lab
 ---
 
-<div class="lab-header-logos">
-  <img src="assets/img/jware-lab-log.png" alt="JWare Lab" style="max-width: 360px; width: 100%; border-radius: 10px;">
-  <a href="https://www.mtu.edu" target="_blank">
-    <img src="assets/img/mtu-logo.png" alt="Michigan Technological University" style="max-width: 160px; width: 100%;">
+<div style="text-align: center; margin: 28px 0 6px;">
+  <img src="assets/img/jware-lab-cropped.png" alt="JWare Lab" style="max-width: 480px; width: 100%;">
+</div>
+<div style="text-align: right; margin: 0 0 24px;">
+  <a href="https://www.cs.mtu.edu" target="_blank">
+    <img src="assets/img/mtu-logo.png" alt="Michigan Technological University" style="height: 36px; width: auto; opacity: 0.85;">
   </a>
 </div>
 
@@ -21,6 +23,16 @@ JWare Lab investigates quality foundations and principles in AI-assisted softwar
 ---
 
 ## Lab Members
+
+### Faculty
+
+<div class="lab-member">
+  <div class="lab-avatar">JW</div>
+  <div class="lab-member-info">
+    <strong><a href="index.html">Dr. Jie Wu</a></strong>
+    <span>Principal Investigator</span>
+  </div>
+</div>
 
 ### PhD Students
 
@@ -40,13 +52,13 @@ JWare Lab investigates quality foundations and principles in AI-assisted softwar
   </div>
 </div>
 
-### Undergraduate Researchers
+### Undergraduate Students
 
 <div class="lab-member">
   <div class="lab-avatar">GD</div>
   <div class="lab-member-info">
     <strong>Gabe Dautovi</strong>
-    <span>Undergraduate Researcher</span>
+    <span>Undergraduate Student</span>
   </div>
 </div>
 
@@ -54,7 +66,7 @@ JWare Lab investigates quality foundations and principles in AI-assisted softwar
   <div class="lab-avatar">AS</div>
   <div class="lab-member-info">
     <strong>Andrew Sadler</strong>
-    <span>Undergraduate Researcher</span>
+    <span>Undergraduate Student</span>
   </div>
 </div>
 
