@@ -4,7 +4,7 @@ title: JWare Lab
 ---
 
 <div class="lab-banner">
-  <img src="assets/img/jware-lab-cropped.png" alt="JWare Lab" class="lab-banner-img">
+  <img src="assets/img/jware-lab-crop.png" alt="JWare Lab" class="lab-banner-img">
   <a href="https://www.cs.mtu.edu" target="_blank" class="lab-banner-mtu">
     <img src="assets/img/mtu-husky.png" alt="Michigan Tech">
   </a>
