@@ -122,14 +122,6 @@ h2[id] {
   width: auto;
   object-fit: contain;
 }
-.lab-chinese-name {
-  text-align: center;
-  font-size: 0.88rem;
-  color: #718096;
-  letter-spacing: 2px;
-  margin: 8px 0 20px;
-}
-
 .lab-banner-mtu {
   display: flex;
   align-items: center;
@@ -253,7 +245,6 @@ h2[id] {
   .research-theme { border-bottom-color: #4a5568; }
   .research-theme strong { color: #90cdf4; }
   .research-theme span { color: #a0aec0; }
-  .lab-chinese-name { color: #a0aec0; }
   .lab-member-info strong { color: #e2e8f0; }
   .lab-member-info span { color: #a0aec0; }
   .hiring-callout { background: #1e2a3a; border-left-color: #ffb81c; }

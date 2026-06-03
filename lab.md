@@ -11,7 +11,7 @@ title: JWare Lab
   </a>
 </div>
 
-<p class="lab-chinese-name">杰件实验室</p>
+JWare Lab (杰件实验室) is affiliated with the [Department of Computer Science](https://www.cs.mtu.edu) at Michigan Technological University.
 
 **JWare** takes its name from the PI's first name, *Jie* (pronounced "jyeh", 杰), a character meaning greatness. This reflects our aspiration: that software, built with the right foundations, can be truly great.
 
