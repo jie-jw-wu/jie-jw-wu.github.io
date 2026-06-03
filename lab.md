@@ -11,11 +11,9 @@ title: JWare Lab
   </a>
 </div>
 
-JWare Lab (杰件实验室) is affiliated with the [Department of Computer Science](https://www.cs.mtu.edu) at Michigan Technological University.
+JWare Lab (杰件实验室) is affiliated with the [Department of Computer Science](https://www.cs.mtu.edu) at Michigan Technological University. The name *JWare* is inspired by the PI's first name, *Jie* (pronounced "jyeh", 杰), a character meaning greatness. This reflects our aspiration: that software, built with the right foundations, can be truly great.
 
-**JWare** takes its name from the PI's first name, *Jie* (pronounced "jyeh", 杰), a character meaning greatness. This reflects our aspiration: that software, built with the right foundations, can be truly great.
-
-JWare Lab investigates the foundations, principles, and methodologies that make AI-assisted software engineering rigorous and trustworthy. Our research spans the **full software development lifecycle**: design, coding, testing, review, deployment, and maintenance. We are committed to ensuring that AI tools elevate the quality and safety of software, rather than erode it.
+We investigate the foundations, principles, and methodologies that make AI-assisted software engineering rigorous and trustworthy. Our research spans the full software development lifecycle: design, coding, testing, review, deployment, and maintenance. We are committed to ensuring that AI tools elevate the quality and safety of software, rather than erode it.
 
 ---
 
