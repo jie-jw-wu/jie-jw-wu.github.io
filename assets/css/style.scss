@@ -94,7 +94,7 @@ h2[id] {
   margin-bottom: 20px;
 }
 
-/* ── Lab page styles ── */
+/* ── Lab page styles v2 ── */
 .lab-banner {
   display: flex;
   align-items: center;
@@ -102,20 +102,25 @@ h2[id] {
   gap: 0;
   background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
   border-radius: 12px;
-  padding: 28px 40px;
+  padding: 24px 40px 24px 32px;
   margin: 0 0 28px;
 }
 .lab-banner-jware {
-  height: 160px;
+  height: 140px;
   width: auto;
   object-fit: contain;
 }
 .lab-banner-divider {
   width: 1px;
-  height: 120px;
+  height: 100px;
   background: rgba(255,255,255,0.25);
-  margin: 0 36px;
+  margin: 0 28px;
   flex-shrink: 0;
+}
+.lab-banner-husky {
+  height: 110px;
+  width: auto;
+  object-fit: contain;
 }
 .lab-banner-mtu {
   display: flex;
@@ -125,11 +130,6 @@ h2[id] {
   transition: opacity 0.2s;
 }
 .lab-banner-mtu:hover { opacity: 1; }
-.lab-banner-husky {
-  height: 160px;
-  width: auto;
-  object-fit: contain;
-}
 
 .lab-header-logos {
   display: flex;
