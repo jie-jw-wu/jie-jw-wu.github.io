@@ -127,7 +127,6 @@
     <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*Equal Contribution)</div>
     <div class="links">
        <a href="https://dl.acm.org/doi/10.1145/3815588" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-       <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <a href="https://github.com/jie-jw-wu/ope-agent" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wuherlihy2025growthhacker" style="display: none;">
