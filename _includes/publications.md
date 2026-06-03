@@ -123,11 +123,12 @@
     <abbr class="badge">GrowthHacker</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2511.00802">GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents</a></div>
+    <div class="title"><a href="https://dl.acm.org/doi/10.1145/3815588">GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents</a></div>
     <div class="author"><strong>Jie JW Wu</strong>*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*Equal Contribution)</div>
     <div class="links">
+       <a href="https://dl.acm.org/doi/10.1145/3815588" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
        <a href="https://arxiv.org/pdf/2511.00802" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
-       <a href="https://zenodo.org/records/17496870" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <a href="https://github.com/jie-jw-wu/ope-agent" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wuherlihy2025growthhacker" style="display: none;">
             @article{wuherlihy2025growthhacker,
