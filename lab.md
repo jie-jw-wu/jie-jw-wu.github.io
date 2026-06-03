@@ -3,11 +3,11 @@ layout: standalone
 title: JWare Lab
 ---
 
-<div class="lab-header">
-  <img src="assets/img/jware-lab-crop.png" alt="JWare Lab" class="lab-header-logo">
-  <a href="https://www.cs.mtu.edu" target="_blank" class="lab-header-affiliation">
-    <img src="assets/img/mtu-husky.png" alt="Michigan Tech" class="lab-header-husky">
-    <span>Michigan Technological University · Department of Computer Science</span>
+<div class="lab-banner">
+  <img src="assets/img/jware-lab-logo-crop.png" alt="JWare Lab" class="lab-banner-jware">
+  <div class="lab-banner-divider"></div>
+  <a href="https://www.cs.mtu.edu" target="_blank" class="lab-banner-mtu">
+    <img src="assets/img/mtu-husky.png" alt="Michigan Technological University" class="lab-banner-husky">
   </a>
 </div>
 

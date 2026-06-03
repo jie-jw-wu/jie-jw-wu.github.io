@@ -95,31 +95,41 @@ h2[id] {
 }
 
 /* ── Lab page styles ── */
-.lab-header {
-  text-align: center;
-  padding: 32px 0 20px;
-  border-bottom: 1px solid #e2e8f0;
-  margin-bottom: 28px;
-}
-.lab-header-logo {
-  max-width: 500px;
-  width: 100%;
-  display: block;
-  margin: 0 auto 18px;
-}
-.lab-header-affiliation {
-  display: inline-flex;
+.lab-banner {
+  display: flex;
   align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: #4a5568;
-  font-size: 0.84rem;
-  transition: color 0.2s;
+  justify-content: center;
+  gap: 0;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  border-radius: 12px;
+  padding: 28px 40px;
+  margin: 0 0 28px;
 }
-.lab-header-affiliation:hover { color: #2c5282; }
-.lab-header-husky {
-  height: 28px;
+.lab-banner-jware {
+  height: 160px;
   width: auto;
+  object-fit: contain;
+}
+.lab-banner-divider {
+  width: 1px;
+  height: 120px;
+  background: rgba(255,255,255,0.25);
+  margin: 0 36px;
+  flex-shrink: 0;
+}
+.lab-banner-mtu {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.92;
+  transition: opacity 0.2s;
+}
+.lab-banner-mtu:hover { opacity: 1; }
+.lab-banner-husky {
+  height: 160px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 .lab-header-logos {
@@ -236,9 +246,6 @@ h2[id] {
   .research-theme { border-bottom-color: #4a5568; }
   .research-theme strong { color: #90cdf4; }
   .research-theme span { color: #a0aec0; }
-  .lab-header { border-bottom-color: #4a5568; }
-  .lab-header-affiliation { color: #a0aec0; }
-  .lab-header-affiliation:hover { color: #90cdf4; }
   .lab-member-info strong { color: #e2e8f0; }
   .lab-member-info span { color: #a0aec0; }
   .hiring-callout { background: #1e2a3a; border-left-color: #ffb81c; }
