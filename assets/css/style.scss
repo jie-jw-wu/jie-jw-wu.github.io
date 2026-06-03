@@ -95,35 +95,32 @@ h2[id] {
 }
 
 /* ── Lab page styles ── */
-.lab-banner {
-  position: relative;
-  width: 100%;
-  margin: 0 0 24px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+.lab-header {
+  text-align: center;
+  padding: 32px 0 20px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 28px;
 }
-.lab-banner-img {
+.lab-header-logo {
+  max-width: 500px;
   width: 100%;
   display: block;
-  max-height: 320px;
-  object-fit: cover;
-  object-position: center top;
+  margin: 0 auto 18px;
 }
-.lab-banner-mtu {
-  position: absolute;
-  bottom: 12px;
-  right: 14px;
-  background: rgba(255,255,255,0.88);
-  border-radius: 8px;
-  padding: 6px 8px;
-  display: flex;
+.lab-header-affiliation {
+  display: inline-flex;
   align-items: center;
-  backdrop-filter: blur(4px);
-  transition: background 0.2s;
+  gap: 10px;
+  text-decoration: none;
+  color: #4a5568;
+  font-size: 0.84rem;
+  transition: color 0.2s;
 }
-.lab-banner-mtu:hover { background: rgba(255,255,255,1); }
-.lab-banner-mtu img { height: 44px; width: auto; }
+.lab-header-affiliation:hover { color: #2c5282; }
+.lab-header-husky {
+  height: 28px;
+  width: auto;
+}
 
 .lab-header-logos {
   display: flex;
@@ -239,6 +236,9 @@ h2[id] {
   .research-theme { border-bottom-color: #4a5568; }
   .research-theme strong { color: #90cdf4; }
   .research-theme span { color: #a0aec0; }
+  .lab-header { border-bottom-color: #4a5568; }
+  .lab-header-affiliation { color: #a0aec0; }
+  .lab-header-affiliation:hover { color: #90cdf4; }
   .lab-member-info strong { color: #e2e8f0; }
   .lab-member-info span { color: #a0aec0; }
   .hiring-callout { background: #1e2a3a; border-left-color: #ffb81c; }
