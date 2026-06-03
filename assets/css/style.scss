@@ -197,13 +197,13 @@ h2[id] {
 .lab-member-info span { font-size: 0.83rem; color: #718096; }
 
 .hiring-callout {
-  border-left: 4px solid #ffb81c;
+  border-left: 4px solid #3182ce;
   background: #f7f9ff;
   padding: 20px 24px;
   border-radius: 0 8px 8px 0;
   margin: 20px 0;
 }
-.hiring-callout h3 { color: #2c5282; margin-top: 0; }
+.hiring-callout h2, .hiring-callout h3 { color: #2c5282; margin-top: 0; }
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
@@ -247,6 +247,6 @@ h2[id] {
   .research-theme span { color: #a0aec0; }
   .lab-member-info strong { color: #e2e8f0; }
   .lab-member-info span { color: #a0aec0; }
-  .hiring-callout { background: #1e2a3a; border-left-color: #ffb81c; }
-  .hiring-callout h3 { color: #90cdf4; }
+  .hiring-callout { background: #1e2a3a; border-left-color: #3182ce; }
+  .hiring-callout h2, .hiring-callout h3 { color: #90cdf4; }
 }
