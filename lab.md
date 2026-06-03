@@ -13,9 +13,9 @@ title: JWare Lab
 
 # JWare Lab · 杰件实验室
 
-The name *Jie* (杰) means **greatness** — so **JWare** means **Great Software**. We want to empower every student in the JWare Lab to build great software throughout their career.
+**JWare** takes its name from the PI's first name, *Jie* (pronounced "jyeh", 杰), a character meaning greatness. This reflects our aspiration: that software, built with the right foundations, can be truly great.
 
-JWare Lab investigates quality foundations and principles in AI-assisted software engineering — spanning the **full software development lifecycle** (design, coding, testing, review, deployment, and maintenance). We focus on quality and safety in the new era of AI-generated code, ensuring that AI tools enhance rather than erode engineering rigor at every stage.
+JWare Lab investigates the foundations, principles, and methodologies that make AI-assisted software engineering rigorous and trustworthy. Our research spans the **full software development lifecycle** — design, coding, testing, review, deployment, and maintenance — with a commitment to ensuring that AI tools elevate the quality and safety of software, rather than erode it.
 
 ---
 
