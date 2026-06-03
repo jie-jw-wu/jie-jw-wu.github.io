@@ -72,7 +72,7 @@ JWare Lab investigates quality foundations and principles in AI-assisted softwar
 ## News
 
 - **Jun 2026** — Indrajeet Roy and Joshana Shakya join as incoming PhD students (Fall 2026)
-- **Jun 2026** — JWare Lab launches in the Department of Computer Science at Michigan Tech
+- **Jun 2026** — JWare Lab website live in the Department of Computer Science at Michigan Tech
 - **Jun 2026** — Research positions open for undergrad and graduate students — Summer & Fall 2026
 
 ---
