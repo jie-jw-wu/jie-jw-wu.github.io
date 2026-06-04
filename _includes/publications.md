@@ -133,12 +133,12 @@
             @article{wuherlihy2025growthhacker,
               title={GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents},
               author={Wu, Jie JW and Herlihy, Ayanda Patrick and Mirza, Ahmad Saleem and Afoud, Ali and Fard, Fatemeh},
-              journal={ACM Transactions on Software Engineering and Methodology (to appear)},
+              journal={ACM Transactions on Software Engineering and Methodology},
               year={2026}
             }
           </textarea>
      </div>
-    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2026 (to appear)</em></div>
+    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2026</em></div>
   </div>
 </div>
 </li>
