@@ -7,7 +7,7 @@ title: Join Our Research Group
 
 ---
 
-<div class="hiring-callout" markdown="1">
+<div class="hiring-callout" id="mtu-students" markdown="1">
 
 ## Research Opportunity for MTU Students (Undergrad & Graduate) — Summer & Fall 2026
 
@@ -52,7 +52,7 @@ Include: your resume · a brief statement of interest (1–2 paragraphs) · any 
 
 ---
 
-<div class="hiring-callout" markdown="1">
+<div class="hiring-callout hiring-callout-phd" id="phd-positions" markdown="1">
 
 ## PhD Positions in AI for Software Engineering — Fall 2026
 
