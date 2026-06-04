@@ -81,4 +81,6 @@ We are actively recruiting undergraduate and graduate students at Michigan Tech.
 
 ---
 
+{% include_relative _includes/publications.md %}
+
 [← Back to Homepage](index.html)
