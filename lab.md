@@ -32,17 +32,17 @@ We investigate the quality foundations, principles, and methodologies that make 
 ### PhD Students
 
 <div class="lab-member">
-  <div class="lab-avatar">IR</div>
+  <div class="lab-avatar">JS</div>
   <div class="lab-member-info">
-    <strong>Indrajeet Roy</strong>
+    <strong>Joshana Shakya</strong>
     <span>PhD Student (incoming Fall 2026)</span>
   </div>
 </div>
 
 <div class="lab-member">
-  <div class="lab-avatar">JS</div>
+  <div class="lab-avatar">IR</div>
   <div class="lab-member-info">
-    <strong>Joshana Shakya</strong>
+    <strong>Indrajeet Roy</strong>
     <span>PhD Student (incoming Fall 2026)</span>
   </div>
 </div>
