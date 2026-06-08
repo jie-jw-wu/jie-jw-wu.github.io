@@ -119,8 +119,19 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/growth_hacker.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">GrowthHacker</abbr>
+    <abbr class="badge">MetaMorphic Testing</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</div>
+    <div class="author"><strong>Jie JW Wu</strong>, Feiyu E, Bo Chen</div>
+    <div class="links">
+       <span style="font-size:12px; color:#888;">Paper coming soon</span>
+    </div>
+    <div class="periodical"><em>AIware 2026 (Arxiv Track)</em></div>
+  </div>
+</div>
+</li>
+
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/10.1145/3815588">GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents</a></div>

@@ -30,6 +30,8 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
+<p>⚡ <strong>Jun 2026:</strong> Our paper, "Metamorphic Testing for Clinical ML Models", has been accepted at AIware 2026 (Arxiv Track)! </p>
+
 <p>⚡ <strong>Apr 2025:</strong> Our paper, GrowthHacker, has been accepted at ACM TOSEM journal! </p>
     
 <p>⚡ <strong>Mar 2025:</strong> Two of our TOSEM journal papers (Survey paper and HumanEvalComm) have been accepted to present as Journal-First paper at FSE 2026, Montreal, Canada! </p>
