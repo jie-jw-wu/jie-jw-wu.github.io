@@ -125,7 +125,7 @@
     <div class="title">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</div>
     <div class="author"><strong>Jie JW Wu</strong>, Feiyu E, Bo Chen</div>
     <div class="links">
-       <span style="font-size:12px; color:#888;">Paper coming soon</span>
+       <span class="btn btn-sm z-depth-0" style="font-size:12px; color:#888; cursor:default;">Coming Soon</span>
     </div>
     <div class="periodical"><em>AIware 2026 (Arxiv Track)</em></div>
   </div>
