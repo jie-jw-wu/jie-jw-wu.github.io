@@ -130,11 +130,12 @@ document.addEventListener("DOMContentLoaded", function() {
 - **COSC 320: Analysis of Algorithm**, undergrad course for a class of 80 students, University of British Columbia, Fall 2024
 
 <h2 id="services">Services</h2>
-- Reviewer, IEEE Transactions on Software Engineering
-- Reviewer, ACM Transactions on Software Engineering and Methodology
-- Reviewer, Transactions on Dependable and Secure Computing
-- Reviewer, Journal of Systems and Software
-- Reviewer, Communications of ACM
+- Publicity and Social-Media co-chair, CAIN 2027
+- Reviewer, IEEE Transactions on Software Engineering, 2025
+- Reviewer, ACM Transactions on Software Engineering and Methodology, 2025, 2026
+- Reviewer, Transactions on Dependable and Secure Computing, 2025
+- Reviewer, Journal of Systems and Software, 2025
+- Reviewer, Communications of ACM, 2026
 - Program Committee Member, ICSE 2027, Research Track.
 - Program Committee Member, AIware 2025, Benchmark and Dataset Track.
 - Program Committee Member, [RAIE 2025](https://conf.researchr.org/home/icse-2025/raie-2025)
