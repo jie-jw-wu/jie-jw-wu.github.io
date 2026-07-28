@@ -86,6 +86,8 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications">
+
+<h2 class="year">2026</h2>
 <ol class="bibliography">
 
  
@@ -168,6 +170,10 @@
   </div>
 </div>
 </li>
+</ol>
+
+<h2 class="year">2025</h2>
+<ol class="bibliography">
 
 <li>
 <div class="pub-row">
@@ -253,6 +259,10 @@
   </div>
 </div>
 </li>
+</ol>
+
+<h2 class="year">2024</h2>
+<ol class="bibliography">
 
 <li>
 <div class="pub-row">
@@ -335,6 +345,10 @@
   </div>
 </div>
 </li>
+</ol>
+
+<h2 class="year">2023</h2>
+<ol class="bibliography">
 
 <li>
 <div class="pub-row">
@@ -448,7 +462,10 @@
   </div>
 </div>
 </li>
-  
+</ol>
+
+<h2 class="year">Earlier</h2>
+<ol class="bibliography">
 
 <li>
 <div class="pub-row">
@@ -496,6 +513,7 @@
   </div>
 </div>
 </li>
+</ol>
 
 <script>
   // BibTeX copy function
@@ -515,5 +533,4 @@
 
 <br>
 
-</ol>
 </div>
