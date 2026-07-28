@@ -61,33 +61,6 @@
 </li>
 
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/merge_repair.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">MergeRepair</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
-    <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
-    <div class="links">
-       <a href="https://arxiv.org/pdf/2408.09568" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
-       <a href="https://github.com/mqddd/mergerepair" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
-          <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
-            @article{dehghan2024mergerepair,
-              title={MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair},
-              author={Dehghan, Meghdad and Wu, Jie JW and Fard, Fatemeh H and Ouni, Ali},
-              journal={arXiv preprint arXiv:2408.09568},
-              year={2024}
-            }
-          </textarea>
-     </div>
-    <div class="periodical"><em>(Accepted RR. Under Review) </em></div>
-  </div>
-</div>
-</li>
-
 <script>
   // BibTeX copy function
   function copyBibtex(entryID) {
@@ -119,14 +92,50 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/merge_repair.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">MergeRepair</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
+    <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
+    <div class="links">
+       <a href="https://arxiv.org/pdf/2408.09568" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <a href="https://github.com/mqddd/mergerepair" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
+            @article{dehghan2024mergerepair,
+              title={MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair},
+              author={Dehghan, Meghdad and Wu, Jie JW and Fard, Fatemeh H and Ouni, Ali},
+              journal={arXiv preprint arXiv:2408.09568},
+              year={2024}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>Empirical Software Engineering (Accepted)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/CLINMT.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MetaMorphic Testing</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</div>
+    <div class="title"><a href="https://arxiv.org/abs/2607.22898">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</a></div>
     <div class="author"><strong>Jie JW Wu</strong>, Feiyu E, Bo Chen</div>
     <div class="links">
-       <span class="btn btn-sm z-depth-0" style="font-size:12px; color:#888; cursor:default;">Coming Soon</span>
+       <a href="https://arxiv.org/abs/2607.22898" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2026metamorphic')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wu2026metamorphic" style="display: none;">
+            @article{wu2026metamorphic,
+              title={Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study},
+              author={Wu, Jie JW and E, Feiyu and Chen, Bo},
+              journal={arXiv preprint arXiv:2607.22898},
+              year={2026}
+            }
+          </textarea>
     </div>
     <div class="periodical"><em>AIware 2026 (Arxiv Track)</em></div>
   </div>
