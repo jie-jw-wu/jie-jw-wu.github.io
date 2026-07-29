@@ -251,7 +251,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 </em></div>
+    <div class="periodical"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 (Presented at FSE 2026)</em></div>
   </div>
 </div>
 </li>
@@ -281,7 +281,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em> ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 </em></div>
+    <div class="periodical"><em> ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 (Presented at FSE 2026)</em></div>
   </div>
 </div>
 </li>
