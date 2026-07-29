@@ -7,6 +7,32 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">AssumptionMiner</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2607.22898">AssumptionMiner: Extracting, Tracing, and Revising Implicit Assumptions in LLM Code Generation</a></div>
+    <div class="author"><strong>Jie JW Wu</strong></div>
+    <div class="links">
+       <a href="https://arxiv.org/abs/2607.22898" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2026assumptionminer')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wu2026assumptionminer" style="display: none;">
+            @article{wu2026assumptionminer,
+              title={AssumptionMiner: Extracting, Tracing, and Revising Implicit Assumptions in LLM Code Generation},
+              author={Wu, Jie JW},
+              journal={arXiv preprint arXiv:2607.22898},
+              year={2026}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>(Under Review)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/MANTRA.PNG" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MANTRA</abbr>
   </div>
@@ -113,7 +139,7 @@
             }
           </textarea>
      </div>
-    <div class="periodical"><em>Empirical Software Engineering (Accepted)</em></div>
+    <div class="periodical"><em>Empirical Software Engineering (EMSE), 2026 (Accepted)</em></div>
   </div>
 </div>
 </li>
@@ -125,19 +151,10 @@
     <abbr class="badge">MetaMorphic Testing</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2607.22898">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</a></div>
+    <div class="title">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</div>
     <div class="author"><strong>Jie JW Wu</strong>, Feiyu E, Bo Chen</div>
     <div class="links">
-       <a href="https://arxiv.org/abs/2607.22898" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
-       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2026metamorphic')" style="font-size: 12px;">Copy BibTeX</button>
-          <textarea id="bibtex_wu2026metamorphic" style="display: none;">
-            @article{wu2026metamorphic,
-              title={Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study},
-              author={Wu, Jie JW and E, Feiyu and Chen, Bo},
-              journal={arXiv preprint arXiv:2607.22898},
-              year={2026}
-            }
-          </textarea>
+       <span class="btn btn-sm z-depth-0" style="font-size:12px; color:#888; cursor:default;">Coming Soon</span>
     </div>
     <div class="periodical"><em>AIware 2026 (Arxiv Track)</em></div>
   </div>
