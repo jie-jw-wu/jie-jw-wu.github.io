@@ -151,10 +151,19 @@
     <abbr class="badge">MetaMorphic Testing</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</div>
+    <div class="title"><a href="https://arxiv.org/abs/2607.22984">Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</a></div>
     <div class="author"><strong>Jie JW Wu</strong>, Feiyu E, Bo Chen</div>
     <div class="links">
-       <span class="btn btn-sm z-depth-0" style="font-size:12px; color:#888; cursor:default;">Coming Soon</span>
+       <a href="https://arxiv.org/abs/2607.22984" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2026metamorphic')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_wu2026metamorphic" style="display: none;">
+            @article{wu2026metamorphic,
+              title={Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study},
+              author={Wu, Jie JW and E, Feiyu and Chen, Bo},
+              journal={arXiv preprint arXiv:2607.22984},
+              year={2026}
+            }
+          </textarea>
     </div>
     <div class="periodical"><em>AIware 2026 (Arxiv Track)</em></div>
   </div>
