@@ -15,6 +15,7 @@
     <div class="author"><strong>Jie JW Wu</strong></div>
     <div class="links">
        <a href="https://arxiv.org/abs/2607.22898" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <a href="https://doi.org/10.5281/zenodo.21535058" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2026assumptionminer')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wu2026assumptionminer" style="display: none;">
             @article{wu2026assumptionminer,
