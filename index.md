@@ -137,6 +137,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - Reviewer, Journal of Systems and Software, 2025
 - Reviewer, Communications of ACM, 2026
 - Program Committee Member, ICSE 2027, Research Track.
+- Program Committee Member, CAIN 2027
 - Program Committee Member, AIware 2025, Benchmark and Dataset Track.
 - Program Committee Member, [RAIE 2025](https://conf.researchr.org/home/icse-2025/raie-2025)
 - Program Committee Member, [CAIN 2025](https://conf.researchr.org/track/cain-2025/cain-2025-call-for-papers)
