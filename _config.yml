@@ -41,3 +41,12 @@ exclude:
   - README_de.md
   - LICENSE
   - minimal-light.gemspec
+
+# Blog
+permalink: /blog/:title.html
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

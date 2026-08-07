@@ -1,9 +1,9 @@
 ---
-layout: standalone
+layout: post
 title: Why I Returned from Industry to Academia
+permalink: /why-academia.html
+description: A reflection on leaving a decade in industry for fundamental ideas and intellectual freedom.
 ---
-
-# Why I Returned from Industry to Academia
 
 ## Motivation
 
@@ -35,5 +35,3 @@ Some people ask: Why not just switch teams within the company?  As a former coll
 ## Looking Back
 
 In retrospect, leaving industry and returning to academia as a postdoc, and now as a faculty member, feels like stepping away from other work to train seriously for a competitive basketball tournament — I would regret not trying it at least once in my lifetime. Some may not fully relate to this choice, and that is understandable. I hope this helps clarify it. Finally, my years of experience as a developer have changed the way I approach research, and I believe it is beneficial for both developers and researchers to understand more about the other side.
-
-[← Back to Homepage](index.md)
