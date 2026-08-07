@@ -30,6 +30,8 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
+<p>⚡ <strong>Jul 2026:</strong> Our paper, "MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair", has been accepted at Empirical Software Engineering (EMSE) Journal! </p>
+
 <p>⚡ <strong>Jun 2026:</strong> Our paper, "Metamorphic Testing for Clinical ML Models", has been accepted at AIware 2026 (Arxiv Track)! </p>
 
 <p>⚡ <strong>Apr 2025:</strong> Our paper, GrowthHacker, has been accepted at ACM TOSEM journal! </p>
