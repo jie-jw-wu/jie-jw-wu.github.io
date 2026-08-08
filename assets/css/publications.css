@@ -80,3 +80,28 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: contain; }
+
+/* ── Blog styles ── */
+.post-list { margin-top: 1.2rem; }
+
+.post-entry { margin-bottom: 1.5rem; }
+
+.post-date { color: #888; font-size: 0.85rem; margin: 0 0 0.15rem; }
+
+.post-title { font-size: 1.05rem; font-weight: 600; }
+
+.post-summary { margin-top: 0.15rem; }
+
+.blog-post h1 { margin-bottom: 0.2rem; }
+
+.blog-post .post-date { margin-bottom: 1.6rem; }
+
+.blog-post img { max-width: 100%; height: auto; }
+
+.post-figure { margin: 1.6rem 0; text-align: center; }
+
+.post-figure img { max-width: 100%; height: auto; border-radius: 3px; }
+
+.post-figure img.bordered { border: 1px solid #e5e5e5; }
+
+.post-figure figcaption { font-size: 0.8rem; color: #888; margin-top: 0.4rem; line-height: 1.4; }

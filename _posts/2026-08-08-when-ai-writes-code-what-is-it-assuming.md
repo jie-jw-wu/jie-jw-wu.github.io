@@ -14,9 +14,12 @@ In our new paper, we call these guesses *implicit assumptions*, and we measured 
 
 A typical AI response — fewer than a dozen lines of code — silently makes at least **five** decisions you never agreed to: it scrambles passwords with MD5 (a method security experts have considered broken since the mid-2000s), issues session tokens that never expire, keeps all sessions in temporary memory that vanishes on restart, and more.
 
-<img src="{{ '/assets/img/blog/am-assumptions-before-after.png' | relative_url }}" alt="Left: five implicit assumptions hidden in AI-generated authentication code. Right: AssumptionMiner surfaces them as an explicit, editable list." style="width: 100%; max-width: 780px; display: block; margin: 24px auto;">
-
-<p style="text-align: center; font-size: 13px; color: #888; margin-top: -12px;">Left: five assumptions hide silently in a dozen lines of AI-generated code. Right: AssumptionMiner surfaces them as an explicit, editable list.</p>
+<figure class="post-figure">
+  <a href="{{ '/assets/img/blog/am-assumptions-before-after.png' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/blog/am-assumptions-before-after.png' | relative_url }}" alt="Left: five implicit assumptions hidden in AI-generated authentication code. Right: AssumptionMiner surfaces them as an explicit, editable list.">
+  </a>
+  <figcaption>Left: five assumptions hide silently in a dozen lines of AI-generated code. Right: AssumptionMiner surfaces them as an explicit, editable list. <em>(click to enlarge)</em></figcaption>
+</figure>
 
 The concerning part: this code *works*. It runs, it passes tests, it looks professional. As we put it in the paper, generated code can pass its tests while violating the developer's intent. Across the 180 programming tasks in our benchmark, 86% involved silent decisions about input checking and 81% about error handling. Security assumptions were rare (3%) — but those are the ones that hurt the most.
 
@@ -28,9 +31,12 @@ Our tool, **AssumptionMiner**, makes the AI show its work. Three steps:
 2. **Trace** — link each assumption to the exact lines of code it shaped, using a map of the code's structure.
 3. **Revise** — let you accept, edit, or reject each assumption. Reject "MD5" and the tool regenerates *only* the affected code, leaving the rest untouched.
 
-<img src="{{ '/assets/img/blog/am-interface.png' | relative_url }}" alt="Screenshot of the AssumptionMiner web interface: generated code on the left, a reviewable list of assumption records on the right, each with Accept, Edit, and Reject buttons." style="width: 100%; max-width: 780px; display: block; margin: 24px auto; border: 1px solid #e5e5e5; border-radius: 4px;">
-
-<p style="text-align: center; font-size: 13px; color: #888; margin-top: -12px;">The AssumptionMiner interface: generated code on the left, the assumptions behind it on the right — each one reviewable like a checklist.</p>
+<figure class="post-figure">
+  <a href="{{ '/assets/img/blog/am-interface.png' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/blog/am-interface.png' | relative_url }}" alt="Screenshot of the AssumptionMiner web interface: generated code on the left, a reviewable list of assumption records on the right, each with Accept, Edit, and Reject buttons." class="bordered">
+  </a>
+  <figcaption>The AssumptionMiner interface: generated code on the left, the assumptions behind it on the right — each one reviewable like a checklist. <em>(click to enlarge)</em></figcaption>
+</figure>
 
 ## Does it work?
 
