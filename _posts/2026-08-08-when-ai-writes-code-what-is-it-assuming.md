@@ -12,7 +12,7 @@ In our new paper, we call these guesses *implicit assumptions*, and we measured 
 
 > "Implement a user authentication system that checks credentials and returns a session token."
 
-A typical AI response — about a dozen lines of code — silently makes at least **five** decisions you never agreed to: it stores passwords with MD5 (an encryption method broken for decades), issues session tokens that never expire, keeps all sessions in temporary memory that vanishes on restart, and more.
+A typical AI response — fewer than a dozen lines of code — silently makes at least **five** decisions you never agreed to: it scrambles passwords with MD5 (a method security experts have considered broken since the mid-2000s), issues session tokens that never expire, keeps all sessions in temporary memory that vanishes on restart, and more.
 
 <img src="{{ '/assets/img/blog/am-assumptions-before-after.png' | relative_url }}" alt="Left: five implicit assumptions hidden in AI-generated authentication code. Right: AssumptionMiner surfaces them as an explicit, editable list." style="width: 100%; max-width: 780px; display: block; margin: 24px auto;">
 
@@ -34,9 +34,9 @@ Our tool, **AssumptionMiner**, makes the AI show its work. Three steps:
 
 ## Does it work?
 
-Using only open-source AI models, AssumptionMiner correctly recovers assumptions with an F1 score of 0.816 — roughly, it finds most of them with few false alarms — about **3.6× better** than the best tool that doesn't use AI. One striking comparison: extracting assumptions from code comments finds almost nothing, because *developers and AIs simply don't write their assumptions down*. And when you revise an assumption, targeted regeneration changes less than half as much code as regenerating from scratch.
+Using only open-source AI models, AssumptionMiner reaches an F1 score of 0.816 at spotting *what kind* of hidden decision the AI made — roughly, it catches most of them with few false alarms, and about **3.6× better** than the best method that uses no AI at all. One striking comparison: reading the code's own comments recovers almost none of these decisions, because *developers and AIs simply don't write their assumptions down*. And when you revise an assumption, targeted regeneration changes less than half as much code as regenerating from scratch.
 
-We're equally upfront about what's unsolved. Under our strictest evaluation, the best open-source result drops to 0.66 — identifying the *precise design decision* behind each assumption remains an open problem. And cascading edits, where fixing one assumption invalidates another, still trip the system up. That's the honest frontier of this research.
+We're equally upfront about what's unsolved. Under a stricter test that also requires naming the *specific* decision rather than just its category, the best open-source score falls to 0.66 — pinpointing exactly what the AI decided remains an open problem. And cascading edits, where fixing one assumption invalidates another, still trip the system up. That's the honest frontier of this research.
 
 ## Why this matters beyond programmers
 
