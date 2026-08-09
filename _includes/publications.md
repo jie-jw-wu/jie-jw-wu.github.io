@@ -406,32 +406,6 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/dissertation.JPG" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Dissertation</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.proquest.com/docview/2784774986?fromopenview=true&pq-origsite=gscholar">Towards Formalizing Data-Driven Decision-Making from Big Data: A Systematic Multi-Criteria Decision-Making Approach in Online Controlled Experiments</a></div>
-    <div class="author"><strong>Jie JW Wu</strong></div>
-    <div class="periodical"><em>Ph.D. Dissertation</em></div>
-    <div class="links">
-      <a href="https://jie-jw-wu.github.io/assets/jw_ldm_slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
-      <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2023towards')" style="font-size: 12px;">Copy BibTeX</button>
-        <textarea id="bibtex_wu2023towards" style="display: none;">
-         @phdthesis{wu2023towards,
-          title={Towards Formalizing Data-Driven Decision-Making from Big Data: A Systematic Multi-Criteria Decision-Making Approach in Online Controlled Experiments},
-          author={Wu, Jie JW},
-          year={2023},
-          school={The George Washington University}
-        }
-        </textarea>
-    </div>
-  </div>
-</div>
-</li>
-  
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/movsw.JPG" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MOVSW</abbr>
   </div>
