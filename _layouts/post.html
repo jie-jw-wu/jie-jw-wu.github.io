@@ -3,7 +3,7 @@ layout: sidebar
 ---
 <article class="blog-post">
   <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
-  <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+  <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} · by {{ page.author }}{% endif %}</p>
 
   {{ content }}
 

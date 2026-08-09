@@ -11,7 +11,7 @@ Occasional writing on research, careers, and the intersection of software engine
 <div class="post-list">
 {% for post in site.posts %}
   <div class="post-entry">
-    <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+    <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} · by {{ post.author }}{% endif %}</div>
     <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     {% if post.description %}<div class="post-summary">{{ post.description }}</div>{% endif %}
   </div>
