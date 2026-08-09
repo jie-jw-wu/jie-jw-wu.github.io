@@ -105,3 +105,15 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .post-figure img.bordered { border: 1px solid #e5e5e5; }
 
 .post-figure figcaption { font-size: 0.8rem; color: #888; margin-top: 0.4rem; line-height: 1.4; }
+
+.paper-reference { margin-top: 2.2rem; padding: 1rem 1.2rem; border-left: 3px solid var(--global-theme-color); background: rgba(0, 45, 114, 0.03); }
+
+.paper-reference h2 { margin-top: 0 !important; font-size: 1.05rem !important; letter-spacing: 0.03em; text-transform: uppercase; }
+
+.paper-reference .citation { margin-bottom: 0.5rem; }
+
+.paper-reference .paper-links { font-size: 0.9rem; margin-bottom: 0.4rem; }
+
+.bibtex-details summary { cursor: pointer; font-size: 0.85rem; color: #888; }
+
+.bibtex-details pre { font-size: 0.75rem; line-height: 1.45; white-space: pre-wrap; word-break: break-word; padding: 0.7rem; background: rgba(0, 0, 0, 0.04); border-radius: 3px; margin-top: 0.5rem; }

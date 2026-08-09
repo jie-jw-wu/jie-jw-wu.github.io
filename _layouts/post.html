@@ -7,6 +7,27 @@ layout: standalone
 
   {{ content }}
 
+  {% if page.paper %}
+  <div class="paper-reference">
+    <h2>Reference</h2>
+    <p class="citation">
+      {{ page.paper.authors }}.
+      {% if page.paper.url %}<a href="{{ page.paper.url }}" target="_blank" rel="noopener">{{ page.paper.title }}</a>{% else %}{{ page.paper.title }}{% endif %}.
+      <em>{{ page.paper.venue }}</em>{% if page.paper.year %}, {{ page.paper.year }}{% endif %}.
+    </p>
+    <p class="paper-links">
+      {% if page.paper.url %}<a href="{{ page.paper.url }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+      {% if page.paper.code %} · <a href="{{ page.paper.code }}" target="_blank" rel="noopener">Code &amp; data</a>{% endif %}
+    </p>
+    {% if page.paper.bibtex %}
+    <details class="bibtex-details">
+      <summary>BibTeX</summary>
+      <pre>{{ page.paper.bibtex }}</pre>
+    </details>
+    {% endif %}
+  </div>
+  {% endif %}
+
   <hr>
 
   <p><a href="{{ '/blog.html' | relative_url }}">← Back to Blog</a> · <a href="{{ '/index.html' | relative_url }}">Homepage</a></p>

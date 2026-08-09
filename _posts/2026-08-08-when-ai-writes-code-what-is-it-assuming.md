@@ -2,6 +2,20 @@
 title: When AI Writes Code, What Is It Assuming?
 description: AI coding tools don't ask questions when your request is vague — they guess, silently. Our new paper makes those guesses visible.
 permalink: /blog/what-is-ai-assuming.html
+paper:
+  title: "AssumptionMiner: Extracting, Tracing, and Revising Implicit Assumptions in LLM Code Generation"
+  authors: Jie JW Wu
+  venue: arXiv preprint arXiv:2607.22898 [cs.SE]
+  year: 2026
+  url: https://arxiv.org/abs/2607.22898
+  code: https://doi.org/10.5281/zenodo.21535058
+  bibtex: |
+    @article{wu2026assumptionminer,
+      title={AssumptionMiner: Extracting, Tracing, and Revising Implicit Assumptions in LLM Code Generation},
+      author={Wu, Jie JW},
+      journal={arXiv preprint arXiv:2607.22898},
+      year={2026}
+    }
 ---
 
 Imagine you hire a contractor and say, "I'd like more counter space in my kitchen." They nod, disappear for a week, and return having removed your stove. Technically: more counter space. But a good contractor would have *asked* before deciding.
@@ -49,7 +63,3 @@ We're equally upfront about what's unsolved. Under a stricter test that also req
 AI-written software is entering your banking app, your car, your hospital. "Does the code run?" is no longer the right question. The right question is: **"What did the AI assume?"** — and we believe every AI coding tool should eventually answer it, the way a good contractor walks you through the plan before tearing out walls.
 
 This continues our group's work on trustworthy AI-generated code: we previously showed that AI models rarely ask clarifying questions ([HumanEvalComm](https://arxiv.org/pdf/2406.00215), TOSEM 2025) and trained models to ask instead of guess ([ClarifyCoder](https://arxiv.org/abs/2504.16331)). AssumptionMiner covers the other side: when the AI has already guessed, drag the guesses into the light.
-
----
-
-📄 Paper: [arXiv:2607.22898](https://arxiv.org/abs/2607.22898) · 💾 Benchmark, code, and tool: [Zenodo](https://doi.org/10.5281/zenodo.21535058)
