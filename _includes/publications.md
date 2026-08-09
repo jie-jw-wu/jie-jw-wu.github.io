@@ -166,7 +166,7 @@
             }
           </textarea>
     </div>
-    <div class="periodical"><em>AIware 2026 (Arxiv Track)</em></div>
+    <div class="periodical"><em>3rd ACM International Conference on AI-powered Software (AIware 2026), Arxiv Track</em></div>
   </div>
 </div>
 </li>
