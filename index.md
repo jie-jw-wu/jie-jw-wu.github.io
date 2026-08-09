@@ -18,7 +18,7 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 <h2 id="research">Research</h2>
 My research topic is **Trustworthy AIware** — I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline.
 
-My current focus is **intent-aware software engineering**: developing AI-assisted techniques that align AI behavior with developer intent, while helping humans understand, guide, and verify AI-generated software to enable high-quality and safe software development. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**, and emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
+My current focus is **intent-aware software engineering**: developing AI-assisted techniques that align AI behavior with developer intent, while helping humans understand, guide, and verify AI-generated software to enable high-quality and safe software development. My work is closely related to the fields of **human-AI alignment, software quality assurance, and empirical evaluation of AI systems**, and emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
 
 
 
