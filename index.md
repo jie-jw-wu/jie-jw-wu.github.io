@@ -16,7 +16,9 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 <span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](https://jie-jw-wu.github.io/join-us.html). I apologize that I'm unable to reply to each email individually. </span>
 
 <h2 id="research">Research</h2>
-My research topic is **Trustworthy AIware** - I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**. My research emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
+My research topic is **Trustworthy AIware** — I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline.
+
+Within this mission, my current focus is **intent-aware software engineering**: developing AI-assisted techniques that align AI behavior with developer intent, while keeping developers in control of AI-generated software to enable high-quality and safe software development. My work is closely related to the fields of **human-centered AI, AI alignment, and practical software engineering**, and emphasizes people (human-centered), feedback loops, and process—grounded in a systems-thinking mindset.
 
 
 
@@ -25,7 +27,7 @@ My research topic is **Trustworthy AIware** - I am passionate about turning the 
 </div>
 
 
-**Keywords**: AI for Software Engineering (AI4SE), Software Engineering for AI (SE4AI), Large Language Models (LLMs), Data Science, Systems Science and Engineering
+**Keywords**: Intent-Aware Software Engineering, AI for Software Engineering (AI4SE), Software Engineering for AI (SE4AI), Large Language Models (LLMs), Agentic AI, Systems Science and Engineering
 <h2 id="news">News</h2>
 
 <div id="news-section">
