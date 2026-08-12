@@ -172,15 +172,19 @@ h2[id] {
 .research-theme strong { color: #2c5282; font-size: 0.95rem; }
 .research-theme span { font-size: 0.88rem; color: #4a5568; }
 
+// Avatar size drives the whole row: the gap and the vertical rhythm are
+// derived from it, so changing $lab-avatar-size rescales the list cleanly.
+$lab-avatar-size: 84px;
+
 .lab-member {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin: 10px 0;
+  gap: $lab-avatar-size * 0.24;
+  margin: $lab-avatar-size * 0.21 0;
 }
 .lab-avatar {
-  width: 56px;
-  height: 56px;
+  width: $lab-avatar-size;
+  height: $lab-avatar-size;
   border-radius: 50%;
   background: #2c5282;
   color: white;
@@ -188,10 +192,13 @@ h2[id] {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: $lab-avatar-size * 0.22;
   flex-shrink: 0;
   letter-spacing: 0.5px;
   overflow: hidden;
+  // Several headshots have near-white backgrounds; without a ring their
+  // circle dissolves into the page. Drawn outside, so it costs no layout.
+  box-shadow: 0 0 0 1px rgba(45, 55, 72, 0.12);
 }
 // Photo avatars: the source headshots are pre-cropped to a square with the
 // face centered, so a plain cover fill keeps every head the same size.
@@ -201,9 +208,18 @@ h2[id] {
   object-fit: cover;
   display: block;
 }
-.lab-member-info { display: flex; flex-direction: column; gap: 2px; }
-.lab-member-info strong { font-size: 0.95rem; color: #1a365d; }
-.lab-member-info span { font-size: 0.83rem; color: #718096; }
+.lab-member-info { display: flex; flex-direction: column; gap: 3px; }
+.lab-member-info strong { font-size: 1rem; color: #1a365d; }
+.lab-member-info span { font-size: 0.86rem; color: #718096; }
+
+// Narrow screens: a full-size avatar leaves too little room for the role line.
+@media screen and (max-width: 480px) {
+  .lab-avatar {
+    width: $lab-avatar-size * 0.75;
+    height: $lab-avatar-size * 0.75;
+    font-size: $lab-avatar-size * 0.17;
+  }
+}
 
 .hiring-callout {
   border-left: 4px solid #3182ce;
@@ -260,6 +276,7 @@ h2[id] {
   .research-theme { border-bottom-color: #4a5568; }
   .research-theme strong { color: #90cdf4; }
   .research-theme span { color: #a0aec0; }
+  .lab-avatar { box-shadow: 0 0 0 1px rgba(226, 232, 240, 0.18); }
   .lab-member-info strong { color: #e2e8f0; }
   .lab-member-info span { color: #a0aec0; }
   .hiring-callout { background: #1e2a3a; border-left-color: #3182ce; }

@@ -29,7 +29,7 @@ MEMBERS = {
 
 TARGET_FACE_RATIO = 0.47   # face width as a fraction of the square
 FACE_CENTER_Y = 0.47       # where the face centre sits vertically in the square
-SIZE = 240                 # output pixels (56px avatar at 4x)
+SIZE = 336                 # output pixels (84px avatar at 4x)
 
 cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
