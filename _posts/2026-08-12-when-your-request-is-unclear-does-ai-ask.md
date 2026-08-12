@@ -100,9 +100,11 @@ That gap is the whole problem in one picture.
 
 ## A note on when this was measured
 
-These numbers come from the models available when we ran the study. "ChatGPT" here means `gpt-3.5-turbo-0125`, a frozen snapshot we pinned so the results would stay reproducible, and the open-source models were in the 7B–13B range: CodeLlama-13B-Instruct, CodeQwen1.5-7B-Chat, DeepSeek Coder 6.7B, and DeepSeek LLM 7B.
+Dates matter for a result like this, so here they are. **We ran these experiments in the first half of 2024**, and the first version of the paper went up on arXiv in June 2024. The journal version appeared in TOSEM in 2025, and the work was presented at FSE in 2026, but the numbers themselves come from those 2024 runs.
 
-Models have improved enormously since then. Today's frontier systems are far stronger coders, and we would expect them to score better here too. So please read the specific percentages as a snapshot of that generation, not as a claim about what GPT-5-class models do today.
+The models were the strong options available at that moment. "ChatGPT" here means `gpt-3.5-turbo-0125`, the frozen January 2024 snapshot, which we pinned deliberately so the results would stay reproducible rather than drifting under us. The four open-source models were 2023–2024 releases in the 7B–13B range: CodeLlama-13B-Instruct, CodeQwen1.5-7B-Chat, DeepSeek Coder 6.7B, and DeepSeek LLM 7B. We were limited to that size range by the GPUs we had, which is worth stating plainly too.
+
+That is several generations ago. Models have improved enormously since, and today's frontier systems are far stronger coders that would very likely score better here. Please read the specific percentages as a measurement of that 2024 cohort, not as a claim about what current models do.
 
 What we don't yet know is whether the *behavior* changed along with the capability. Being a better coder and knowing when to stop and ask are different skills, and improvements in the first don't automatically deliver the second. That's precisely why the benchmark is public: re-running it on current models is a small experiment that would settle the question, and we'd genuinely like to know the answer.
 
