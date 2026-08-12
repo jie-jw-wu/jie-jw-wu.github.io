@@ -96,6 +96,14 @@ Look at the gap between the two lines. Correctness starts falling immediately: t
 
 That gap is the whole problem in one picture.
 
+## A note on when this was measured
+
+These numbers come from the models available when we ran the study. "ChatGPT" here means `gpt-3.5-turbo-0125`, a frozen snapshot we pinned so the results would stay reproducible, and the open-source models were in the 7B–13B range: CodeLlama-13B-Instruct, CodeQwen1.5-7B-Chat, DeepSeek Coder 6.7B, and DeepSeek LLM 7B.
+
+Models have improved enormously since then. Today's frontier systems are far stronger coders, and we would expect them to score better here too. So please read the specific percentages as a snapshot of that generation, not as a claim about what GPT-5-class models do today.
+
+What we don't yet know is whether the *behavior* changed along with the capability. Being a better coder and knowing when to stop and ask are different skills, and improvements in the first don't automatically deliver the second. That's precisely why the benchmark is public: re-running it on current models is a small experiment that would settle the question, and we'd genuinely like to know the answer.
+
 ## Why this matters beyond programming
 
 Code generation is where this is easiest to measure, but it isn't where the problem ends. The same pattern shows up wherever we hand an underspecified request to an AI system and receive a fluent answer: the fluency is not evidence that the system understood you.
@@ -110,4 +118,4 @@ That's the real message of this work. Not that today's AI can't clarify, but tha
 
 This is part of a longer line of work in our group on making AI coding tools honest about what they don't know: from the [2023 position paper](https://arxiv.org/pdf/2308.13507.pdf) arguing models should ask, to this benchmark measuring whether they do, to [ClarifyCoder](https://arxiv.org/abs/2504.16331) training them to prefer asking over answering, to [AssumptionMiner]({{ '/blog/what-is-ai-assuming.html' | relative_url }}) surfacing the silent guesses a model already made when it didn't ask.
 
-**This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are public. We'd like others to build on this, and to beat our numbers.
+**This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are public, and we'd like others to build on this.
