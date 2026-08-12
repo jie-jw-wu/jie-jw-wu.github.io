@@ -5,20 +5,26 @@ plain center crop would leave heads at very different scales. We detect the
 face, then pick a crop side of face_width / TARGET_FACE_RATIO and sit the face
 slightly above centre, clamping to the image edges.
 """
+import os
+
 import cv2
 import numpy as np
 from PIL import Image, ImageOps
 
-SRC = "/home/user/jie-jw-wu.github.io/assets/img/"
-OUT = "/home/user/jie-jw-wu.github.io/assets/img/members/"
+HERE = os.path.dirname(os.path.abspath(__file__))
+IMG = os.path.normpath(os.path.join(HERE, "..", ".."))   # assets/img
+OUT = os.path.join(IMG, "members")
 
-# name in repo -> source file
+# avatar name -> source, relative to assets/img
 MEMBERS = {
-    "josh-dafoe": "josh.jfif",
-    "joshana-shakya": "joshana.jpg",
-    "indrajeet-roy": "indrajeet.png",
-    "gabe-dautovi": "gabe.jpg",
-    "andrew-sadler": "andrew.jfif",
+    # Dr. Wu's photo doubles as the site-wide avatar in _config.yml, so it
+    # stays where it is rather than moving into originals/.
+    "jie-wu": "jw_pic.jpeg",
+    "josh-dafoe": "members/originals/josh.jfif",
+    "joshana-shakya": "members/originals/joshana.jpg",
+    "indrajeet-roy": "members/originals/indrajeet.png",
+    "gabe-dautovi": "members/originals/gabe.jpg",
+    "andrew-sadler": "members/originals/andrew.jfif",
 }
 
 TARGET_FACE_RATIO = 0.47   # face width as a fraction of the square
@@ -43,7 +49,7 @@ def largest_face(rgb):
 
 
 for name, src in MEMBERS.items():
-    im = ImageOps.exif_transpose(Image.open(SRC + src)).convert("RGB")
+    im = ImageOps.exif_transpose(Image.open(os.path.join(IMG, src))).convert("RGB")
     w, h = im.size
     fx, fy, fw, fh = largest_face(np.array(im))
     cx, cy = fx + fw / 2, fy + fh / 2
@@ -54,7 +60,7 @@ for name, src in MEMBERS.items():
 
     crop = im.crop((round(x0), round(y0), round(x0 + side), round(y0 + side)))
     crop = crop.resize((SIZE, SIZE), Image.LANCZOS)
-    crop.save(OUT + name + ".jpg", "JPEG", quality=88, optimize=True,
-              progressive=True)
+    crop.save(os.path.join(OUT, name + ".jpg"), "JPEG", quality=88,
+              optimize=True, progressive=True)
     print(f"{name:16s} src {w}x{h} face {fw}px -> side {side:.0f} "
           f"(face {fw / side:.0%} of frame)")

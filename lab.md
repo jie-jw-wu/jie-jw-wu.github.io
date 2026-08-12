@@ -22,7 +22,7 @@ We investigate the quality foundations, principles, and methodologies that make 
 ### Faculty
 
 <div class="lab-member">
-  <div class="lab-avatar">JW</div>
+  <div class="lab-avatar"><img src="assets/img/members/jie-wu.jpg" alt="Jie Wu"></div>
   <div class="lab-member-info">
     <strong><a href="index.html">Dr. Jie Wu</a></strong>
     <span>Principal Investigator</span>
