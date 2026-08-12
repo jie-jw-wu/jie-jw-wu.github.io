@@ -47,7 +47,7 @@ So we built a benchmark. We took HumanEval — a standard set of 164 programming
 - **Inconsistency** — parts of the description contradict each other
 - **Incompleteness** — something essential is simply missing
 
-We also combined them in pairs, so each problem yields several broken variants. We called the result **HumanEvalComm**. It inverts the usual test: on this benchmark, writing code immediately is often the *wrong* response. The right response is a question.
+We also combined them in pairs, which yielded 762 modified problem descriptions in total. We called the result **HumanEvalComm**. It inverts the usual test: on this benchmark, writing code immediately is often the *wrong* response. The right response is a question.
 
 <figure class="post-figure">
   <a href="{{ '/assets/img/blog/hec-methodology.png' | relative_url }}" target="_blank" rel="noopener">
@@ -72,6 +72,25 @@ The silence has a price. Given the flawed descriptions, ChatGPT's accuracy fell 
 </figure>
 
 There's a quieter finding worth pausing on. Models were most likely to ask when information was outright *missing*, and least likely when the description was subtly ambiguous or self-contradictory. That's exactly backwards from what's useful. A missing input is the failure mode a developer is most likely to catch unaided. A description that reads smoothly while meaning two different things is the one that slips through review — and it's precisely where the models stay quiet.
+
+## How much can you delete before it notices?
+
+The result that stayed with us came from a simple stress test. Instead of carefully rewriting a description, we just deleted parts of it at random — 10% of the words, then 20%, and so on — and watched for the point at which the model would stop and ask what was going on.
+
+It took far longer than expected.
+
+**With half the description deleted, 95% of responses were still code.** Not a question, not a flag — a confident solution to a problem whose statement had been cut in half. Even after removing **90%** of the description, leaving barely a fragment of a sentence, the models still wrote code 46% of the time.
+
+<figure class="post-figure">
+  <a href="{{ '/assets/img/blog/hec-removal.png' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/blog/hec-removal.png' | relative_url }}" alt="Line chart showing communication rate stays near zero until about half the problem description is removed, rising to only 54% at 90% removed, while test pass rate declines steadily.">
+  </a>
+  <figcaption>The blue line is how often the model asks a question; it stays near zero until half the description is gone. The red line is code correctness, falling the whole way. For most of that decline, the model never says anything is wrong. <em>(click to enlarge)</em></figcaption>
+</figure>
+
+Look at the gap between the two lines. Correctness starts falling immediately — the model is already producing worse answers by the time 20% is missing. But the questions don't start until much later, if at all. For most of the range, the model is quietly getting things wrong and telling you nothing.
+
+That gap is the whole problem in one picture.
 
 ## Why this matters beyond programming
 
