@@ -179,8 +179,8 @@ h2[id] {
   margin: 10px 0;
 }
 .lab-avatar {
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: #2c5282;
   color: white;
@@ -188,9 +188,18 @@ h2[id] {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   flex-shrink: 0;
   letter-spacing: 0.5px;
+  overflow: hidden;
+}
+// Photo avatars: the source headshots are pre-cropped to a square with the
+// face centered, so a plain cover fill keeps every head the same size.
+.lab-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .lab-member-info { display: flex; flex-direction: column; gap: 2px; }
 .lab-member-info strong { font-size: 0.95rem; color: #1a365d; }

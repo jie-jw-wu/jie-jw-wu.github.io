@@ -32,6 +32,14 @@ We investigate the quality foundations, principles, and methodologies that make 
 ### PhD Students
 
 <div class="lab-member">
+  <div class="lab-avatar">JD</div>
+  <div class="lab-member-info">
+    <strong><a href="https://jdafoe.com/" target="_blank">Josh Dafoe</a></strong>
+    <span>PhD Student (co-advised by <a href="https://www.mtu.edu/cs/department/people/faculty/chen/" target="_blank">Prof. Bo Chen</a>)</span>
+  </div>
+</div>
+
+<div class="lab-member">
   <div class="lab-avatar">JS</div>
   <div class="lab-member-info">
     <strong>Joshana Shakya</strong>
