@@ -1,6 +1,6 @@
 ---
 title: When Your Request Is Unclear, Does AI Ask?
-description: Good engineers ask questions when instructions don't add up. We built a benchmark to test whether AI coding tools do the same. Mostly, they don't.
+description: Good engineers ask questions when instructions don't add up. We built a benchmark to test whether code models do the same, and to make it something the field can actually measure.
 permalink: /blog/does-ai-ask.html
 coauthors: Prof. Fatemeh H. Fard (University of British Columbia)
 paper:
@@ -33,9 +33,11 @@ We tend to file "asking questions" under communication, as though it were separa
 
 Every experienced engineer has internalized this. Given a vague ticket, they don't start typing. They notice the gap, name it, and get it resolved before writing a line. The recognizing is the skill: spotting that a sentence which *sounds* complete actually isn't.
 
-Now consider how we use AI coding tools. You type a request in a box, and the model answers. It always answers. Whatever you typed, precise or half-formed, consistent or self-contradictory, you get confident, well-formatted code back. The tool never says "wait, which did you mean?"
+Now consider how we use AI coding tools. You type a request in a box, and the model answers. For a long time it simply always answered: whatever you typed, precise or half-formed, consistent or self-contradictory, back came confident, well-formatted code.
 
-That should worry us more than it does. **If a system can't distinguish a clear request from a broken one, it can't tell you when it's about to build the wrong thing.**
+That is changing, and it's worth saying so plainly. The current generation of coding assistants, Claude Code and its peers among them, will sometimes stop and ask what you meant before charging ahead. They are visibly better at this than the models in our study, and some of that improvement is by design rather than accident.
+
+But "sometimes" is carrying a lot of weight in that sentence. Whether you get a question still depends on which model you're using, how the ambiguity happens to be phrased, and what scaffolding sits around the model. And as far as we can tell, nobody reports it as a number. Every leaderboard tracks whether the code was correct; none tracks whether the system noticed it had been handed a broken request. **If we can't say how reliably a tool distinguishes a clear request from a confused one, we can't say when it will quietly build the wrong thing.**
 
 I first made this argument back in 2023, in a short position paper at the MAPS workshop titled [*Large Language Models Should Ask Clarifying Questions to Increase Confidence in Generated Code*](https://arxiv.org/pdf/2308.13507.pdf). It was written at a moment when the field's attention was almost entirely on making models generate more code, faster. The paper had no experiments, just an argument from software engineering practice that we were optimizing the wrong thing, and that a model which asks a good question is often more useful than one which produces a confident answer.
 
@@ -43,7 +45,7 @@ The obvious objection to a position paper is that it might be wrong. So the next
 
 ## Putting a number on it
 
-Complaining that models don't ask questions is easy. Measuring it is harder, and until you can measure something you can't tell whether it's improving.
+Complaining that models don't ask enough questions is easy. Measuring it is harder, and until you can measure something you can't tell whether it's improving, or by how much.
 
 So we built a benchmark. We took HumanEval, a standard set of 164 programming problems widely used to test AI coding ability, and rewrote every problem description by hand to introduce a specific defect. Three kinds, drawn from how real requirements actually fail:
 
