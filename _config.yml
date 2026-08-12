@@ -41,6 +41,9 @@ exclude:
   - README_de.md
   - LICENSE
   - minimal-light.gemspec
+  # Uncropped member photos and the script that crops them. Kept in the repo
+  # so avatars can be regenerated, but nothing on the site links to them.
+  - assets/img/members/originals
 
 # Blog
 permalink: /blog/:title.html
