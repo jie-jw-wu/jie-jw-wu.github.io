@@ -1,6 +1,6 @@
 ---
 title: When Your Request Is Unclear, Does AI Ask?
-description: Good engineers ask questions when instructions don't add up. We built a benchmark to test whether AI coding tools do the same — and mostly, they don't.
+description: Good engineers ask questions when instructions don't add up. We built a benchmark to test whether AI coding tools do the same. Mostly, they don't.
 permalink: /blog/does-ai-ask.html
 coauthors: Prof. Fatemeh H. Fard (University of British Columbia)
 paper:
@@ -25,19 +25,19 @@ Picture a new engineer joining your team. On their first day you send a one-line
 
 A good hire writes back within the hour: Export to CSV or PDF? Just the current view, or all reports? What should happen if the report is still loading? A weaker hire says nothing, disappears for two days, and returns with something you have to throw away.
 
-The difference isn't coding ability. It's knowing when the instructions aren't good enough yet — and saying so.
+The difference isn't coding ability. It's knowing when the instructions aren't good enough yet, and saying so.
 
 ## Asking is not a soft skill
 
 We tend to file "asking questions" under communication, as though it were separate from the real technical work. In software it isn't. Most expensive engineering mistakes don't come from someone writing bad code; they come from someone writing perfectly good code for the wrong problem.
 
-Every experienced engineer has internalized this. Given a vague ticket, they don't start typing. They notice the gap, name it, and get it resolved before writing a line. The recognizing is the skill — spotting that a sentence which *sounds* complete actually isn't.
+Every experienced engineer has internalized this. Given a vague ticket, they don't start typing. They notice the gap, name it, and get it resolved before writing a line. The recognizing is the skill: spotting that a sentence which *sounds* complete actually isn't.
 
-Now consider how we use AI coding tools. You type a request in a box, and the model answers. It always answers. Whatever you typed — precise or half-formed, consistent or self-contradictory — you get confident, well-formatted code back. The tool never says "wait, which did you mean?"
+Now consider how we use AI coding tools. You type a request in a box, and the model answers. It always answers. Whatever you typed, precise or half-formed, consistent or self-contradictory, you get confident, well-formatted code back. The tool never says "wait, which did you mean?"
 
 That should worry us more than it does. **If a system can't distinguish a clear request from a broken one, it can't tell you when it's about to build the wrong thing.**
 
-I first made this argument back in 2023, in a short position paper at the MAPS workshop titled [*Large Language Models Should Ask Clarifying Questions to Increase Confidence in Generated Code*](https://arxiv.org/pdf/2308.13507.pdf). It was written at a moment when the field's attention was almost entirely on making models generate more code, faster. The paper had no experiments — just an argument from software engineering practice that we were optimizing the wrong thing, and that a model which asks a good question is often more useful than one which produces a confident answer.
+I first made this argument back in 2023, in a short position paper at the MAPS workshop titled [*Large Language Models Should Ask Clarifying Questions to Increase Confidence in Generated Code*](https://arxiv.org/pdf/2308.13507.pdf). It was written at a moment when the field's attention was almost entirely on making models generate more code, faster. The paper had no experiments, just an argument from software engineering practice that we were optimizing the wrong thing, and that a model which asks a good question is often more useful than one which produces a confident answer.
 
 The obvious objection to a position paper is that it might be wrong. So the next step was to find out.
 
@@ -45,11 +45,11 @@ The obvious objection to a position paper is that it might be wrong. So the next
 
 Complaining that models don't ask questions is easy. Measuring it is harder, and until you can measure something you can't tell whether it's improving.
 
-So we built a benchmark. We took HumanEval — a standard set of 164 programming problems widely used to test AI coding ability — and rewrote every problem description by hand to introduce a specific defect. Three kinds, drawn from how real requirements actually fail:
+So we built a benchmark. We took HumanEval, a standard set of 164 programming problems widely used to test AI coding ability, and rewrote every problem description by hand to introduce a specific defect. Three kinds, drawn from how real requirements actually fail:
 
-- **Ambiguity** — the description allows more than one reasonable reading
-- **Inconsistency** — parts of the description contradict each other
-- **Incompleteness** — something essential is simply missing
+- **Ambiguity**: the description allows more than one reasonable reading
+- **Inconsistency**: parts of the description contradict each other
+- **Incompleteness**: something essential is simply missing
 
 We also combined them in pairs, which yielded 762 modified problem descriptions in total. We called the result **HumanEvalComm**. It inverts the usual test: on this benchmark, writing code immediately is often the *wrong* response. The right response is a question.
 
@@ -57,16 +57,16 @@ We also combined them in pairs, which yielded 762 modified problem descriptions 
   <a href="{{ '/assets/img/blog/hec-methodology.png' | relative_url }}" target="_blank" rel="noopener">
     <img src="{{ '/assets/img/blog/hec-methodology.png' | relative_url }}" alt="Methodology diagram: 164 HumanEval problems, a taxonomy of ambiguity, inconsistency and incompleteness, then evaluation on communication rate, good question rate, and pass rates.">
   </a>
-  <figcaption>Each of 164 standard problems was rewritten by hand to introduce ambiguity, inconsistency, or incompleteness — then we measured whether models ask instead of guess. <em>(click to enlarge)</em></figcaption>
+  <figcaption>Each of 164 standard problems was rewritten by hand to introduce ambiguity, inconsistency, or incompleteness. We then measured whether models ask instead of guess. <em>(click to enlarge)</em></figcaption>
 </figure>
 
 ## What we found
 
 **More than 60% of the time, the models wrote code anyway.** Handed a description that contradicted itself or omitted something essential, most produced a confident solution instead of a question.
 
-How often a model asked varied widely, and not in a reassuring way. CodeQwen1.5-Chat asked in 4.82% of cases — roughly one time in twenty. CodeLlama managed 10.16%, ChatGPT 14.21%. The most talkative model we tested, DeepSeek Chat, reached 37.93%: still silent in nearly two out of three broken requests.
+How often a model asked varied widely, and not in a reassuring way. CodeQwen1.5-Chat asked in 4.82% of cases, roughly one time in twenty. CodeLlama managed 10.16%, ChatGPT 14.21%. The most talkative model we tested, DeepSeek Chat, reached 37.93%: still silent in nearly two out of three broken requests.
 
-The silence has a price. Given the flawed descriptions, ChatGPT's accuracy fell from 65.58% to 31.34% — **less than half** — with a similar drop in how many tests its code passed. Nothing about the programming got harder. The model simply answered a question nobody asked, and never noticed.
+The silence has a price. Given the flawed descriptions, ChatGPT's accuracy fell from 65.58% to 31.34%, **less than half**, with a similar drop in how many tests its code passed. Nothing about the programming got harder. The model simply answered a question nobody asked, and never noticed.
 
 <figure class="post-figure">
   <a href="{{ '/assets/img/blog/hec-results.png' | relative_url }}" target="_blank" rel="noopener">
@@ -75,15 +75,15 @@ The silence has a price. Given the flawed descriptions, ChatGPT's accuracy fell 
   <figcaption>Accuracy drops sharply once descriptions are flawed (compare the HmEval and HmEvalComm columns), while communication rates stay low across the board. <em>(click to enlarge)</em></figcaption>
 </figure>
 
-There's a quieter finding worth pausing on. Models were most likely to ask when information was outright *missing*, and least likely when the description was subtly ambiguous or self-contradictory. That's exactly backwards from what's useful. A missing input is the failure mode a developer is most likely to catch unaided. A description that reads smoothly while meaning two different things is the one that slips through review — and it's precisely where the models stay quiet.
+There's a quieter finding worth pausing on. Models were most likely to ask when information was outright *missing*, and least likely when the description was subtly ambiguous or self-contradictory. That's exactly backwards from what's useful. A missing input is the failure mode a developer is most likely to catch unaided. A description that reads smoothly while meaning two different things is the one that slips through review, and it's precisely where the models stay quiet.
 
 ## How much can you delete before it notices?
 
-The result that stayed with us came from a simple stress test. Instead of carefully rewriting a description, we just deleted parts of it at random — 10% of the words, then 20%, and so on — and watched for the point at which the model would stop and ask what was going on.
+The result that stayed with us came from a simple stress test. Instead of carefully rewriting a description, we just deleted parts of it at random (10% of the words, then 20%, and so on) and watched for the point at which the model would stop and ask what was going on.
 
 It took far longer than expected.
 
-**With half the description deleted, 95% of responses were still code.** Not a question, not a flag — a confident solution to a problem whose statement had been cut in half. Even after removing **90%** of the description, leaving barely a fragment of a sentence, the models still wrote code 46% of the time.
+**With half the description deleted, 95% of responses were still code.** Not a question, not a flag. A confident solution to a problem whose statement had been cut in half. Even after removing **90%** of the description, leaving barely a fragment of a sentence, the models still wrote code 46% of the time.
 
 <figure class="post-figure">
   <a href="{{ '/assets/img/blog/hec-removal.png' | relative_url }}" target="_blank" rel="noopener">
@@ -92,7 +92,7 @@ It took far longer than expected.
   <figcaption>The blue line is how often the model asks a question; it stays near zero until half the description is gone. The red line is code correctness, falling the whole way. For most of that decline, the model never says anything is wrong. <em>(click to enlarge)</em></figcaption>
 </figure>
 
-Look at the gap between the two lines. Correctness starts falling immediately — the model is already producing worse answers by the time 20% is missing. But the questions don't start until much later, if at all. For most of the range, the model is quietly getting things wrong and telling you nothing.
+Look at the gap between the two lines. Correctness starts falling immediately: the model is already producing worse answers by the time 20% is missing. But the questions don't start until much later, if at all. For most of the range, the model is quietly getting things wrong and telling you nothing.
 
 That gap is the whole problem in one picture.
 
@@ -100,14 +100,14 @@ That gap is the whole problem in one picture.
 
 Code generation is where this is easiest to measure, but it isn't where the problem ends. The same pattern shows up wherever we hand an underspecified request to an AI system and receive a fluent answer: the fluency is not evidence that the system understood you.
 
-As these tools take on more autonomy — writing larger changes, running for longer, acting with less review — the cost of a silent misunderstanding compounds. A wrong guess in ten lines of code is a nuisance. The same wrong guess propagated through an afternoon of autonomous work is expensive, and much harder to trace back to the sentence that caused it.
+As these tools take on more autonomy, writing larger changes, running for longer, acting with less review, the cost of a silent misunderstanding compounds. A wrong guess in ten lines of code is a nuisance. The same wrong guess propagated through an afternoon of autonomous work is expensive, and much harder to trace back to the sentence that caused it.
 
 We think "did it ask when it should have?" belongs alongside "was the answer correct?" as a standard measure of these systems. It's currently almost never reported.
 
-**Can it be fixed?** Encouragingly, yes — at least partly, and without new model training. As a proof of concept we built a simple agent, Okanagan, that separates writing code from judging whether there was enough information to write it. Just splitting those two steps raised the rate of asking substantially. We don't present it as a strong solution; it's a rough prototype, and roughly half the questions it asks aren't useful. What it demonstrates is headroom: models are more capable of recognizing missing information than their default behavior suggests. They mostly aren't asked to.
+**Can it be fixed?** Encouragingly, yes, at least partly, and without new model training. As a proof of concept we built a simple agent, Okanagan, that separates writing code from judging whether there was enough information to write it. Just splitting those two steps raised the rate of asking substantially. We don't present it as a strong solution; it's a rough prototype, and roughly half the questions it asks aren't useful. What it demonstrates is headroom: models are more capable of recognizing missing information than their default behavior suggests. They mostly aren't asked to.
 
-That's the real message of this work. Not that today's AI can't clarify — that we haven't been measuring whether it does, or building systems that expect it to.
+That's the real message of this work. Not that today's AI can't clarify, but that we haven't been measuring whether it does, or building systems that expect it to.
 
 This is part of a longer line of work in our group on making AI coding tools honest about what they don't know: from the [2023 position paper](https://arxiv.org/pdf/2308.13507.pdf) arguing models should ask, to this benchmark measuring whether they do, to [ClarifyCoder](https://arxiv.org/abs/2504.16331) training them to prefer asking over answering, to [AssumptionMiner]({{ '/blog/what-is-ai-assuming.html' | relative_url }}) surfacing the silent guesses a model already made when it didn't ask.
 
-**This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are public — we'd like others to build on this, and to beat our numbers.
+**This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are public. We'd like others to build on this, and to beat our numbers.
