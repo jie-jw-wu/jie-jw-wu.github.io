@@ -21,55 +21,58 @@ We investigate the quality foundations, principles, and methodologies that make 
 
 ### Faculty
 
-<div class="lab-member">
-  <div class="lab-avatar"><img src="assets/img/members/jie-wu.jpg" alt="Jie Wu"></div>
-  <div class="lab-member-info">
-    <strong><a href="index.html">Dr. Jie Wu</a></strong>
-    <span>Principal Investigator</span>
+<div class="lab-grid">
+  <div class="lab-member">
+    <div class="lab-avatar"><img src="assets/img/members/jie-wu.jpg" alt="Jie Wu"></div>
+    <div class="lab-member-info">
+      <strong><a href="index.html">Dr. Jie Wu</a></strong>
+      <span>Principal Investigator</span>
+    </div>
   </div>
 </div>
 
 ### PhD Students
 
-<div class="lab-member">
-  <div class="lab-avatar"><img src="assets/img/members/joshana-shakya.jpg" alt="Joshana Shakya"></div>
-  <div class="lab-member-info">
-    <strong>Joshana Shakya</strong>
-    <span>PhD Student (incoming Fall 2026)</span>
+<div class="lab-grid">
+  <div class="lab-member">
+    <div class="lab-avatar"><img src="assets/img/members/joshana-shakya.jpg" alt="Joshana Shakya"></div>
+    <div class="lab-member-info">
+      <strong>Joshana Shakya</strong>
+      <span>PhD Student (incoming Fall 2026)</span>
+    </div>
   </div>
-</div>
-
-<div class="lab-member">
-  <div class="lab-avatar"><img src="assets/img/members/indrajeet-roy.jpg" alt="Indrajeet Roy"></div>
-  <div class="lab-member-info">
-    <strong>Indrajeet Roy</strong>
-    <span>PhD Student (incoming Fall 2026)</span>
+  <div class="lab-member">
+    <div class="lab-avatar"><img src="assets/img/members/indrajeet-roy.jpg" alt="Indrajeet Roy"></div>
+    <div class="lab-member-info">
+      <strong>Indrajeet Roy</strong>
+      <span>PhD Student (incoming Fall 2026)</span>
+    </div>
   </div>
-</div>
-
-<div class="lab-member">
-  <div class="lab-avatar"><img src="assets/img/members/josh-dafoe.jpg" alt="Josh Dafoe"></div>
-  <div class="lab-member-info">
-    <strong><a href="https://jdafoe.com/" target="_blank">Josh Dafoe</a></strong>
-    <span>PhD Student (co-advised by <a href="https://www.mtu.edu/cs/department/people/faculty/chen/" target="_blank">Prof. Bo Chen</a>)</span>
+  <div class="lab-member">
+    <div class="lab-avatar"><img src="assets/img/members/josh-dafoe.jpg" alt="Josh Dafoe"></div>
+    <div class="lab-member-info">
+      <strong><a href="https://jdafoe.com/" target="_blank">Josh Dafoe</a></strong>
+      <span>PhD Student (co-advised by <a href="https://www.mtu.edu/cs/department/people/faculty/chen/" target="_blank">Prof. Bo Chen</a>)</span>
+    </div>
   </div>
 </div>
 
 ### Undergraduate Students
 
-<div class="lab-member">
-  <div class="lab-avatar"><img src="assets/img/members/gabe-dautovi.jpg" alt="Gabe Dautovi"></div>
-  <div class="lab-member-info">
-    <strong>Gabe Dautovi</strong>
-    <span>Undergraduate Student</span>
+<div class="lab-grid">
+  <div class="lab-member">
+    <div class="lab-avatar"><img src="assets/img/members/gabe-dautovi.jpg" alt="Gabe Dautovi"></div>
+    <div class="lab-member-info">
+      <strong>Gabe Dautovi</strong>
+      <span>Undergraduate Student</span>
+    </div>
   </div>
-</div>
-
-<div class="lab-member">
-  <div class="lab-avatar"><img src="assets/img/members/andrew-sadler.jpg" alt="Andrew Sadler"></div>
-  <div class="lab-member-info">
-    <strong>Andrew Sadler</strong>
-    <span>Undergraduate Student</span>
+  <div class="lab-member">
+    <div class="lab-avatar"><img src="assets/img/members/andrew-sadler.jpg" alt="Andrew Sadler"></div>
+    <div class="lab-member-info">
+      <strong>Andrew Sadler</strong>
+      <span>Undergraduate Student</span>
+    </div>
   </div>
 </div>
 

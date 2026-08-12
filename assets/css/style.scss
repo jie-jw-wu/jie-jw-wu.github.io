@@ -172,19 +172,31 @@ h2[id] {
 .research-theme strong { color: #2c5282; font-size: 0.95rem; }
 .research-theme span { font-size: 0.88rem; color: #4a5568; }
 
-// Avatar size drives the whole row: the gap and the vertical rhythm are
-// derived from it, so changing $lab-avatar-size rescales the list cleanly.
-$lab-avatar-size: 84px;
+// Members are cards in a grid: photo on top, name and role beneath. The
+// column floor drives how many fit per row (four in the 800px content
+// column, two on a phone) and the avatar caps how large the photo grows.
+$lab-avatar-size: 160px;
+// Keep this under half the 360px phone content width (minus the gap) so a
+// phone still gets two cards per row rather than one tall stack.
+$lab-column-min: 150px;
 
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($lab-column-min, 1fr));
+  gap: 28px 24px;
+  margin: 22px 0 32px;
+}
 .lab-member {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: $lab-avatar-size * 0.24;
-  margin: $lab-avatar-size * 0.21 0;
+  text-align: center;
+  gap: 12px;
 }
 .lab-avatar {
-  width: $lab-avatar-size;
-  height: $lab-avatar-size;
+  width: 100%;
+  max-width: $lab-avatar-size;
+  aspect-ratio: 1;
   border-radius: 50%;
   background: #2c5282;
   color: white;
@@ -192,8 +204,7 @@ $lab-avatar-size: 84px;
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: $lab-avatar-size * 0.22;
-  flex-shrink: 0;
+  font-size: $lab-avatar-size * 0.2;
   letter-spacing: 0.5px;
   overflow: hidden;
   // Several headshots have near-white backgrounds; without a ring their
@@ -208,17 +219,17 @@ $lab-avatar-size: 84px;
   object-fit: cover;
   display: block;
 }
-.lab-member-info { display: flex; flex-direction: column; gap: 3px; }
+.lab-member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
 .lab-member-info strong { font-size: 1rem; color: #1a365d; }
-.lab-member-info span { font-size: 0.86rem; color: #718096; }
-
-// Narrow screens: a full-size avatar leaves too little room for the role line.
-@media screen and (max-width: 480px) {
-  .lab-avatar {
-    width: $lab-avatar-size * 0.75;
-    height: $lab-avatar-size * 0.75;
-    font-size: $lab-avatar-size * 0.17;
-  }
+.lab-member-info span {
+  font-size: 0.86rem;
+  color: #718096;
+  line-height: 1.4;
 }
 
 .hiring-callout {
