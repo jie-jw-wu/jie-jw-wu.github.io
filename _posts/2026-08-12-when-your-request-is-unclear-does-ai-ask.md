@@ -1,6 +1,6 @@
 ---
 title: When Your Request Is Unclear, Does AI Ask?
-description: We built a benchmark to test whether code LLMs ask clarifying questions when requirements are broken. Most of the time, they don't.
+description: Good engineers ask questions when instructions don't add up. We built a benchmark to test whether AI coding tools do the same — and mostly, they don't.
 permalink: /blog/does-ai-ask.html
 coauthors: Prof. Fatemeh H. Fard (University of British Columbia)
 paper:
@@ -27,65 +27,64 @@ A good hire writes back within the hour: Export to CSV or PDF? Just the current 
 
 The difference isn't coding ability. It's knowing when the instructions aren't good enough yet — and saying so.
 
-This is the gap between today's AI coding tools and strong software engineers. The models write code impressively well. But when your request is unclear, incomplete, or self-contradictory, do they raise a hand? We built a benchmark to find out, and the short answer is: **usually not.**
+## Asking is not a soft skill
 
-## Measuring something nobody was measuring
+We tend to file "asking questions" under communication, as though it were separate from the real technical work. In software it isn't. Most expensive engineering mistakes don't come from someone writing bad code; they come from someone writing perfectly good code for the wrong problem.
 
-There's no shortage of benchmarks for whether AI writes *correct* code. There was none for whether it asks *good questions*. So we made one.
+Every experienced engineer has internalized this. Given a vague ticket, they don't start typing. They notice the gap, name it, and get it resolved before writing a line. The recognizing is the skill — spotting that a sentence which *sounds* complete actually isn't.
 
-We started from HumanEval, a standard set of 164 programming problems used throughout the field, and rewrote each problem description by hand to introduce a specific defect. We used three categories, drawn from how real requirements actually go wrong:
+Now consider how we use AI coding tools. You type a request in a box, and the model answers. It always answers. Whatever you typed — precise or half-formed, consistent or self-contradictory — you get confident, well-formatted code back. The tool never says "wait, which did you mean?"
 
-- **Ambiguity** — the description permits more than one reasonable reading
+That should worry us more than it does. **If a system can't distinguish a clear request from a broken one, it can't tell you when it's about to build the wrong thing.**
+
+## Putting a number on it
+
+Complaining that models don't ask questions is easy. Measuring it is harder, and until you can measure something you can't tell whether it's improving.
+
+So we built a benchmark. We took HumanEval — a standard set of 164 programming problems widely used to test AI coding ability — and rewrote every problem description by hand to introduce a specific defect. Three kinds, drawn from how real requirements actually fail:
+
+- **Ambiguity** — the description allows more than one reasonable reading
 - **Inconsistency** — parts of the description contradict each other
 - **Incompleteness** — something essential is simply missing
 
-We also combined them in pairs, so each original problem yields several broken variants. The result is **HumanEvalComm**: a benchmark where the right answer is often *not* to write code, but to ask.
+We also combined them in pairs, so each problem yields several broken variants. We called the result **HumanEvalComm**. It inverts the usual test: on this benchmark, writing code immediately is often the *wrong* response. The right response is a question.
 
 <figure class="post-figure">
   <a href="{{ '/assets/img/blog/hec-methodology.png' | relative_url }}" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/blog/hec-methodology.png' | relative_url }}" alt="Methodology diagram: 164 HumanEval problems, a taxonomy of ambiguity, inconsistency and incompleteness, then evaluation of Code LLMs and the Okanagan agent on communication rate, good question rate, and pass rates.">
+    <img src="{{ '/assets/img/blog/hec-methodology.png' | relative_url }}" alt="Methodology diagram: 164 HumanEval problems, a taxonomy of ambiguity, inconsistency and incompleteness, then evaluation on communication rate, good question rate, and pass rates.">
   </a>
-  <figcaption>How HumanEvalComm is built and evaluated: rewrite each of 164 problems to introduce a defect, then measure whether models ask instead of guess. <em>(click to enlarge)</em></figcaption>
+  <figcaption>Each of 164 standard problems was rewritten by hand to introduce ambiguity, inconsistency, or incompleteness — then we measured whether models ask instead of guess. <em>(click to enlarge)</em></figcaption>
 </figure>
-
-Then we needed to score behavior, not just output. We used four measures: how often a model asks anything at all (**communication rate**), whether the question is actually useful (**good question rate**), and two standard correctness measures (**Pass@1** and **test pass rate**).
 
 ## What we found
 
-**More than 60% of the time, code LLMs wrote code anyway.** Faced with a description that contradicted itself or left out something essential, most models produced a confident answer rather than a question.
+**More than 60% of the time, the models wrote code anyway.** Handed a description that contradicted itself or omitted something essential, most produced a confident solution instead of a question.
 
-The specific numbers vary a lot by model, which is itself interesting. CodeQwen1.5-Chat asked in only 4.82% of cases. CodeLlama managed 10.16%, ChatGPT 14.21%. The best of the plain models, DeepSeek Chat, reached 37.93% — still fewer than two questions asked for every five broken requests.
+How often a model asked varied widely, and not in a reassuring way. CodeQwen1.5-Chat asked in 4.82% of cases — roughly one time in twenty. CodeLlama managed 10.16%, ChatGPT 14.21%. The most talkative model we tested, DeepSeek Chat, reached 37.93%: still silent in nearly two out of three broken requests.
 
-And the silence is costly. When ChatGPT was given the flawed descriptions, its Pass@1 accuracy fell from 65.58% to 31.34% — **less than half** — with test pass rate dropping from 76.42% to 49.39%. The model didn't fail because the coding got harder. It failed because it answered the wrong question and never checked.
+The silence has a price. Given the flawed descriptions, ChatGPT's accuracy fell from 65.58% to 31.34% — **less than half** — with a similar drop in how many tests its code passed. Nothing about the programming got harder. The model simply answered a question nobody asked, and never noticed.
 
 <figure class="post-figure">
   <a href="{{ '/assets/img/blog/hec-results.png' | relative_url }}" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/blog/hec-results.png' | relative_url }}" alt="Results table comparing ChatGPT, CodeLlama, CodeQwen1.5 Chat, DeepSeek Coder, DeepSeek Chat and Okanagan on Pass@1, test pass rate, communication rate, and good question rate.">
+    <img src="{{ '/assets/img/blog/hec-results.png' | relative_url }}" alt="Results table comparing models on Pass@1, test pass rate, communication rate, and good question rate on HumanEval versus HumanEvalComm.">
   </a>
-  <figcaption>Accuracy drops sharply on broken descriptions, while communication rates stay low — until Okanagan. <em>(click to enlarge)</em></figcaption>
+  <figcaption>Accuracy drops sharply once descriptions are flawed (compare the HmEval and HmEvalComm columns), while communication rates stay low across the board. <em>(click to enlarge)</em></figcaption>
 </figure>
 
-## Teaching a model to ask
+There's a quieter finding worth pausing on. Models were most likely to ask when information was outright *missing*, and least likely when the description was subtly ambiguous or self-contradictory. That's exactly backwards from what's useful. A missing input is the failure mode a developer is most likely to catch unaided. A description that reads smoothly while meaning two different things is the one that slips through review — and it's precisely where the models stay quiet.
 
-Knowing the gap exists is only useful if it can be closed. So we built **Okanagan**, an agent approach that restructures the interaction into three rounds: draft an initial solution, then step back and decide whether clarifying questions are needed, then regenerate using the answers.
+## Why this matters beyond programming
 
-The key move is separating "write the code" from "judge whether you had enough information to write it." A single prompt conflates those two jobs, and models overwhelmingly default to producing something.
+Code generation is where this is easiest to measure, but it isn't where the problem ends. The same pattern shows up wherever we hand an underspecified request to an AI system and receive a fluent answer: the fluency is not evidence that the system understood you.
 
-<figure class="post-figure">
-  <a href="{{ '/assets/img/blog/hec-okanagan.png' | relative_url }}" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/blog/hec-okanagan.png' | relative_url }}" alt="Diagram of the Okanagan agent: round one generates code, round two decides whether to ask clarifying questions, round three regenerates code using the answers.">
-  </a>
-  <figcaption>Okanagan's three rounds: generate, then decide whether to ask, then regenerate with the answers. <em>(click to enlarge)</em></figcaption>
-</figure>
+As these tools take on more autonomy — writing larger changes, running for longer, acting with less review — the cost of a silent misunderstanding compounds. A wrong guess in ten lines of code is a nuisance. The same wrong guess propagated through an afternoon of autonomous work is expensive, and much harder to trace back to the sentence that caused it.
 
-It works. Okanagan raised the communication rate from ChatGPT's 14.21% to **72.73%**, and improved accuracy on the broken descriptions along with it — Pass@1 from 31.34% to 39.62%, test pass rate from 49.39% to 56.98%. Asking questions didn't slow the model down in any way that mattered; it made the eventual code better.
+We think "did it ask when it should have?" belongs alongside "was the answer correct?" as a standard measure of these systems. It's currently almost never reported.
 
-We're honest that this is a first step, not a solved problem. Okanagan's good question rate is 52.24% — roughly half its questions are genuinely useful, and the other half are noise a developer would have to wade through. A tool that asks too many unhelpful questions is its own kind of annoying.
+**Can it be fixed?** Encouragingly, yes — at least partly, and without new model training. As a proof of concept we built a simple agent, Okanagan, that separates writing code from judging whether there was enough information to write it. Just splitting those two steps raised the rate of asking substantially. We don't present it as a strong solution; it's a rough prototype, and roughly half the questions it asks aren't useful. What it demonstrates is headroom: models are more capable of recognizing missing information than their default behavior suggests. They mostly aren't asked to.
 
-## Why this matters
+That's the real message of this work. Not that today's AI can't clarify — that we haven't been measuring whether it does, or building systems that expect it to.
 
-The default assumption in AI coding tools today is that your prompt is complete. It rarely is. Every human collaboration involves a back-and-forth to establish what's actually wanted, and we've built a generation of tools that skip that step entirely and paper over the gap with confident guesses.
+This is part of a longer line of work in our group on making AI coding tools honest about what they don't know. [ClarifyCoder](https://arxiv.org/abs/2504.16331) trains models to prefer asking over answering, and [AssumptionMiner]({{ '/blog/what-is-ai-assuming.html' | relative_url }}) surfaces the silent guesses a model already made when it didn't ask.
 
-This work measures the problem. Our follow-up work attacks it from both ends: [ClarifyCoder](https://arxiv.org/abs/2504.16331) fine-tunes models to prefer asking over answering, and [AssumptionMiner]({{ '/blog/what-is-ai-assuming.html' | relative_url }}) surfaces the silent guesses a model already made when it didn't ask. Different angles on one question: how do we make AI coding tools honest about what they don't know?
-
-**This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are all public — we'd like others to build on this, and to beat our numbers.
+**This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are public — we'd like others to build on this, and to beat our numbers.
