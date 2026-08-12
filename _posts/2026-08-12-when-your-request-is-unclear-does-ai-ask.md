@@ -37,6 +37,10 @@ Now consider how we use AI coding tools. You type a request in a box, and the mo
 
 That should worry us more than it does. **If a system can't distinguish a clear request from a broken one, it can't tell you when it's about to build the wrong thing.**
 
+I first made this argument back in 2023, in a short position paper at the MAPS workshop titled [*Large Language Models Should Ask Clarifying Questions to Increase Confidence in Generated Code*](https://arxiv.org/pdf/2308.13507.pdf). It was written at a moment when the field's attention was almost entirely on making models generate more code, faster. The paper had no experiments — just an argument from software engineering practice that we were optimizing the wrong thing, and that a model which asks a good question is often more useful than one which produces a confident answer.
+
+The obvious objection to a position paper is that it might be wrong. So the next step was to find out.
+
 ## Putting a number on it
 
 Complaining that models don't ask questions is easy. Measuring it is harder, and until you can measure something you can't tell whether it's improving.
@@ -104,6 +108,6 @@ We think "did it ask when it should have?" belongs alongside "was the answer cor
 
 That's the real message of this work. Not that today's AI can't clarify — that we haven't been measuring whether it does, or building systems that expect it to.
 
-This is part of a longer line of work in our group on making AI coding tools honest about what they don't know. [ClarifyCoder](https://arxiv.org/abs/2504.16331) trains models to prefer asking over answering, and [AssumptionMiner]({{ '/blog/what-is-ai-assuming.html' | relative_url }}) surfaces the silent guesses a model already made when it didn't ask.
+This is part of a longer line of work in our group on making AI coding tools honest about what they don't know: from the [2023 position paper](https://arxiv.org/pdf/2308.13507.pdf) arguing models should ask, to this benchmark measuring whether they do, to [ClarifyCoder](https://arxiv.org/abs/2504.16331) training them to prefer asking over answering, to [AssumptionMiner]({{ '/blog/what-is-ai-assuming.html' | relative_url }}) surfacing the silent guesses a model already made when it didn't ask.
 
 **This is joint work with Prof. Fatemeh H. Fard at the University of British Columbia, Kelowna.** The benchmark, code, and evaluation scripts are public — we'd like others to build on this, and to beat our numbers.
