@@ -2,7 +2,7 @@
 title: When Your Request Is Unclear, Does AI Ask?
 description: Good engineers ask questions when instructions don't add up. We built a benchmark to test whether code models do the same, and to make it something the field can actually measure.
 permalink: /blog/does-ai-ask.html
-coauthors: Prof. Fatemeh H. Fard (University of British Columbia)
+authors: Jie JW Wu and Fatemeh H. Fard
 paper:
   title: "HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent"
   authors: Jie JW Wu, Fatemeh H. Fard

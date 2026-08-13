@@ -2,6 +2,7 @@
 title: When AI Writes Code, What Is It Assuming?
 description: AI coding tools don't ask questions when your request is vague. They guess, silently. Our new paper makes those guesses visible.
 permalink: /blog/what-is-ai-assuming.html
+authors: Jie JW Wu
 paper:
   title: "AssumptionMiner: Extracting, Tracing, and Revising Implicit Assumptions in LLM Code Generation"
   authors: Jie JW Wu

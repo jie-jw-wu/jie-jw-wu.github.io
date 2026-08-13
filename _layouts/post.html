@@ -4,7 +4,7 @@ layout: standalone
 <article class="blog-post">
   <h1>{{ page.title }}</h1>
   <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
-  {% if page.coauthors %}<p class="post-credit">Joint work with {{ page.coauthors }}.</p>{% endif %}
+  {% if page.authors %}<p class="post-credit">Research by {{ page.authors }}.</p>{% endif %}
 
   {{ content }}
 
