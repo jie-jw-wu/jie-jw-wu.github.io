@@ -11,10 +11,6 @@ I worked as a software engineer in the industry for nearly a decade at [Snap Inc
 
 **Note on My Name:** I often go by JW, a simple abbreviation of my name. If you wish to use my original name, _**杰 (Jie)**_, you can listen to its pronunciation [here](https://en.wiktionary.org/wiki/ji%C3%A9) — roughly "JEE-yeh" in English. Please feel free to use whichever form you find most comfortable. I publish under the name "Jie JW Wu".
 
-<span style="color:#e65100;"> **📧 Hiring RA Position at MTU (Summer / Fall 2026):** Paid Undergraduate/Graduate Research Opportunity available in Agentic Software Engineering for MTU students. If you are interested, please see this [link](https://jie-jw-wu.github.io/join-us.html). </span>
-
-<span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](https://jie-jw-wu.github.io/join-us.html). I apologize that I'm unable to reply to each email individually. A practical tip: the strongest applicants apply directly to the PhD program rather than waiting for my reply, and we talk once they stand out in the applicant pool. </span>
-
 <h2 id="research">Research</h2>
 My research topic is **Trustworthy AIware** — I am passionate about turning the current state of **"AI for Software Engineering"** and **"AI system development"** into a more rigorous science and engineering discipline.
 

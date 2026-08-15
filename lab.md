@@ -88,7 +88,11 @@ We investigate the quality foundations, principles, and methodologies that make 
 
 ## Join Us
 
-We are actively recruiting undergraduate and graduate students at Michigan Tech. See our [open positions](join-us.html) for details.
+<span style="color:#c2185b;"> **🎓 Hiring PhD Position (Fall 2026):** I am recruiting highly-motivated students to join my research group at Michigan Tech, a Carnegie R1 (Very High Research Activity) institution, to work at the intersection of Software Engineering and AI, particularly Large Language Models. See more details in this [link](join-us.html). I apologize that I'm unable to reply to each email individually. A practical tip: the strongest applicants apply directly to the PhD program rather than waiting for my reply, and we talk once they stand out in the applicant pool. </span>
+
+<span style="color:#e65100;"> **📧 Hiring RA Position at MTU (Summer / Fall 2026):** Paid Undergraduate/Graduate Research Opportunity available in Agentic Software Engineering for MTU students. If you are interested, please see this [link](join-us.html). </span>
+
+See our [open positions](join-us.html) for full details on both.
 
 ---
 
