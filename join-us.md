@@ -13,7 +13,7 @@ title: Join Our Research Group
 
 *For Michigan Technological University students only.*
 
-We are recruiting undergraduate and graduate (MS/PhD) students at Michigan Tech to join [JWare Lab](lab.html) in the Department of Computer Science.
+We are recruiting undergraduate and graduate (MS/PhD) students at Michigan Tech to join [JWare Lab](jware-lab.html) in the Department of Computer Science.
 
 **What is Agentic Software Engineering?**
 Agentic Software Engineering explores how AI agents, powered by large language models, can autonomously assist with software development — code generation, debugging, testing, and optimization. Tools like Claude Code, GitHub Copilot, Cursor, and Windsurf are already changing how developers write software. We investigate the science behind making these tools more reliable, effective, and accessible.
