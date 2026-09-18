@@ -1,0 +1,14 @@
+{% comment %}
+  Tab bar shared by the JWare Lab pages (Group, Talks, Join Us). The lab pages
+  use the "standalone" layout, which has no site navigation of its own, so this
+  keeps them linked together. The homepage and blog use nav-tabs.html instead.
+
+  Each page marks its own tab with "lab_tab" in its front matter; page.url is
+  not used because its exact form depends on the permalink style.
+{% endcomment %}
+<nav class="lab-tabs">
+  <a href="{{ '/index.html' | relative_url }}">Homepage</a>
+  <a href="{{ '/jware-lab.html' | relative_url }}"{% if page.lab_tab == 'lab' %} class="active"{% endif %}>Lab</a>
+  <a href="{{ '/talks.html' | relative_url }}"{% if page.lab_tab == 'talks' %} class="active"{% endif %}>Talks</a>
+  <a href="{{ '/join-us.html' | relative_url }}"{% if page.lab_tab == 'join-us' %} class="active"{% endif %}>Join Us</a>
+</nav>

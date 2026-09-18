@@ -1,7 +1,10 @@
 ---
 layout: standalone
 title: Join Our Research Group
+lab_tab: join-us
 ---
+
+{% include lab-tabs.html %}
 
 # Join Our Research Group
 

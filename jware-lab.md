@@ -1,7 +1,10 @@
 ---
 layout: standalone
 title: JWare Lab
+lab_tab: lab
 ---
+
+{% include lab-tabs.html %}
 
 <div class="lab-banner">
   <img src="assets/img/jware-lab-logo-crop.png" alt="JWare Lab" class="lab-banner-jware">
