@@ -2,6 +2,8 @@
 layout: homepage
 ---
 
+{% include clarification-challenge.html %}
+
 <h2 id="about">About JW</h2>
 
 I'm an Assistant Professor in the CS department at Michigan Technological University, working at the intersection of Software Engineering and AI. I was a postdoc at [University of British Columbia](https://www.ubc.ca/). My undergraduate and master studies were both in Computer Science at [Shanghai Jiao Tong University](https://www.cs.sjtu.edu.cn/en/)  (at [ACM Class](https://acm.sjtu.edu.cn/home), an elite CS program at SJTU). I received my PhD in Systems Engineering at [George Washington University](https://www.seas.gwu.edu/). I was a research intern at [Google Research](https://research.google/) and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 

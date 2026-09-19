@@ -384,3 +384,80 @@ $lab-column-min: 150px;
   .talk-speaker, .talk-venue { color: #a0aec0; }
   .talk-empty { color: #a0aec0; }
 }
+
+/* Announcement banner (see _includes/clarification-challenge.html) */
+.announcement {
+  border: 2px solid #2c5282;
+  border-left-width: 8px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f7fafc 0%, #ebf4ff 100%);
+  padding: 22px 26px;
+  margin: 30px 0 36px;
+}
+
+.announcement p { margin: 0 0 10px; }
+
+.announcement-kicker {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #2b6cb0;
+}
+
+.announcement-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a365d;
+}
+
+.announcement-title em { font-style: italic; font-weight: 500; }
+
+.announcement-body {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #2d3748;
+}
+
+.announcement-dates {
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+.announcement-cta {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #2c5282;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.announcement-cta:hover {
+  background: #1a365d;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media print, screen and (max-width: 720px) {
+  .announcement { padding: 18px; }
+  .announcement-title { font-size: 1.25rem; }
+  .announcement-body { font-size: 1rem; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .announcement {
+    border-color: #63b3ed;
+    background: linear-gradient(135deg, #1a2332 0%, #1e2d44 100%);
+  }
+  .announcement-kicker { color: #90cdf4; }
+  .announcement-title { color: #e2e8f0; }
+  .announcement-body, .announcement-dates { color: #cbd5e0; }
+  .announcement-cta { background: #3182ce; color: #fff; }
+  .announcement-cta:hover { background: #63b3ed; color: #1a202c; }
+}
