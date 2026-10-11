@@ -2,10 +2,10 @@
 title: Can an AI Agent Be a Growth Hacker?
 description: Off-policy evaluation, a classic problem in reinforcement learning, is how companies estimate a new policy's impact from logged data instead of a live A/B test. We asked whether LLM agents can keep that code tuned on their own, and measured how often they make things better, worse, or simply break.
 permalink: /blog/growthhacker.html
-authors: Jie JW Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
+authors: Jie “JW” Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
 paper:
   title: "GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents"
-  authors: Jie JW Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
+  authors: Jie “JW” Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
   venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
   year: 2026
   url: https://doi.org/10.1145/3815588
@@ -20,69 +20,94 @@ paper:
     }
 ---
 
-Every product team has more ideas than it can test. A new ranking model for the feed, a different order for friend suggestions, a tweak to the ad auction. The bottleneck is rarely the idea. It's proving the idea works before you bet real users on it.
+How can we tell whether a new decision policy will work before deploying it? This is the question behind **off-policy evaluation (OPE), a classic problem in reinforcement learning and contextual bandits**. Given data collected under one policy, OPE aims to estimate how another policy would perform. A *policy* is a rule for choosing an action, such as which item to recommend to a user.
 
-The standard way to prove it is an **online A/B test**: ship the change to a slice of users, wait, and compare. I spent years on a growth team doing exactly this, and I can tell you where the time goes. Building the variant to production standards. Getting sign-off, because a buggy variant hurts real people. Then waiting weeks for enough data to say anything, often through several rounds. Good ideas sit in a queue behind the test calendar.
+The same question matters across applications, including **recommendation, advertising, healthcare, and robotics**. In healthcare, researchers may want to evaluate a treatment policy using records of past clinical decisions. In robotics, they may want to assess a control policy from previously collected interaction data before testing it on physical hardware. These settings share a practical constraint: trying every candidate policy directly can be costly, slow, or risky. This gives [OPE a role across multiple application domains](https://proceedings.mlr.press/v238/li24l/li24l.pdf) and motivates reliable software for carrying it out.
 
-There is a cheaper route. **Offline A/B testing**, which researchers call *off-policy evaluation* (OPE), uses the logs you already have to *estimate* how a new policy would have performed, without ever deploying it. No user harm, no weeks of waiting. The catch is that the estimate is only as good as the estimator code behind it: which method you use, how it's configured, which hyperparameters you picked. In practice that code gets written once, tuned by hand, and then left alone while the data underneath it keeps changing.
+I encountered the practical motivation for this problem during my years on a growth team. A new recommendation strategy might look promising, but evaluating it online meant implementing the change, checking it carefully, and waiting for enough user data. With many ideas competing for limited experimentation time, deciding what to test could itself become a bottleneck.
 
-It's worth pausing on how much rides on that code. OPE is not a niche trick for A/B testing. It is a classic, heavily studied problem in reinforcement learning and bandits: given data collected under one decision policy, estimate how a different policy would have done. Recommender systems, ad auctions, search ranking, and increasingly healthcare and robotics all lean on it, because in each of those settings trying every candidate policy live is too slow, too expensive, or too dangerous. Any improvement in how well, and how reliably, OPE code is maintained pays off across all of them. That is why we think a benchmark for *automatically optimizing OPE code* is worth building, independent of the growth-hacker framing.
+OPE connects that practical need to a long-standing research problem. A recommendation team can use logs from its current system to estimate the value of a different policy before exposing users to it. Those estimates can help prioritize online experiments, although their reliability depends on the available data and the assumptions behind the estimator.
 
-In industry, the person who refuses to leave it alone has a name: a **growth hacker**. Someone who relentlessly tweaks, measures, keeps what helps, and throws away what doesn't. Our question in this paper was simple. *Can an AI agent do that job?*
+That creates a software engineering problem: someone has to select, configure, and maintain the code that produces those estimates. Could an LLM agent help with that work by proposing changes, running the code, and measuring the results?
 
-## The loop
+Our TOSEM paper, [*GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents*](https://doi.org/10.1145/3815588), investigates this question. The name comes from the iterative nature of growth experimentation: make a change, measure its effect, and decide whether to keep it. Here, we study a specific part of that process: improving OPE code.
 
-The setup is a loop. An LLM, or a team of LLM agents, reads the OPE code, modifies it, runs it on real benchmark data, and checks whether the evaluation metric got better. Then it tries again.
+## Why OPE is a useful test for coding agents
+
+The connection to reinforcement learning gives this task a broader motivation: improving the software used to evaluate decision policies from logged data. GrowthHacker approaches that problem through the implementation, asking whether agents can improve existing OPE code through measured, iterative edits.
+
+For a coding agent, optimizing an OPE implementation is more demanding than producing code that runs. An edit can be syntactically valid yet worsen the evaluation metric or introduce numerical instability. This gives us a concrete setting in which to ask whether agents can make useful changes to scientific software, and how reliably they do so.
+
+We therefore examined three separate outcomes: whether the modified code executed successfully, whether it improved the selected metric, and how large that improvement or degradation was.
+
+## From code edits to measured results
+
+GrowthHacker gives an LLM-based system an existing OPE implementation and asks it to improve a specified evaluation metric. The system proposes code changes, executes the modified implementation on benchmark data, and compares the result with the original.
 
 <figure class="post-figure">
   <a href="{{ '/assets/img/blog/gh-loop.png' | relative_url }}" target="_blank" rel="noopener">
     <img src="{{ '/assets/img/blog/gh-loop.png' | relative_url }}" alt="Diagram of the GrowthHacker loop: an LLM-based agent takes the original OPE code as input, produces modified code, both versions are executed on OBP or Scope-RL datasets, and the new results are compared with the original to decide whether the metric improved before the next iteration.">
   </a>
-  <figcaption>The GrowthHacker loop: the agent edits the estimator code, runs it, compares the result against the original, and iterates. <em>(click to enlarge)</em></figcaption>
+  <figcaption>The GrowthHacker workflow. Agents modify OPE code, execute the candidate, and compare its evaluation metric with the original implementation. <em>(click to enlarge)</em></figcaption>
 </figure>
 
-We tried four ways of running that loop, all on the same underlying model (Gemini 2.5 Flash):
+We evaluated four configurations using the same underlying model, **Gemini 2.5 Flash**:
 
-- **Default**: a single LLM with no agent framework at all.
-- **AutoGen** and **CrewAI**: two popular general-purpose multi-agent frameworks.
-- **two_agent**: a deliberately small framework we built ourselves. One *analyzer* agent writes an instruction file saying what to change; one *coder* agent makes the change. Every iteration starts again from the original code, not from the previous attempt, and a final step picks the best iteration out of the batch.
+- **Default:** a single LLM without an agent framework.
+- **AutoGen and CrewAI:** two general-purpose multi-agent frameworks.
+- **two_agent:** a small workflow we developed for this task. An analyzer writes instructions for a proposed change, and a coder implements them. Each iteration starts from the original code, and a final selection step chooses the best candidate from the batch.
 
-The playground was 18 real OPE notebooks from two widely used open-source libraries, [Open Bandit Pipeline](https://github.com/st-tech/zr-obp) and [Scope-RL](https://github.com/hakuhodo-technologies/scope-rl), covering recommendation and advertising scenarios. The agents' goal was to lower the estimators' error, or raise the estimated policy value, depending on the library. Across frameworks and settings this came to hundreds of runs.
+The benchmark contains **18 OPE notebooks** from [Open Bandit Pipeline](https://github.com/st-tech/zr-obp) and [Scope-RL](https://github.com/hakuhodo-technologies/scope-rl), covering recommendation and advertising scenarios. Healthcare and robotics motivate the broader relevance of OPE, but were not evaluated in this study. Across frameworks and experimental settings, the evaluation involved hundreds of runs. The changes focused on hyperparameters and small function modifications.
 
-## What happened
+The optimization objective depended on the library: reducing estimator error in Open Bandit Pipeline, or increasing estimated policy value in Scope-RL. These objectives need to be interpreted separately. A lower estimation error indicates a more accurate estimate under the benchmark's evaluation, whereas a higher estimated policy value does not, by itself, establish a better policy in deployment.
 
-Three questions matter for an automated growth hacker: does it break things, does it help, and by how much?
+## What improved, and how often?
 
-**Does it break things?** The general-purpose frameworks produced code that failed to run roughly one time in ten. Default completed 89.5% of runs, CrewAI 90.1%, AutoGen 92.6%. The failures were mostly mundane: syntax errors, parameters placed in the wrong spot, and in AutoGen's case, diff-style markup leaking into what was supposed to be a whole file. Our constrained two_agent framework completed 98.1% to 100% of runs.
+The clearest result was the reliability of the constrained two-agent workflow. It completed more runs successfully and improved the selected metric more often than the other configurations.
 
-**Does it help?** When a run did complete, two_agent improved the metric 78% of the time. AutoGen and Default each managed 65%, CrewAI 63%. The rest of the time the agent either changed nothing measurable or made the estimator worse.
+| Configuration | Runs that executed successfully | Runs with an improved metric (Scope-RL) |
+|---|---|---|
+| Default | 89.5% | 65% |
+| AutoGen | 92.6% | 65% |
+| CrewAI | 90.1% | 63% |
+| two_agent | 98.1–100% | 78% |
 
-**By how much?** Here the averages and the medians tell different stories, and both are worth reading. Among improved runs, two_agent's *median* gain was 4.4%: a modest, dependable nudge. CrewAI had the highest *average* improvement at 37.9%, driven by a few spectacular wins, but a median of only 1.6%. CrewAI was also the only framework that never produced an "extreme" failure, where a change blew the metric up by orders of magnitude. The other three did so in about 1% of runs. Numerical explosions in continuous action spaces were the usual culprit: a hyperparameter nudged past a cliff the agent didn't know was there.
+*Execution rates cover both libraries; the execution rate for two_agent varied across settings. Improvement rates come from the Scope-RL experiments, where the objective was estimated policy value, and count only genuine improvements, not extreme values.*
 
-## The lesson we didn't expect
+Execution failures often involved ordinary coding mistakes: syntax errors, misplaced parameters, or, in AutoGen's case, diff markup appearing in an output that should have been a complete source file. These errors matter because a promising optimization is unusable if the resulting program cannot run.
 
-Going in, I assumed the more sophisticated frameworks would win. They didn't. **More machinery did not mean better results.** The two-agent setup, which does less, was the most reliable, and its reliability came from constraints: a narrow job for each agent, a fresh start every iteration, and a strong bias toward edits that today's models can execute dependably.
+Among runs that improved the metric, **two_agent had a median gain of 4.4%**. CrewAI had the highest mean improvement, 37.9%, but a median of 1.6%. That gap between the mean and median shows why a single average can be misleading: a few large gains can make a configuration look stronger than its typical successful attempt.
 
-One detail makes this concrete. We tried giving the agents the history of their previous iterations, so they could learn from what had already been tried. It made things worse. The models got confused by the extra context and failed more often. Restarting from the original code each time, which looks wasteful, was the setting that worked.
+Extreme values also occurred. We flagged any change larger than 9,999% in either direction as extreme, because a jump that large reflects a parameter explosion rather than a genuine improvement. Default, AutoGen, and two_agent each produced extreme values in about 1% of runs. Numerical instability in continuous action spaces was a common cause. CrewAI produced no extreme values in the observed runs, although this does not establish that it is immune to them.
 
-That matches a broader pattern we keep seeing in our lab: the gap between an LLM that *can* do a task and a system that does it *reliably* is mostly closed by constraints, not by capability.
+Taken together, the results favor two_agent for execution reliability and improvement frequency in our evaluation. They also show that no configuration was best on every measure.
 
-## What we are not claiming
+## A smaller workflow worked better in this setting
 
-Being upfront about the boundaries of this result matters more than the headline numbers.
+One useful finding was that a narrowly defined workflow outperformed the more general agent frameworks on several measures. The analyzer and coder had distinct responsibilities, edits were limited in scope, and each candidate began from the original implementation. This structure made the task more controlled.
 
-- We tested one model, Gemini 2.5 Flash, in one language, Python, on 18 notebooks from two libraries. The experiments were run in 2025. Other models, and newer ones, may behave differently.
-- We built two_agent, and it is the best performer on a benchmark we also built. Read that comparison with the appropriate skepticism.
-- Even for two_agent, about 22% of attempts changed nothing or made the estimator worse. This is a tool for proposing improvements, not for silently applying them.
-- We measured only the OPE metric. Whether the modified code is readable, efficient, or maintainable, we did not score.
-- The edits were deliberately conservative: hyperparameters and small function changes. Broader rewrites failed more often, and we don't yet know how to make them safe.
+We also tried giving agents the history of earlier iterations. The models got confused by the extra context, and this led to failures, so the final design kept each iteration independent of the previous ones.
 
-For anything high-stakes, we recommend a human in the loop. The agent should hand you a ranked list of candidate changes with their measured effect; you decide what ships.
+These observations suggest that workflow design deserves as much attention as model choice. They do not establish that smaller agent systems always win, or that history is generally unhelpful. They show that adding coordination or context does not automatically improve performance on a concrete code optimization task.
 
-## Why this matters
+## What the experiments establish, and what remains open
 
-The reason to care isn't that an agent can shave a few percent off an estimator's error. It's what the loop makes possible once it runs on its own. Offline evaluations today are snapshots: computed once, trusted for months, quietly drifting from the data they were built on. An agent that re-runs and re-tunes them continuously, inside the same CI/CD pipeline that already runs your tests, turns a snapshot into a live signal. That is the "silent growth hacker" we have in mind, and this paper is our evidence that it is feasible, with the caveats above.
+The results demonstrate that LLM agents can propose useful OPE code changes in a bounded experimental setting. Several limits matter when interpreting that finding:
 
-This work grew out of a short [vision paper]({{ '/assets/AutoOffAB-fse-camare-ready.pdf' | relative_url }}) I wrote in 2024, AutoOffAB, arguing that offline A/B testing needed exactly this kind of systematic, automated updating. GrowthHacker is the first serious attempt to build it, and the benchmark, code, and all run data are public so that others can try to do better.
+- **Scope.** We used one model, Python code, and 18 notebooks from two libraries. Results may differ with other models, libraries, and workloads.
+- **Benchmark design.** We developed both two_agent and the benchmark. Independent evaluations would help assess how well the comparison generalizes.
+- **Imperfect reliability.** About 22% of two_agent's Scope-RL outcomes left the metric unchanged, made it worse, or produced an extreme value. Successful execution was not a guarantee of a useful change.
+- **Quality beyond the metric.** We did not evaluate readability, computational efficiency, or maintainability. A metric improvement alone is insufficient to judge the overall quality of a code change.
+- **Edit scope.** The study focused on conservative modifications. Broader rewrites failed more often and remain a harder problem.
+
+A practical use of this approach would be to present candidate changes and their measured effects for human review. Before adopting a candidate, a team would still need to check whether the edit preserves the intended evaluation and whether the improvement holds beyond the data used to select it.
+
+## Toward automated maintenance of evaluation code
+
+This work grew out of [AutoOffAB]({{ '/assets/AutoOffAB-fse-camare-ready.pdf' | relative_url }}), my 2024 vision paper on systematically updating offline A/B testing. GrowthHacker takes a step toward that goal by implementing and evaluating a loop for modifying OPE code.
+
+A longer-term direction is to integrate such a loop into software maintenance: rerun evaluations as data or dependencies change, propose adjustments, and submit the evidence for review. Our experiments do not yet demonstrate continuous production maintenance, but they provide a benchmark for studying the code modification component of that process.
+
+For us, the main contribution is both empirical and practical. We show where code-modifying agents help, document where they fail, and provide a benchmark for comparing future approaches. The code, data, and scripts to reproduce our results are public. The next challenge is to make improvements robust enough that a better benchmark result becomes a change a developer can confidently accept.
 
 **This is joint work with Ayanda Patrick Herlihy (co-first author), Ahmad Saleem Mirza, Ali Afoud, and Prof. Fatemeh Fard at the University of British Columbia, Kelowna.**
