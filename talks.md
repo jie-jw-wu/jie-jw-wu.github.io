@@ -37,42 +37,48 @@ Recorded talks, conference presentations, and tutorials by JWare Lab members.
 <div class="talk">
   <div class="talk-video">
     <iframe src="https://www.youtube.com/embed/sbhx6iVqUAQ"
-            title="TODO: talk 1 title" frameborder="0"
+            title="HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
   </div>
   <div class="talk-info">
-    <strong>TODO: talk 1 title</strong>
-    <span class="talk-speaker">TODO: speaker</span>
-    <span class="talk-venue">TODO: venue, Month Year</span>
+    <strong>HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent</strong>
+    <span class="talk-speaker">Jie JW Wu, Fatemeh Hendijani Fard</span>
+    <span class="talk-venue">ACM TOSEM 2025, presented at FSE 2026</span>
+    <p>A benchmark that tests whether code models ask clarifying questions when a programming request is ambiguous, inconsistent, or incomplete.</p>
+    <p><a href="https://doi.org/10.1145/3715109" target="_blank" rel="noopener">Paper</a> · <a href="blog/does-ai-ask.html">Blog post</a> · <a href="https://github.com/jie-jw-wu/human-eval-comm" target="_blank" rel="noopener">Code</a></p>
   </div>
 </div>
 
 <div class="talk">
   <div class="talk-video">
     <iframe src="https://www.youtube.com/embed/4ChxsmhbLTE"
-            title="TODO: talk 2 title" frameborder="0"
+            title="A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
   </div>
   <div class="talk-info">
-    <strong>TODO: talk 2 title</strong>
-    <span class="talk-speaker">TODO: speaker</span>
-    <span class="talk-venue">TODO: venue, Month Year</span>
+    <strong>A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages</strong>
+    <span class="talk-speaker">Sathvik Joel*, Jie JW Wu*, Fatemeh Hendijani Fard (*co-first authors)</span>
+    <span class="talk-venue">ACM TOSEM 2025, presented at FSE 2026</span>
+    <p>A survey of how LLMs generate code for low-resource and domain-specific languages, and the challenges that set them apart from mainstream languages.</p>
+    <p><a href="https://arxiv.org/abs/2410.03981" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/jie-jw-wu/Survey-CodeLLM4LowResource-DSL" target="_blank" rel="noopener">GitHub</a></p>
   </div>
 </div>
 
 <div class="talk">
   <div class="talk-video">
     <iframe src="https://www.youtube.com/embed/X3resaI5EIA"
-            title="TODO: talk 3 title" frameborder="0"
+            title="clinMT: Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
   </div>
   <div class="talk-info">
-    <strong>TODO: talk 3 title</strong>
-    <span class="talk-speaker">TODO: speaker</span>
-    <span class="talk-venue">TODO: venue, Month Year</span>
+    <strong>clinMT: Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study</strong>
+    <span class="talk-speaker">Jie JW Wu, Feiyu E, Bo Chen</span>
+    <span class="talk-venue">AIware 2026</span>
+    <p>A framework proposal and pilot study on using metamorphic testing to check clinical machine learning models.</p>
+    <p><a href="https://arxiv.org/abs/2607.22984" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </div>
 
