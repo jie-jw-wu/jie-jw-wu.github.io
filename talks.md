@@ -27,7 +27,7 @@ Recorded talks, conference presentations, and tutorials by JWare Lab members.
     </div>
     <div class="talk-info">
       <strong>Talk title</strong>
-      <span class="talk-speaker">Jie JW Wu</span>
+      <span class="talk-speaker">Speaker name</span>
       <span class="talk-venue">Venue, Month Year</span>
       <p>One or two sentences on what the talk covers.</p>
     </div>
