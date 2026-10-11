@@ -1,6 +1,6 @@
 ---
 title: Can an AI Agent Be a Growth Hacker?
-description: Offline A/B tests tell product teams which ideas are worth shipping, but someone has to keep tuning them by hand. We asked whether LLM agents can take over that loop, and measured how often they make things better, worse, or simply break.
+description: Off-policy evaluation, a classic problem in reinforcement learning, is how companies estimate a new policy's impact from logged data instead of a live A/B test. We asked whether LLM agents can keep that code tuned on their own, and measured how often they make things better, worse, or simply break.
 permalink: /blog/growthhacker.html
 authors: Jie JW Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
 paper:
