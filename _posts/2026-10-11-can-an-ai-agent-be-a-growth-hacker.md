@@ -2,10 +2,10 @@
 title: Can an AI Agent Be a Growth Hacker?
 description: Offline A/B tests tell product teams which ideas are worth shipping, but someone has to keep tuning them by hand. We asked whether LLM agents can take over that loop, and measured how often they make things better, worse, or simply break.
 permalink: /blog/growthhacker.html
-authors: Jie JW Wu, Ayanda Patrick Herlihy, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard
+authors: Jie JW Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
 paper:
   title: "GrowthHacker: Automated Off-Policy Evaluation Optimization Using Code-Modifying LLM Agents"
-  authors: Jie JW Wu, Ayanda Patrick Herlihy, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard
+  authors: Jie JW Wu*, Ayanda Patrick Herlihy*, Ahmad Saleem Mirza, Ali Afoud, Fatemeh Fard (*co-first authors)
   venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
   year: 2026
   url: https://doi.org/10.1145/3815588
@@ -25,6 +25,8 @@ Every product team has more ideas than it can test. A new ranking model for the 
 The standard way to prove it is an **online A/B test**: ship the change to a slice of users, wait, and compare. I spent years on a growth team doing exactly this, and I can tell you where the time goes. Building the variant to production standards. Getting sign-off, because a buggy variant hurts real people. Then waiting weeks for enough data to say anything, often through several rounds. Good ideas sit in a queue behind the test calendar.
 
 There is a cheaper route. **Offline A/B testing**, which researchers call *off-policy evaluation* (OPE), uses the logs you already have to *estimate* how a new policy would have performed, without ever deploying it. No user harm, no weeks of waiting. The catch is that the estimate is only as good as the estimator code behind it: which method you use, how it's configured, which hyperparameters you picked. In practice that code gets written once, tuned by hand, and then left alone while the data underneath it keeps changing.
+
+It's worth pausing on how much rides on that code. OPE is not a niche trick for A/B testing. It is a classic, heavily studied problem in reinforcement learning and bandits: given data collected under one decision policy, estimate how a different policy would have done. Recommender systems, ad auctions, search ranking, and increasingly healthcare and robotics all lean on it, because in each of those settings trying every candidate policy live is too slow, too expensive, or too dangerous. Any improvement in how well, and how reliably, OPE code is maintained pays off across all of them. That is why we think a benchmark for *automatically optimizing OPE code* is worth building, independent of the growth-hacker framing.
 
 In industry, the person who refuses to leave it alone has a name: a **growth hacker**. Someone who relentlessly tweaks, measures, keeps what helps, and throws away what doesn't. Our question in this paper was simple. *Can an AI agent do that job?*
 
@@ -83,4 +85,4 @@ The reason to care isn't that an agent can shave a few percent off an estimator'
 
 This work grew out of a short [vision paper]({{ '/assets/AutoOffAB-fse-camare-ready.pdf' | relative_url }}) I wrote in 2024, AutoOffAB, arguing that offline A/B testing needed exactly this kind of systematic, automated updating. GrowthHacker is the first serious attempt to build it, and the benchmark, code, and all run data are public so that others can try to do better.
 
-**This is joint work with Ayanda Patrick Herlihy (equal contribution), Ahmad Saleem Mirza, Ali Afoud, and Prof. Fatemeh Fard at the University of British Columbia, Kelowna.**
+**This is joint work with Ayanda Patrick Herlihy (co-first author), Ahmad Saleem Mirza, Ali Afoud, and Prof. Fatemeh Fard at the University of British Columbia, Kelowna.**
