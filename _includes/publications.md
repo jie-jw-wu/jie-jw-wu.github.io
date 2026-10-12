@@ -34,6 +34,32 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Overthink Attacks</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2607.01518" target="_blank">Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems</a></div>
+    <div class="author">Qiang Han, <strong>Jie JW Wu</strong>, Bo Chen</div>
+    <div class="links">
+       <a href="https://arxiv.org/abs/2607.01518" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('han2026overthink')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_han2026overthink" style="display: none;">
+            @article{han2026overthink,
+              title={Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems},
+              author={Han, Qiang and Wu, Jie and Chen, Bo},
+              journal={arXiv preprint arXiv:2607.01518},
+              year={2026}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>arXiv preprint, 2026</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/MANTRA.PNG" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MANTRA</abbr>
   </div>
@@ -114,8 +140,64 @@
 
 <div class="publications">
 
+<h2 class="year">2027</h2>
+<ol class="bibliography">
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Clarification Challenge</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://serval-uni-lu.github.io/clarification-competition/" target="_blank">The Clarification Challenge: Towards Coding Assistants that Clarify Unclear User Requirements</a></div>
+    <div class="author">Amal Akli, <strong>Jie JW Wu</strong>, Cedric Richter, Mike Papadakis</div>
+    <div class="links">
+       <a href="https://serval-uni-lu.github.io/clarification-competition/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Competition</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('akli2027clarification')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_akli2027clarification" style="display: none;">
+            @inproceedings{akli2027clarification,
+              title={The Clarification Challenge: Towards Coding Assistants that Clarify Unclear User Requirements},
+              author={Akli, Amal and Wu, Jie JW and Richter, Cedric and Papadakis, Mike},
+              booktitle={Proceedings of the IEEE/ACM 49th International Conference on Software Engineering (ICSE), Competition Track},
+              year={2027}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>IEEE/ACM 49th International Conference on Software Engineering (ICSE 2027), Competition Track</em></div>
+  </div>
+</div>
+</li>
+</ol>
+
 <h2 class="year">2026</h2>
 <ol class="bibliography">
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/coming_soon.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">V-Model for Agents</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2609.31937" target="_blank">Verification as an Architectural Layer for LLM Agents: A V-Model Design, and a Pilot Study of Its Deterministic Core</a></div>
+    <div class="author">Ali Afoud, <strong>Jie JW Wu</strong></div>
+    <div class="links">
+       <a href="https://arxiv.org/abs/2609.31937" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <button class="btn btn-sm z-depth-0" onclick="copyBibtex('afoud2026verification')" style="font-size: 12px;">Copy BibTeX</button>
+          <textarea id="bibtex_afoud2026verification" style="display: none;">
+            @article{afoud2026verification,
+              title={Verification as an Architectural Layer for LLM Agents: A V-Model Design, and a Pilot Study of Its Deterministic Core},
+              author={Afoud, Ali and Wu, Jie JW},
+              journal={arXiv preprint arXiv:2609.31937},
+              year={2026}
+            }
+          </textarea>
+     </div>
+    <div class="periodical"><em>JAW 2 Workshop at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)</em></div>
+  </div>
+</div>
+</li>
 
  
 <li>
