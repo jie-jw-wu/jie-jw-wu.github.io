@@ -30,15 +30,33 @@ My current focus is **intent-aware software engineering**: developing AI-assiste
 
 <div id="news-section">
   <div id="news-items" style="max-height: none; overflow: hidden;">
+<p>⚡ <strong>Oct 2026:</strong> Recorded talks are now on our new <a href="talks.html">Talks page</a> and the <a href="https://www.youtube.com/@JWareLab">JWare Lab YouTube channel</a>!</p>
+
+<p>⚡ <strong>Oct 2026:</strong> New blog post: <a href="blog/growthhacker.html">Can an AI Agent Be a Growth Hacker?</a></p>
+
+<p>⚡ <strong>Sep 2026:</strong> Ali Afoud's paper, "<a href="https://arxiv.org/abs/2609.31937">Verification as an Architectural Layer for LLM Agents</a>", has been accepted at the JAW 2 Workshop at ASE 2026! Congrats, Ali!</p>
+
+<p>⚡ <strong>Sep 2026:</strong> We are co-organizing the <a href="https://serval-uni-lu.github.io/clarification-competition/">Clarification Challenge</a> at the ICSE 2027 Competition Track. Join us!</p>
+
+<p>⚡ <strong>Sep 2026:</strong> I'm honored to serve as Benchmark and Dataset Co-chair of ICSME 2027 and Publicity and Social-Media Co-chair of CAIN 2027.</p>
+
+<p>⚡ <strong>Aug 2026:</strong> Welcome Joshana Shakya and Indrajeet Roy, who join <a href="jware-lab.html">JWare Lab</a> as PhD students! This term I'm also teaching a new graduate course, CS 5090 "Software Engineering with Generative AI".</p>
+
+<p>⚡ <strong>Aug 2026:</strong> Two new blog posts: <a href="blog/what-is-ai-assuming.html">When AI Writes Code, What Is It Assuming?</a> on our AssumptionMiner preprint, and <a href="blog/does-ai-ask.html">When Your Request Is Unclear, Does AI Ask?</a> on HumanEvalComm.</p>
+
+<p>⚡ <strong>Jul 2026:</strong> I presented our two journal-first TOSEM papers at FSE 2026 and our ClinMT paper at AIware 2026 in Montreal, Canada!</p>
+
+<p>⚡ <strong>Summer 2026:</strong> Congrats to our undergraduate researchers: Gabe Dautovi is a Michigan Tech Undergraduate Research Scholar, and Andrew Sadler is a CC-REU Fellow!</p>
+
 <p>⚡ <strong>Jul 2026:</strong> Our paper, "MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair", has been accepted at Empirical Software Engineering (EMSE) Journal! </p>
 
 <p>⚡ <strong>Jun 2026:</strong> Our paper, "Metamorphic Testing for Clinical ML Models", has been accepted at AIware 2026 (Arxiv Track)! </p>
 
-<p>⚡ <strong>Apr 2025:</strong> Our paper, GrowthHacker, has been accepted at ACM TOSEM journal! </p>
+<p>⚡ <strong>Apr 2026:</strong> Our paper, GrowthHacker, has been accepted at ACM TOSEM journal! </p>
     
-<p>⚡ <strong>Mar 2025:</strong> Two of our TOSEM journal papers (Survey paper and HumanEvalComm) have been accepted to present as Journal-First paper at FSE 2026, Montreal, Canada! </p>
+<p>⚡ <strong>Mar 2026:</strong> Two of our TOSEM journal papers (Survey paper and HumanEvalComm) have been accepted to present as Journal-First paper at FSE 2026, Montreal, Canada! </p>
 
-<p>⚡ <strong>Mar 2025:</strong> I attended the panel regarding pursuing a PhD in Computer Science at MTU! </p>
+<p>⚡ <strong>Mar 2026:</strong> I attended the panel regarding pursuing a PhD in Computer Science at MTU! </p>
 
 <p>⚡ <strong>Nov 2025:</strong> I gave a talk at the Computer Science Colloquium, titled "Clarification-Aware Code Generation: Benchmarks, Techniques, and Open Problems"! </p>
     
@@ -52,7 +70,7 @@ My current focus is **intent-aware software engineering**: developing AI-assiste
 
 <p>⚡ <strong>Feb 2025:</strong> I'm a reviewer for IEEE Transactions on Software Engineering (TSE), and ACM Transactions on Software Engineering and Methodology (TOSEM), top-tier journals in my field.</p>
 
-<p>⚡ <strong>Jan 2024:</strong> My paper on <a href="https://github.com/jie-jw-wu/human-eval-comm/">benchmarking communication skills of Code LLM and LLM Agents</a> was accepted in TOSEM, a top journal in Software Engineering research!</p>
+<p>⚡ <strong>Jan 2025:</strong> My paper on <a href="https://github.com/jie-jw-wu/human-eval-comm/">benchmarking communication skills of Code LLM and LLM Agents</a> was accepted in TOSEM, a top journal in Software Engineering research!</p>
 
 <p>⚡ <strong>Dec 2024:</strong> Final exam is completed for my course "Analysis of Algorithm" (COSC 320) at UBC!</p>
 
@@ -125,18 +143,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
 {% include_relative _includes/publications.md %}
 
+<h2 id="talks">Talks</h2>
+- **FSE 2026**, Montreal (journal-first): "A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages" and "Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent"
+- **AIware 2026**, Montreal: "Metamorphic Testing for Clinical ML Models"
+- **Michigan Tech CS Colloquium**, 2025: "Clarification-Aware Code Generation: Benchmarks, Techniques, and Open Problems"
+- **PNW PLSE 2025**, Uber Engineering, Seattle: "Clarification-Aware Code Generation"
+- **Washington State University and Michigan Tech**, 2025: "Building Trustworthy and Safe AIware With Systems Thinking"
+- **MAPS 2023** at FSE, San Francisco: "Large Language Models Should Ask Clarifying Questions"
+
+Recordings are on the [Talks page](talks.html) and the [JWare Lab YouTube channel](https://www.youtube.com/@JWareLab).
+
 <h2 id="teaching">Teaching</h2>
 - **CS 5090: Software Engineering with Generative AI**, new graduate course, Michigan Tech, Fall 2026
-- **CS 3712: Software Quality Assurance**, undergrad course for a class of ~60 students, Michigan Tech, Spring 2026
-- **CS 4321: Introduction to Algorithms**, undergrad course for a class of 80 students, Michigan Tech, Fall 2025
+- **CS 4713: Embedded Software Foundations**, undergrad course, two sections, flipped classroom with in-class active learning, Michigan Tech, Fall 2026
+- **CS 3712: Software Quality Assurance**, undergrad course for a class of 62 students, Michigan Tech, Spring 2026
+- **CS 4321: Introduction to Algorithms**, undergrad course for a class of 82 students, Michigan Tech, Fall 2025
 - **COSC 320: Analysis of Algorithm**, undergrad course for a class of 80 students, University of British Columbia, Fall 2024
 
 <h2 id="services">Services</h2>
+- Benchmark and Dataset Co-chair, ICSME 2027
 - Publicity and Social-Media co-chair, CAIN 2027
 - Reviewer, IEEE Transactions on Software Engineering, 2025
 - Reviewer, ACM Transactions on Software Engineering and Methodology, 2025, 2026
 - Reviewer, Transactions on Dependable and Secure Computing, 2025
-- Reviewer, Journal of Systems and Software, 2025
+- Reviewer, Journal of Systems and Software, 2024, 2025
+- Reviewer, Information and Software Technology, 2025
+- Reviewer, IEEE Software, 2026
 - Reviewer, Communications of ACM, 2026
 - Program Committee Member, ICSE 2027, Research Track.
 - Program Committee Member, CAIN 2027
@@ -146,3 +178,4 @@ document.addEventListener("DOMContentLoaded", function() {
 - Program Committee Member, [SANER 2025, Tool and Demo Track](https://conf.researchr.org/track/saner-2025/saner-2025-tool-demo-track)
 - Program Committee Member, [ASE 2024, Artifact Evaluation Track](https://conf.researchr.org/track/ase-2024/ase-2024-artifact-evaluation-track)
 - Program Committee Member, [FSE 2024, Posters Track](https://2024.esec-fse.org/track/fse-2024-posters)
+- Facilitator and Mentor, Digital Research Infrastructure (DRI) Sensitization Workshop, UBC Okanagan
