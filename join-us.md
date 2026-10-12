@@ -12,11 +12,11 @@ lab_tab: join-us
 
 <div class="hiring-callout" id="mtu-students" markdown="1">
 
-## Research Opportunity for MTU Students (Undergrad & Graduate) — Summer & Fall 2026
+## Research Opportunity for MTU Students (Undergrad & Graduate)
 
 *For Michigan Technological University students only.*
 
-We are recruiting undergraduate and graduate (MS/PhD) students at Michigan Tech to join [JWare Lab](jware-lab.html) in the Department of Computer Science.
+We recruit undergraduate and graduate (MS/PhD) students at Michigan Tech on a rolling basis to join [JWare Lab](jware-lab.html) in the Department of Computer Science.
 
 **What is Agentic Software Engineering?**
 Agentic Software Engineering explores how AI agents, powered by large language models, can autonomously assist with software development — code generation, debugging, testing, and optimization. Tools like Claude Code, GitHub Copilot, Cursor, and Windsurf are already changing how developers write software. We investigate the science behind making these tools more reliable, effective, and accessible.
@@ -57,21 +57,22 @@ Include: your resume · a brief statement of interest (1–2 paragraphs) · any 
 
 <div class="hiring-callout hiring-callout-phd" id="phd-positions" markdown="1">
 
-## PhD Positions in AI for Software Engineering — Fall 2026
+## PhD Positions in AI for Software Engineering
 
 *Open to all applicants worldwide.*
 
-- **Start Term:** Fall 2026
 - **Location:** Department of Computer Science, Michigan Technological University
 - **Advisor:** Prof. Jie Wu · [jie-jw-wu.github.io](https://jie-jw-wu.github.io/)
 
-Prof. Jie Wu is inviting applications for **fully funded PhD positions** starting in Fall 2026, in a quest to perform research on approaches that advance AI-assisted software engineering. Our research lies at the intersection of Software Engineering and AI, with a strong emphasis on building trustworthy AIware (AI-powered software). We are passionate about the opportunities to shape foundational approaches that ensure trustworthiness, reliability, safety, and human-centered design in next-generation AIware.
+Prof. Jie Wu is actively recruiting for **fully funded PhD positions**, in a quest to perform research on approaches that advance AI-assisted software engineering. Our research lies at the intersection of Software Engineering and AI, with a strong emphasis on building trustworthy AIware (AI-powered software). We are passionate about the opportunities to shape foundational approaches that ensure trustworthiness, reliability, safety, and human-centered design in next-generation AIware.
 
 **Research Areas of Interest (not limited to)**
 - **AI for Software Engineering**
 - **Large Language Models and Agentic Flow for Code**
 - **Software Engineering for AI** (a.k.a. AI Engineering / Machine Learning in Production)
 - **AI4Code in Engineering, Science, and Education**
+
+**Admission:** PhD admission at Michigan Tech is competitive. To be considered, applicants need to be accepted by the graduate school as top candidates. The most effective step is to apply directly to the [PhD program in Computer Science](https://www.mtu.edu/cs/graduate/) and mention my name in your application.
 
 **Core Qualities We Look For**
 - **Task Orientation:** A great aptitude toward finishing given tasks and meeting project milestones
