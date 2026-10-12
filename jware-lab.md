@@ -43,14 +43,14 @@ We investigate the quality foundations, principles, and methodologies that make 
     <div class="lab-avatar"><img src="assets/img/members/joshana-shakya.jpg" alt="Joshana Shakya"></div>
     <div class="lab-member-info">
       <strong>Joshana Shakya</strong>
-      <span>PhD Student (incoming Fall 2026)</span>
+      <span>PhD Student (started Fall 2026)</span>
     </div>
   </div>
   <div class="lab-member">
     <div class="lab-avatar"><img src="assets/img/members/indrajeet-roy.jpg" alt="Indrajeet Roy"></div>
     <div class="lab-member-info">
       <strong>Indrajeet Roy</strong>
-      <span>PhD Student (incoming Fall 2026)</span>
+      <span>PhD Student (started Fall 2026)</span>
     </div>
   </div>
   <div class="lab-member">
