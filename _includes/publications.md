@@ -207,22 +207,24 @@
     <abbr class="badge">MergeRepair</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2408.09568"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
+    <div class="title"><a href="https://link.springer.com/article/10.1007/s10664-026-10943-y"> MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair </a></div>
     <div class="author"> Meghdad Dehghan, <strong>Jie JW Wu</strong>, Fatemeh Hendijani Fard, Ali Ouni</div>
     <div class="links">
-       <a href="https://arxiv.org/pdf/2408.09568" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+       <a href="https://link.springer.com/article/10.1007/s10664-026-10943-y" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+       <a href="https://arxiv.org/abs/2408.09568" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <a href="https://github.com/mqddd/mergerepair" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('dehghan2024mergerepair')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_dehghan2024mergerepair" style="display: none;">
             @article{dehghan2024mergerepair,
               title={MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair},
               author={Dehghan, Meghdad and Wu, Jie JW and Fard, Fatemeh H and Ouni, Ali},
-              journal={arXiv preprint arXiv:2408.09568},
-              year={2024}
+              journal={Empirical Software Engineering},
+              year={2026},
+              doi={10.1007/s10664-026-10943-y}
             }
           </textarea>
      </div>
-    <div class="periodical"><em>Empirical Software Engineering (EMSE), 2026 (Accepted)</em></div>
+    <div class="periodical"><em>Empirical Software Engineering (EMSE), 2026</em></div>
   </div>
 </div>
 </li>
