@@ -475,3 +475,29 @@ $lab-column-min: 150px;
 @media (prefers-color-scheme: dark) {
   .announcement-credit { color: #a0aec0; }
 }
+
+/* "New course" note in the About section */
+.course-note {
+  border-left: 3px solid #2c5282;
+  padding: 2px 0 2px 14px;
+}
+
+.new-tag {
+  display: inline-block;
+  margin-right: 7px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: #2c5282;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  vertical-align: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .course-note { border-left-color: #63b3ed; }
+  .new-tag { background: #3182ce; }
+}

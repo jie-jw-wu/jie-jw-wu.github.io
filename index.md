@@ -8,6 +8,8 @@ layout: homepage
 
 I'm an Assistant Professor in the CS department at Michigan Technological University, working at the intersection of Software Engineering and AI. I was a postdoc at [University of British Columbia](https://www.ubc.ca/). My undergraduate and master studies were both in Computer Science at [Shanghai Jiao Tong University](https://www.cs.sjtu.edu.cn/en/)  (at [ACM Class](https://acm.sjtu.edu.cn/home), an elite CS program at SJTU). I received my PhD in Systems Engineering at [George Washington University](https://www.seas.gwu.edu/). I was a research intern at [Google Research](https://research.google/) and [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). 
 
+<p class="course-note"><span class="new-tag">New course</span><a href="https://jie-jw-wu.github.io/se-ai-fall2026/">CS 5090: Software Engineering with Generative AI</a> (Fall 2026). Students build their own code language model, then evaluate it, break it, and improve it. The course website is open at <a href="https://jie-jw-wu.github.io/se-ai-fall2026/">jie-jw-wu.github.io/se-ai-fall2026</a>.</p>
+
 
 I worked as a software engineer in the industry for nearly a decade at [Snap Inc.](https://snap.com/en-US) (Seattle office), [Microsoft](https://www.microsoft.com/en-us/) (Redmond HQ), and startup ([ArcSite](https://www.arcsite.com/), Shanghai office). I've worked in various areas such as ML-enabled recommender systems, evaluation, scalable backend service, and infrastructure, etc. The projects I launched at Snap increased *millions of daily friend adds* and were one of the yearly highlighted projects in the growth team. I also worked on protecting user safety and privacy (Media reports of my projects: [Engadget](https://www.engadget.com/snapchat-limit-quick-add-teens-203057086.html), [TheVerge](https://www.theverge.com/2022/1/19/22891104/snapchat-friend-suggestion-limit-teenagers-safety-parental-controls), etc.). → [Read more about why I returned to academia](why-academia.html)
 
@@ -154,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
 Recordings are on the [Talks page](talks.html) and the [JWare Lab YouTube channel](https://www.youtube.com/@JWareLab).
 
 <h2 id="teaching">Teaching</h2>
-- **CS 5090: Software Engineering with Generative AI**, new graduate course, Michigan Tech, Fall 2026
+- **[CS 5090: Software Engineering with Generative AI](https://jie-jw-wu.github.io/se-ai-fall2026/)**, new graduate course, Michigan Tech, Fall 2026
 - **CS 4713: Embedded Software Foundations**, undergrad course, two sections, flipped classroom with in-class active learning, Michigan Tech, Fall 2026
 - **CS 3712: Software Quality Assurance**, undergrad course for a class of 62 students, Michigan Tech, Spring 2026
 - **CS 4321: Introduction to Algorithms**, undergrad course for a class of 82 students, Michigan Tech, Fall 2025
