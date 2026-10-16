@@ -16,6 +16,7 @@
     <div class="links">
        <a href="https://arxiv.org/abs/2607.22898" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
        <a href="https://doi.org/10.5281/zenodo.21535058" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <a href="https://jie-jw-wu.github.io/blog/what-is-ai-assuming.html" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;">Blog</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2026assumptionminer')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wu2026assumptionminer" style="display: none;">
             @article{wu2026assumptionminer,
@@ -267,6 +268,7 @@
     <div class="links">
        <a href="https://dl.acm.org/doi/10.1145/3815588" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
        <a href="https://github.com/jie-jw-wu/ope-agent" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+       <a href="https://jie-jw-wu.github.io/blog/growthhacker.html" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;">Blog</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wuherlihy2025growthhacker')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wuherlihy2025growthhacker" style="display: none;">
             @article{wuherlihy2025growthhacker,
@@ -353,6 +355,7 @@
     <div class="links">
        <a href="https://github.com/jie-jw-wu/human-eval-comm" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
        <a href="https://jie-jw-wu.github.io/assets/PosterHumanEvalComm.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+       <a href="https://jie-jw-wu.github.io/blog/does-ai-ask.html" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;">Blog</a>
        <a href="https://drive.google.com/file/d/1mgQnkJx4sEvVix0niocy-gcocPO6WjZh/view" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
        <button class="btn btn-sm z-depth-0" onclick="copyBibtex('wu2025benchmarking')" style="font-size: 12px;">Copy BibTeX</button>
           <textarea id="bibtex_wu2025benchmarking" style="display: none;">   

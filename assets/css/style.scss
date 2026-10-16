@@ -8,7 +8,11 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 0;
+  /* "safe" keeps centering while the tabs fit, but switches to flex-start
+     once they overflow -- plain "center" pushes the first tab into negative
+     space that cannot be scrolled back to. */
   justify-content: center;
+  justify-content: safe center;
   margin-bottom: 40px;
   padding: 0;
   border-bottom: 3px solid #2c5282;
@@ -39,7 +43,7 @@ html {
   color: #2d3748;
   font-size: 0.9rem;
   font-weight: 500;
-  padding: 14px 18px;
+  padding: 14px 13px;
   border-bottom: 3px solid transparent;
   margin-bottom: -3px;
   transition: all 0.25s ease;
